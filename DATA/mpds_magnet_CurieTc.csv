@@ -1,0 +1,4754 @@
+phases,max Tc
+Ir U Zn,9.2
+Ho Pd Si,3.5
+B Co Fe Gd Nd,852.0
+Fe K Mo O Sr,405.0
+Co Dy Ni,67.0
+Cu Fe Ga Mn Ni,310.0
+K O U,16.8
+As Fe Ge Mn P,403.0
+Co Sn Tb,105.0
+Gd Ge Si Tb,231.0
+Co Cu Pt,190.0
+Al C Er Fe,226.0
+Co Ga Pr,860.0
+O Te U,80.0
+Fe Se Te,250.0
+La Ni,70.0
+Co Fe O Zn,643.0
+B Co Fe Nd Zr,758.0
+La Mn O Sr Te,351.0
+Er Ho,39.0
+Cr Rb Te,120.0
+B Dy Rh,11.2
+Nd Ni Pr,3.4
+Co Er Si,719.0
+B Ce Co Fe La Nd Pr,636.0
+Mn Ru Sn,272.1
+Cr Se Ta,120.0
+Fe P U,3.15
+C Nd Os,6.0
+Cs Fe Mn O,698.0
+Gd Pd,334.0
+Co Fe Ga O,698.0
+Cu Mn Sb,590.0
+Mn Sb Ti,137.0
+Ca Ga La Mn O Sr,135.0
+C Fe N Nd V,685.0
+Co Nb Sn,128.0
+Fe Sc Ti,435.0
+Ge Mn Tb,450.0
+Eu Ge Ni Si,25.0
+Ag Ce Si,7.0
+Cu Li Mn O,37.0
+Fe Lu O Y,639.0
+Ba Co Gd Nd O,140.0
+Pt Sn U,28.0
+Gd Pr,165.0
+Er Fe Ho,328.0
+Co Fe La Mo,899.0
+Dy Fe Sm Ti,574.0
+Fe O,1612.0
+Cr Ga Sb,350.0
+Dy Mn Tb,56.0
+Fe H Ho Mo,460.0
+Fe P Rh,355.0
+Co Sm Y,1200.0
+La Mn O Sb,245.0
+Ce Cr Fe H,398.0
+Ca Fe O,160.0
+Ga Ni Pt U,70.0
+Ca Fe La Mn O,297.0
+Cu Nd O,0.72
+In Mn Tb,130.0
+Ga Mn Sn Tm,369.0
+Pr,20.0
+Ce Ni Sb,7.0
+B Fe Sm,645.0
+C Er Fe N,725.0
+Cu Mn Ni Sn,284.0
+Co Cr Fe Sm,607.0
+Cr Ni Te,338.0
+Fe Sm Tb,431.0
+C Co Y,1255.0
+Mn O Sc Tl,125.0
+Eu Mg Tl,23.1
+Cu Fe Mn O,400.0
+Ca La Mn O Ta,150.0
+Fe Mo O Ti,225.0
+B Er Si,14.0
+Co Ge Th,120.0
+B Fe Gd Nd,630.0
+Co Si Tb,863.0
+Co O Sr Tb,140.0
+Ba Ni O P,14.5
+C Fe La Pr Si,220.0
+Cd Eu Ge K,9.3
+Ce Fe La Nd Pr Si,169.0
+Bi Mn Nd O Sr,275.0
+D0+ Ni Sn Tb,10.0
+B Fe Rh Sc,450.0
+Cr O Y,9.0
+B Ce Fe La Nd Pr,1158.0
+Er Os,3.4
+D0+ Er In Pt,15.5
+B Fe,1015.0
+Co Ho Si,837.0
+B Er Ir,11.9
+Ca Er Fe O Sn,312.0
+Mn O Pr Sb,230.0
+Fe Mo O Sr Zn,421.7
+Al Ce Ga Pd,2.4
+Ga Ho Ni,3.5
+Mn Nd O Pb,185.0
+Fe Mo N Nd Ti,673.0
+Au Fe Pd,10.0
+Ba Mn Sb,20.0
+Fe Ni Th,530.0
+Cr Fe O Sr,440.0
+Fe Nd Sm,638.0
+Mn Nd Sb,250.0
+Fe Gd N Nd,768.0
+B Ce Co,1081.0
+Cr Gd Pr Sb,100.0
+As Fe Nd,14.6
+Er Ga Ni,8.0
+Ba Fe O Ru,440.0
+Al B Fe Gd,610.0
+Cu Dy Ni,17.6
+Ge Mn Ru V,200.0
+Er O Ti,42.0
+Ce Co Fe Ga,423.0
+Ce Co O Sr,300.0
+Co Pr,1200.0
+Co Ru Sn U,83.0
+Cu Gd Si Zn,195.0
+Fe Nd Pr Si Ti,530.0
+Ce Co Sb Sn,2.0
+C Fe H Tm,562.0
+Eu Fe P,99.0
+Dy Ge Si,135.0
+Eu Li P,21.0
+Co Fe O,1008.0
+Eu H Ir Sr,11.0
+Ca Gd Mn O,120.0
+Co Fe Gd Zn,15.0
+Cu Gd Ge Mn,239.0
+Cr Dy Fe Pr Tb,346.0
+Ge Tb Ti,310.0
+Co Fe Nd V,718.0
+B Co Dy Fe Pr Re,680.0
+Al Mn U,20.0
+Cr Fe Si Tb,18.0
+Ga Ir U,72.0
+B Cr Fe Y,539.0
+Al Fe O Sr Y,622.0
+Al Gd Ir,67.0
+La Ni Tb,24.0
+Co Ge Mn,905.0
+Bi La Mn O,156.0
+Be Fe Y,175.0
+B Fe N Y,628.0
+Be Dy Fe,255.0
+Fe Ge Mn Nd,290.0
+Cr Fe Mo O Sr,450.0
+Al Nd,79.0
+Au Cd Gd,110.0
+Lu Mn O Ru,60.0
+Al Fe Ni U,456.0
+Cu Pd Pr,5.0
+Cr Mn O Pr Sr,289.0
+Dy Fe Mo Tb,620.0
+Fe Ni W,530.0
+C Fe H Mn N O,7.9
+Bi Fe La Mn O,110.0
+Fe O Pb,740.0
+Ca O Ru Sr,158.0
+Ca O Os,327.0
+Au Ce Si,5.3
+Mn Si Sm,37.0
+Cr Fe N Nd,685.0
+Fe V Y,593.0
+Al Ce Ru,9.0
+Cr Fe O Pb,510.0
+Ce Ge Ru,11.0
+Fe Mo Si U,565.0
+Gd S,20.0
+As Mn P Rh,235.0
+B Co Fe Nd Ti,715.0
+Mn Nd Ni O Pb,140.0
+Al Co Ni Y,326.0
+In Pr Rh,5.8
+Ba Mn O W,45.0
+Cu Ge Mn Sm,228.0
+Ca La Mn O Sn,253.0
+Al Pr Ru Si,20.0
+Cu Ge O,10.0
+Fe Ni O,883.0
+Ga Mo S,19.5
+Ce Ni O,632.0
+Ba La Mn O Pr Sr,249.0
+Ga Ho,69.0
+Co Ga La O Rh,9.0
+Ba Co Gd La O Sr,220.0
+Dy Fe Tb V,412.0
+Cd Fe Li O,943.0
+Cr S Ta,170.0
+Cd Mn O Tl,110.0
+B Fe Ge Y,545.0
+K La Mn O,331.0
+C Dy Fe Nb,699.0
+O Ru Sr Zr,140.0
+Co Si Sm,1027.0
+Mn Pt Sn,350.0
+C Er Fe Si,620.0
+Fe O Ru Sr,170.0
+As La Mn O,317.0
+Er H Ni,12.0
+C Cr H N O,0.37
+Co Ni Pd,914.0
+Mn Tb,457.0
+Fe H Mo Tb,500.0
+B C Er Ni,7.0
+Er Pd,18.0
+Co Si Tm,11.0
+Cd Mn Nd Ni O,90.0
+As Ni Sm,14.0
+B Co Fe Gd,913.0
+La Mn Nd O Sr,352.0
+Al Ge U,70.0
+Al Ce Th,7.0
+Cd Cr Sb Se,130.0
+Fe Ho Ni Tb,376.0
+Ca Fe Ni O,828.0
+Au Nd Sn,14.0
+Os Pr Si,12.6
+Bi Gd,340.0
+F Fe Na Ni,88.0
+B Gd Ni Sm,36.6
+Ca Mn O W,45.0
+B Co Cr Fe Pr,638.0
+Cu Mn Pr Si,150.0
+La Mn O Rb,290.0
+Al Sm,127.0
+Ga Si U,127.0
+Fe Ge Y,914.0
+Cu Er Fe Mn O,332.0
+Al Co Nd,605.0
+Nd Pd Si Y,13.4
+Gd Lu,253.0
+Fe Ho Tb,630.0
+As Ba K Mn,40.0
+Ce Cu Pb,49.0
+Ce Gd Rh,16.0
+Fe Lu V,483.0
+Fe Ge V,476.0
+Cd Fe Mn Na O P,18.0
+Cr Cu Mn Nd O,369.0
+B Dy Fe,638.0
+Be Ge Tb,40.0
+B Fe Nd V,607.0
+Al Ce H Ni,3.6
+Ca Mn Mo O,106.0
+Fe Ni Tb,124.0
+Cd Fe Mn Ni O,720.0
+As Ga H Mn,86.0
+Ba Co Fe Gd Mg O Zn,722.0
+Al Co Er,903.0
+Cr Mn S,302.0
+B Fe Pr,585.0
+Al Pr Rh,5.0
+C Ce Fe Mn,315.0
+Al Cu Ni,175.0
+Cu Ho In,26.7
+B Co Fe Nd,973.0
+Co Pt,870.0
+Fe H Mn Zr,216.0
+Ce Ho Ru,1.72
+Fe La Mn O,205.0
+Al Co Fe Y,633.0
+Ba Ca Co O Y,294.0
+Co Hf Sn,460.0
+D0+ Fe Lu Nb,529.0
+Ho Ni Si,8.8
+Mn Ni O Pr,255.0
+P S U,170.0
+Fe Gd Sm Ti,608.0
+B Co Fe Nd Tb,738.0
+Ge Pt Yb,4.7
+B Fe Ho Nd,588.5
+Al Gd Rh,30.0
+Al Mn O Pr Sr,240.0
+Cu O Ru Sr Y,148.0
+Ba Co Fe Mg O,600.0
+Pd Tb,40.0
+Ga Mn Nd,10.0
+Dy Fe Nd Ti,573.07
+C Fe N Tm,701.0
+Cu F Pt,10.0
+Co P Yb,140.0
+Co Rh Sb,450.0
+Co Cu Mn Ni O,117.0
+B Eu Pd,4.35
+Fe Ga Tb,555.0
+Cr Gd Sb,88.0
+Al C Fe Y,502.0
+Gd In Y,185.0
+Ba F Ni,36.2
+Ho Ni Tb,25.0
+Ca Co La Nd O,150.0
+Fe H Sm Ti,642.0
+B Fe Gd Ni,689.0
+Ag Ba Cu O V,0.72
+C Fe H Th,501.0
+Fe Mn O Y,165.0
+Sb Sm,168.0
+Cr Fe Tm,466.0
+Ca La Li Mn O,260.0
+Al Er Mn,0.7
+Cu Mn Si U,145.0
+Cr Ge Te,61.0
+Nd Rh Sn,10.6
+H Mn Ti,194.0
+Cu Fe La Ni O Zn,463.0
+Al B Ce Co Fe Nd Pr,710.0
+Dy Ga Pd,20.0
+B Fe Gd Y,698.0
+Ge Ho In,26.0
+Co Cu Hf Pr,840.0
+Ba Ca Co K O,60.0
+Be Cu Tb,29.0
+Ag Mn Nd O,113.0
+B Ce Co Fe La Nd Ni Pr,624.0
+Co Nd V,833.0
+Fe H Tb Ti,595.0
+Al Fe Gd Zn,49.0
+Cu In Mn,575.0
+O V Yb,70.0
+Ce Fe H Lu,300.0
+H O S Tm,0.31
+Ca La Mn O Pr Sr,280.0
+Cu In Yb,38.0
+B Mn Mo,600.0
+Ba Ce Co Gd O,239.0
+Ga Pd Tb,24.0
+Cr Cu Se Zn,396.0
+Mn Si Tb,260.0
+Cr Fe S Sn,120.0
+Al Co Fe Ho,640.0
+Al Cu Ni Pr,4.0
+As Mn Ti,320.0
+Al Cr,348.0
+Fe La O Sr,718.0
+Cm Fe S,578.0
+Bi Cr Mn,320.0
+Al Dy Si,11.8
+Dy Fe Ni,440.0
+Bi Fe O,825.0
+Fe Mn Ni Sb,350.0
+Fe Pt,753.0
+Al Fe Zr,540.0
+Mn Ni Sb Sn,603.0
+Ir Sn U,25.0
+Al Au Eu V,10.0
+Ce La Mn O,285.0
+Cr La O S,35.0
+Fe O Y,630.0
+Co Fe Nb Tb,666.0
+Cu Gd Si,49.0
+Fe Gd Mo Nb Ni,617.0
+Cd Co Fe O Ti,506.0
+Fe Gd Nd,526.0
+As Co U,150.0
+Fe Gd Zn,86.0
+Al Fe Lu,356.0
+Ce Co Fe,210.0
+B Ni Sm,39.0
+Ce Fe Ge,918.0
+Co Ni Pr,635.0
+Gd Th,246.0
+Nd Ni O Sm,65.0
+B Dy,55.0
+B C Dy Fe,568.0
+Fe Lu O,628.0
+Al Rh Ru U,45.0
+Co Er Gd,114.0
+Co La V,880.0
+Co Cr Gd,905.0
+Mn Pb Sn Te,32.8
+B Fe Sm Ti,602.0
+C Mn Si,252.0
+C Co Fe Pr Ti,757.0
+C Ca O,28.0
+Pd Yb,0.37
+Gd Ge Mn Tb,470.0
+Al Fe H U,218.0
+Fe Ge Ni,750.0
+Mn Mo O,41.5
+Ag Ge Mn Se,64.0
+Cr S Sr,75.0
+Co Fe Nd Ti,876.0
+B Ce Co Fe,300.0
+In Mn O Sn,400.0
+C Cr H Nd O,5.0
+Bi Ni O Sr,20.0
+S Te U,166.0
+Co Pr Si,953.0
+Dy Fe Ga Pr Tb,124.0
+Cr Cu Si U,102.0
+Co Mn Sb,485.0
+Cr Ni,550.0
+In Pt Tb,8.0
+Pm,98.0
+Cr Fe Si,576.0
+Bi Mn O,307.0
+Al Ni,998.0
+Ir Pt V,205.0
+Bi Cr O,123.0
+Cu La O Ru,16.0
+Gd Mn Ni O,145.0
+Al Co Fe U,44.0
+Fe Mn Nd O Pb,107.0
+Fe Gd Sn,300.0
+Gd La Si,307.0
+Ba Fe Mn O Sn,380.0
+B Fe Tb,703.0
+Ca La Mn O Sm,128.0
+Cr Nd O Re Sr,635.0
+Cd O V,24.0
+Ni Pr Si,59.0
+Ce Nd Ni,3.5
+B Mn W,520.0
+Mn Sm Zn,255.0
+Al Fe Ga U,175.0
+Bi Cu Mn O,350.0
+Mn Ni Sn Ti,287.0
+As Co O Pr,71.0
+Mn O Sm,60.0
+Ge In Tm,10.0
+Fe Mn N Y,515.0
+C Fe Th,501.0
+Al Ce,9.0
+Ce Co Si,838.0
+Co Fe Pr Ti V,829.0
+Fe Ga Ho,560.0
+Rh Ru Si U,7.8
+Al Au Eu Ti,10.0
+Al Fe Gd Y,483.0
+Ce H Ni Y,77.0
+Ce Fe O P Ru,15.0
+Ba Eu S,13.19
+Er Fe La Si,205.0
+Co Hf Nd,1053.0
+Ca Mn O Ti,95.0
+Ca Mn O Sm,275.0
+Ce Pd Sb,17.5
+Al Cu Tb,52.0
+Cs F Mn,15.7
+B C Fe Nd,580.0
+B Co Mn,520.0
+Bi Mn,775.0
+Co Ga Ni,270.0
+Co Cu Sm,1103.0
+Fe Mn Mo O Sr,360.0
+Ag Al Ce,4.5
+Au Mn,377.0
+Al Tm,3.9
+Fe Sm Zr,473.0
+Co Nd V Y,176.0
+Fe Mn Si Y,325.0
+Co Er Ti,1066.0
+Co La Sm Zr,1130.0
+Co Fe Ti,71.0
+Ag Ba Ni O V,9.3
+As In Mn,157.0
+In Mn Sn Yb,216.0
+Si Tb,225.0
+Fe Lu Ni,377.0
+Cl Cr Mg Rb,42.0
+B C Co Y,390.0
+C Dy Fe Nb Y,710.0
+Co D0+ Sn U,104.0
+Dy Mg,46.0
+Tb Zn,207.0
+Gd Mn Si,320.0
+Fe Nd Ti Y,530.0
+Al Mn P,291.0
+B Fe Ho Pr Tb,609.0
+Ca Co O Tb,14.0
+Ce Co Pd,7.3
+Ce Cu Si,15.5
+Pr Ru Si,18.0
+Fe Lu Nb,489.0
+Fe Ge Mn Ru,220.0
+La Mn O Ru Sr,359.0
+La Mn O Sr Tb,70.0
+Ba Co Fe Mn O Zr,633.0
+Cu Gd Ge Si,302.0
+Gd Mg Pt,97.6
+Cr Eu Se,155.0
+D0+ Fe Ho Nb,580.0
+Co Ho I,36.0
+C Fe N Sm Ti,739.0
+Ga Gd Pt,25.0
+Co La Ta,1032.0
+Fe H Lu Ti,545.0
+Co Fe N Si Sm,742.0
+Ba Fe O Sr,879.0
+Co Cu,600.0
+La Mn Na Nd O,311.5
+Ca Cu La Mn O,250.0
+Er Mn Ni,50.0
+Ge La Si Tb,140.0
+La Mn Na Ni O,178.0
+Cu Ni Si U,95.0
+Cs Fe Mn O Zn,399.0
+Cs Gd Mo O,0.448
+Bi Dy Mn,315.0
+B C Co Tb,6.3
+Mn Nd O Sr Ti,259.0
+La Mn O Ti,160.0
+Co Fe Ga Mn,567.0
+Co Fe Nd,701.4
+C Cr Fe H N O,12.0
+Al Cu Mn U,373.0
+Fe Pr Sn,396.0
+Co Mn Rh Sb,534.0
+Fe Sb Zn,275.0
+Co Er P,146.0
+Mg Mn O,34.7
+C Dy Fe N Si,573.0
+Fe H Lu,449.0
+C Fe Nb Sm,533.0
+Ge Pd Sm,10.0
+Ca Cu Mn O Ru,40.0
+B Co Fe Nb Nd,724.0
+B Dy Fe Pr,630.0
+Ca Eu Ni Zn,25.0
+Co Mn Sn Ti,733.0
+Dy Fe Pr,585.0
+Cr Fe Gd,585.0
+Al Ga Ni U,27.0
+Co Ge H U,50.0
+B Fe H Lu,602.0
+La Te U,107.0
+Ba Fe Mg O,748.0
+Cu Ni Tm,5.4
+Co Cu Si U,107.0
+Co H Ho,120.0
+Ho N,18.0
+Ca Co Fe Ir O,687.0
+B Ce Fe La Si,201.4
+C Fe Sm V,691.0
+B Co Pr,994.0
+Cr Cu Mn S,386.0
+Ba La Mn O Sr,303.0
+Co Fe Gd O Sr,114.0
+Ce Mn O Sr,260.0
+As O Tb,1.5
+Al Eu Zn,25.0
+Al Fe Sm Tb,463.0
+Gd Ge Mn,490.0
+Ca Co O Rh,90.0
+Er Fe,608.0
+B Fe Mn Y,480.0
+Ag Dy Ge,14.0
+Bi Ca La Mn O,281.0
+Ca Cr La Mn O,260.0
+Ca Co Ir O,100.0
+Fe In Ni O Ti Zn,338.0
+Dy Fe V,600.0
+Co D0+ Y,50.0
+B Ce Er Fe,510.0
+Er Ho Mo S,0.5
+As Eu Fe P,23.0
+Au Si U,11.6
+Fe Ni Pt,596.0
+Dy Gd Ge Si,210.0
+Dy Fe Mn Tb,620.0
+Tm Zn,8.55
+Co Fe Ho O Zn,225.0
+Fe Ni O Sm Zn,513.0
+B Co Th Y,329.0
+Fe H Ho,500.0
+Co La Mn O,250.0
+In Mn O Ru,46.5
+Ca Co Fe O Pr,86.0
+Ca Ce Cu Nd O,150.0
+Eu Mg Pt,139.1
+Cu Fe Ni O Zn,723.0
+Fe Y Zr,610.0
+Ce Fe N,715.0
+Ca Co O Sm,12.0
+Cu Eu S,3.4
+Fe Mn O Y Zn,151.0
+B Fe Nd Zr,581.0
+Al Fe O Sm Sr,617.0
+Fe Si Ti Y,493.0
+Fe Nd V,620.0
+Ag La Mn O Sr,363.4
+Ca Cu Fe O,210.0
+Ce Co Ga,950.0
+Fe Ge Sm,892.0
+Ba Fe Mo O Sr,385.0
+Ba Co La O Pr Sr,220.0
+Co Pr Sm Zr,1140.0
+B Fe Ru,770.0
+O V Y,68.0
+Fe Ho Ti,546.0
+Ce Fe Sm,601.0
+B Co Ho,409.0
+Co Ni Sn U,93.5
+Al Er Pr,13.9
+Co Dy I,64.0
+H Mn N O P,17.0
+Co Pt Re,713.0
+La Tb,211.0
+B C Co Fe Nd,852.0
+Mn O Ru Tb,73.0
+Ce Cu Ge,19.0
+Co Ge Mn V,330.0
+Fe N Sm Ti,764.0
+Fe Ga Nd,554.0
+Fe N Pd,601.0
+Co Eu P,151.0
+As Fe Gd,56.0
+B Ho Lu Rh,2.55
+Cu F K Zn,3.9
+Cu Fe Nd O Ti,14.0
+In Sm,150.0
+Ru Sb U,35.0
+Al Fe N Sm,727.0
+C Gd Ru,84.0
+Ge Rh Ru U,8.0
+Cu Fe Sb,375.0
+Co Fe Pr Ti,853.0
+Er Fe H,498.0
+Cd Fe Ni O,776.0
+Dy Fe Ho Mn Tb,563.0
+B Er,16.0
+Co Fe Tb,760.0
+Be Si Tb,40.0
+B Fe H Nd Si,660.0
+C Fe Hf N Sm,757.0
+Fe Ni P,313.0
+Gd In Pd,110.0
+La Ni O Sb,150.0
+Co Ga Nd,950.0
+B Cm Fe Nd,588.0
+Mn Nd Ni O Sm,203.0
+Ca Fe Mn O Pr Sr,185.0
+In Pr,62.0
+B Fe Pr Si,609.0
+Fe Si U,700.0
+Fe H Ho Ti,561.0
+Ag K La Mn O,310.0
+Al Ga Ni,33.0
+H Ni Si U,98.0
+Cr La Mn O,170.0
+Cu O Sr,80.0
+Fe La O Re,155.0
+La Mn O Pr Te,207.0
+Al Au Sm,23.0
+Co Cr Fe O,692.0
+C Dy Fe,683.0
+Mn Ni Sn,565.0
+Fe H Tb V,542.0
+Al Cr Fe O Y,455.0
+Co Ga U,117.0
+Ca Cu O Pr Ru,47.0
+Co Eu Fe Sb,56.0
+Al Fe Th,411.0
+Co Ge Mn Sn,360.0
+Ce Cu Ge Mn,235.0
+Fe Ho,615.0
+Ba Cu Eu Ga Si,4.0
+Ir O Sr,280.0
+Eu Pd Tl,12.5
+Cd Pd Pr,11.0
+Fe Ho Ta,541.0
+Al Cr Cu Fe O,450.0
+Fe Si Ta,595.0
+Ni Pr Pt,17.0
+Pt V,240.0
+Fe O Sr Zn,710.0
+Mo Ni,200.0
+Bi Co Dy,34.0
+B Br Ni O,31.0
+La Mn Mo O,238.0
+Co La P,159.0
+C Fe H Pr Ti,646.0
+Cd K La Mn O,282.0
+Al Gd Ge Si,300.0
+Eu In Rh,22.0
+Ni Si Th U,29.0
+As Cm,88.0
+Ba Co Fe O Zr,667.0
+Np Se,18.0
+Fe O Pb Sc,625.0
+Sm Zn,127.0
+Ag Cs F,13.95
+Ca Mn O Ru Sr,290.0
+Co Cu F Rb,5.78
+Ho La Ni,11.6
+Ce Cr Sb,145.0
+D0+ Er,24.0
+Ce Ni Pt Y,4.5
+Ag Ce In,6.0
+Fe Ga Pr,370.0
+Fe Gd Ge Si,300.0
+Al B Co Fe Nd Pr Tb,690.0
+Au Ce Ge,10.0
+Ni Sm Sn,50.0
+Fe Mo Tb,508.0
+Ni Pd,363.0
+I Ti,273.0
+Co Cu O P,34.0
+Gd La Ni,38.0
+C Fe Ho Nb,706.0
+Ce Ga Si,2.3
+H Tb,18.0
+Ce La Pt Si,3.5
+Fe Nd Ti Zr,435.0
+Ce Co P,48.0
+Ca Fe La O Re,555.0
+Al La Mn O Sr,336.0
+Al Si Th U,31.0
+Cr La O Pb,293.0
+C Fe Mo Y,550.0
+Co Dy Fe Ti,690.0
+Ba La Mn Mo O,340.0
+Ca Ce Mn O Ru,142.0
+Bi Mn Sb,580.0
+La Mn O Sr Y,323.75
+Co Fe Li O Y,700.0
+Ba Co Fe O Ru,709.8
+Eu Ge Mn,330.0
+Au Ce P,37.0
+Ca La Mg Mn O,228.0
+C Er Fe Y,660.0
+Mn Ni O Tb,119.0
+As Fe Tb,38.0
+Co Dy Fe Sm,696.0
+Co Mn Si,1020.0
+Co Fe Si Sm,984.0
+Er Fe Mo,456.0
+Ag Cd Eu,28.0
+Co O Sr Tm,340.0
+Ca Dy Fe La Mn O,76.0
+Cr Fe Nd Y,422.0
+Al Ca Mn O Pr Sr,90.0
+Ba Gd La Mn O,150.0
+C Gd Si,170.0
+Ho Mn Si,67.0
+Ga Pr,32.0
+Cr Lu Mn S,65.0
+Al Si U,41.0
+La Mn O Pr Sr,325.0
+Cs F Ni,80.0
+Ge Nd Si,75.0
+Al Fe Hf,264.0
+B Dy Ru,50.0
+C Ce Fe H Si,436.0
+Al Co Fe La Nd,294.0
+C Fe N,350.0
+Co Mo Si Y,689.0
+Al Co Ho,897.0
+Ba Cr Se,125.0
+Ba Co La O Sr,227.0
+Au Pr,8.5
+Au Fe Pr,310.0
+Fe Se,462.0
+Ce Fe La Nd Pr Sm,362.0
+Al Gd Tb,140.0
+Te Tm,15.0
+Cr Fe Li O,459.0
+Ge Mn Sm Y,336.0
+Co Ga Mn Sn,770.0
+Al Co In U,15.0
+La Mn O Sr,400.0
+Gd Ge Ru,72.0
+Cu O Se Zn,31.0
+Fe N Nd Ti,740.0
+Ga Ni Np,30.0
+Fe P,716.0
+Co Er Zr,1170.0
+Ge Ru Tb,70.0
+Se U Y,162.0
+Al Co Fe Si,1114.0
+Ba Co O Pr Sr,200.0
+Ho In Ni,30.0
+Al Au Eu Zr,10.0
+Co Cu Ge U,114.0
+Be Ge Pr,25.0
+Al Co Lu Tm,111.0
+Gd Si Y,300.0
+Al Cu Fe O,485.0
+C Pr Ru,32.0
+C Ho,139.0
+Al Au Cr Eu,10.0
+Fe Gd N V,820.0
+Ba Cu La O,6.0
+Ho O Ta,2.6
+Fe Mn Tb Y,600.0
+Gd O Ti,36.0
+Ce Mn O Pr Sr,265.0
+B Nd Ni,12.0
+Dy Fe Ni Si,578.0
+Er Fe H Mo,450.0
+Ba Cd Fe O Zn,380.0
+C Co N,9.0
+Er Fe Pr Si,405.0
+C Fe Ga Ho,470.0
+Ga Nd Sn,45.0
+Be Cu Ti,15.2
+Ce Co Sm Zr,1108.0
+Mn Nd O Sr Zr,256.0
+Cr Cu O Zn,347.0
+Cl Tb,3.7
+Ge Mn O,49.0
+Cr Fe Mg O Zn,658.0
+As Cr Mn,320.0
+B Fe Rh,240.0
+Er Ir Si,2.5
+Ce Co Ni,605.0
+Nd Ni P,18.0
+Ce Si,35.0
+Ba Co La Nd O Sr,223.0
+B Fe Ga Y,585.0
+Al Co La Mn,700.0
+Ga Mn Na,317.0
+Er Fe Si,574.0
+Ce Cu Mn,50.0
+Er Fe N W,663.0
+Fe H Si Y,536.0
+Co La Nb O,62.0
+B Mn Ta,780.0
+Fe P Ru,150.0
+B Fe N Nd,640.0
+Co Fe Pr,1099.0
+Al Fe Li O,849.0
+B Co Fe Tm,680.0
+Cr Fe H Nd,488.0
+Co Fe Ga Tb,625.0
+B Ce Co Fe Nd Pr Si,718.0
+Co Dy Si,938.0
+Be Cu Nd,24.0
+Fe H Th,471.0
+Ba Co Gd O Pr Sr,155.0
+Mn Ni Si,622.0
+Co Pr Sn,17.0
+Cr In Mn S,51.0
+Ce D0+ Ga,6.0
+Ce Fe La Mn Si,121.0
+Ba La Mn O Sm Sr,310.0
+K Mo O,70.0
+Cd Se,300.0
+Eu S Se,9.7
+Ho Mn O Pr Sr,185.0
+Al Ho Mn,30.0
+Co Fe N Nd Ti,817.0
+Fe Si Y,588.0
+Mn Sn W,258.0
+Fe Ga Mn,810.0
+Fe H La Si,338.0
+Ca Fe O Ru,90.0
+Co Fe Zr,510.0
+Fe Si Sn U,657.0
+Co Cr Fe,325.0
+Al Mn Ni Sn,280.0
+C Ga Ge Mn,234.0
+O Sn Yb,0.15
+Mn Nd Ni O Sr,245.0
+B Nd Ru,39.0
+Fe Ho O,576.0
+Ba Mn O Pr Sr,248.0
+C Ga Mn Ni,262.0
+In Mn N,344.0
+Fe La Mn O Sr,211.0
+Ga Mn Ni,588.0
+Cr O Os Sr,725.0
+Ba Fe O Sc Zn,510.0
+Dy Fe Mg O,633.0
+La Mn Ni O,300.0
+Ga In Mn Ni,360.0
+Al Co Fe La Pr,300.0
+Be Si Sm,50.0
+Co Gd Sn,133.0
+Ho Pd,20.0
+Gd Sm,180.0
+Ce Fe H Mn,206.0
+Mn Nd Ni O,222.0
+Fe Ho N V,800.0
+Cr Ni O,74.0
+Ba Co O Sm,263.9
+Al Ba Eu Si,36.4
+B Lu U,5.2
+Ce Sb Sn,3.5
+Al Mn O V,69.0
+C Ge Pr,30.0
+Co Cu Y,682.0
+Ba Fe Mo O,367.0
+Co Fe Mo Sm,1020.0
+As Eu S,20.0
+Co Si U,830.0
+C Co Gd,16.0
+C Fe Nb Y,685.0
+O Ru Sr Zn,138.0
+Ga Nd,44.0
+D0+ Eu,16.3
+B Er Fe Pr,559.0
+Au Ni Tb,28.0
+Dy Fe Mo,490.0
+La Mn O Te,252.0
+Ga Mn V,783.0
+C Cr H N Ni O,28.0
+Ga Sm Sn,114.0
+Gd In Pt,67.5
+Ga Ni Tm,6.5
+Co Cr Sm,1093.0
+Fe Ga Lu,560.0
+Gd N,200.0
+As Mn Pd,210.0
+Au Ga Nd,4.0
+Fe Lu Ti,490.0
+Fe Ga In O Sr,429.0
+B Ga Mn Ni,392.0
+B Co Fe Y,923.0
+B C Tm,4.8
+Er Fe Ga Ho,535.0
+Fe Li Mn Ni O,908.0
+Co Ho Ni,67.0
+Fe Sm Sn,680.0
+Ga O Ru Sr,128.0
+Fe Nb Nd,423.0
+Cu Ho O Ru Sr,170.0
+C Cu Fe H K N O,20.0
+F Mn O Sr,55.0
+Al C Fe La,251.0
+As P U,223.0
+Cr Nd Sb,142.0
+B Pr,24.0
+Al B Co Dy Fe Nd Pr,689.0
+Er Fe P,4.0
+B Co Cu Fe Nb Si,1003.0
+Fe Nd W,397.0
+C Fe Lu Ti,682.0
+Fe N Pr V,200.0
+Cr Pu Si,81.0
+Fe Ta Tm,507.0
+Ca Mn Sb,210.0
+Cr Cu Se Ti,253.0
+Ca Gd La Mn O,192.0
+Mg Pt Sm,52.0
+Ca Cr La O,180.0
+Co Ge Y,778.0
+B Co Nd Tb,1017.0
+Ca Eu La Mn O Sr,173.0
+Al Fe Tb,445.0
+Co H O Sr,160.0
+Cu F K Mn,0.4
+K O Ti,350.0
+Li Mn Nd O Sr,150.5
+Ce Fe Mo O Sr,422.0
+Fe Li O Sr Zn,685.0
+C Dy Fe Si,608.0
+Cd Mn Sb,536.0
+In Mn O,132.0
+Cr Dy Ge Mn,110.0
+Co Er,1123.0
+Cu Ga Pr,6.5
+Gd Ge Mn Nd,456.0
+Ba Cu Hg O Tm,12.0
+Ga Ge Ho Mn,378.0
+Fe Li Mn O,923.0
+Co N Sm,840.0
+Cu In Y Yb,2.3
+O Ti Tm,65.2
+Gd Mg Pd,95.7
+Al C Dy Fe,485.0
+C Fe S,578.0
+Ca La Mn O Sr,342.0
+B Fe Mo Sm Ti,565.0
+Ge Mn Pr Y,323.0
+Al Fe Lu Si,365.0
+Ba Co O Sc,50.0
+Fe Gd Ti Y,465.0
+Ga Ni Sm,17.0
+Gd Tb,273.0
+Dy Fe Ti,560.0
+Ga Pd Sm,5.0
+Ga Ge Mn Y,225.0
+Er Ru Si,8.0
+Fe Ga Yb,530.0
+Co O V,203.0
+Cr Eu S,85.0
+C Co Fe Ti Y,765.0
+Cu Gd In,85.5
+Fe H Nd Si,530.0
+Al Ir Nd,14.0
+Fe Na Sb,90.0
+Cu Fe Y,381.0
+Co La P Pr,200.0
+Ag Al Ge Pr,42.5
+Cr La Mn Nd O,127.0
+Ca Cu O P,0.8
+Ce Fe H Si,460.0
+C Cr N,180.0
+Cu Fe,925.0
+Ca Mn Nd O,247.0
+Cu Mn Ni Sb,682.0
+Ca Fe O W,376.0
+Al B Fe Y,555.0
+Gd Ni Sb,115.0
+Ce F Fe O P,2.5
+Mn Ni O Y,100.0
+Al Ir Ni U,40.0
+Al C Ga Mn,263.0
+Co Cr Pr,877.0
+Fe Mo U,848.0
+C Cu H O Tl,4.8
+Ba Co Ho O,303.0
+Ge Mn U,380.0
+Fe H U,176.0
+B Er Fe Mn,265.0
+Ca La Mn Ni O,85.0
+Fe N Tm,700.0
+Cm Fe,488.0
+Fe Tb,706.0
+Co Fe Ga Gd,635.0
+Cr Cu Se,460.0
+Ca Mn Ni O Pr,147.0
+Li Mo Na O P,10.0
+Ga Pr Pt,6.0
+Fe Y,1247.0
+C Fe Nd Ni,541.0
+C Co Ho,9.0
+Co Fe O Zn Zr,550.0
+Gd Ge Mn Ti,430.0
+Cr Gd La Sb,110.0
+C Fe Gd,712.0
+Cr Cu In Se,360.0
+B Cr Fe,643.0
+Ag Ce Nd,9.0
+C Fe Mo N Sm,730.0
+Mn S Si,86.0
+Co La Mn O Pb,260.0
+Co Nd Zr,988.0
+Fe Ho Nb,525.0
+Dy Sb Zr,45.0
+As Ce Co O,76.0
+Al Fe La Si,215.0
+Cr Mn P,240.0
+Fe Ti Y,540.0
+Ca La Mn O,312.0
+C Gd Os,320.0
+Co La O Sr Y,221.0
+Fe Si,860.0
+Al B Co Fe Nd Pr,684.0
+Co Ni O Pr,40.0
+B Mn O Pb,31.0
+C Fe H N O Sm,3.5
+La Mn Na O,366.0
+Al Fe N Y,593.0
+C Fe Gd Si,642.0
+Bi Fe Gd O,590.0
+Cr In O,310.0
+Fe Pt Sb,430.0
+Mn Nd Si,34.0
+C Fe N Pr,737.0
+Bi Ce F O S,5.0
+Fe Mg O Ti,578.0
+C Fe Gd V,664.0
+Al Co Lu Y,120.0
+Co Ga Mn Ni,420.0
+In Pd Sm,54.0
+Er Ga Sn,65.0
+S Se U,24.0
+Be Ge Ho,14.5
+Co Eu Fe Li O,750.0
+Ca La Mn Nd O,220.0
+Ba Co La O Pr,166.0
+B Co Dy Fe Pr,699.0
+C O Sr,55.4
+Co Fe Nd Ti Y,840.0
+Er Fe Gd N,728.0
+Ga Tm,15.0
+C Fe Sm Zr,443.0
+Ni Si Tm,5.7
+Co Er Nd V,840.0
+Cr Fe O Ti,125.0
+Dy Mn,447.0
+Bi Co Fe Tb,250.0
+Sm Tl,8.6
+Fe Pb Sb Se,320.0
+Ni Rh,250.0
+Co F Mg Rb,31.0
+B Co Gd Pr,493.0
+Be Ge Nd,29.5
+Co Mn Sm,1073.0
+B Fe Mo Sm,534.0
+Fe Si Tm,545.0
+C Fe Ho,680.0
+Ba Fe O Ru Zn,703.6
+B Fe Rh Ru Ti,285.0
+C Cs H Mn N O,31.0
+C Fe H Si Sm,498.0
+B Er Gd Rh,2.58
+Ho Ni,65.0
+Ce D0+ Fe Mn,258.0
+Nd Sb,77.0
+Co Cu Pr,1116.0
+Dy In Ni,110.0
+Cu Fe Mn O Zn,193.0
+Co Mn Pr,929.0
+Ca Cr Mn O Pr,160.0
+Fe Gd Mo,542.0
+Fe Sn Th,380.0
+Eu Mn Nd O Sr,211.0
+Co Nd Tb,442.0
+C Fe Ta Tm,714.0
+Gd Ir,155.0
+Al C Fe Sm Zr,220.0
+Fe Gd La Si,215.0
+Co O Sn,510.0
+Ga Mn Rh,80.0
+Ga U Y,74.0
+Ba Co Fe La O,744.0
+Fe La P Pr,1.3
+Ba Mn O Pr Sm,64.0
+As Ga Mn,350.0
+B Fe Re Y,522.0
+Fe Ga Mn Ni,454.0
+Ba Ca Co Eu O,310.0
+Ba La Mn O Pr,285.0
+Ba K La Mn O,314.5
+Mn Si Te,82.0
+Cd Cr Fe S,147.0
+Al Ho Ni,30.0
+Cl Cu H K O,0.8957
+H Ru Sn U,51.0
+Al Fe Y,464.0
+Ce Ge Ru Si,10.0
+Cu Nd Sn,15.0
+Cr Er Ge,2.5
+Co Mn Sb V,490.0
+Al Gd Pr,110.0
+Mn Si Th U,365.0
+Eu Mn O Si,10.7
+Er Fe W,513.0
+Ba Co O Si,21.0
+Co Cu Fe Mn Ni O,859.0
+Co Fe V Y,685.0
+Fe Ga Ni O,600.0
+Er Ni Si,7.4
+Nd Ni,27.0
+Fe Tb Zn,58.0
+C Dy,216.0
+C Cr Dy Si,13.0
+Fe Mo Nd Y,507.0
+Fe N Tb V,819.0
+B C Dy Gd Ni,16.5
+Cd Cu Tm,16.6
+Ca Ir O Rh,40.0
+Li Mn O Zn,22.0
+B Co Fe Nd Re,705.0
+Gd Ge Mn Y,448.0
+B Co Fe Pr Zr,738.0
+Ce Co O P,75.0
+Mo S Th,25.0
+B Co Fe Tb,938.0
+Co Fe Mn O,773.0
+Fe Ni V,486.0
+Fe Sn,743.0
+Al Dy,87.6
+C Cr Fe Sm,559.0
+Fe Pd,760.0
+Er Si,36.0
+B Co Dy,427.0
+Co Ho Y,97.0
+Ni Pr Y,0.0001
+Al Ru Si Sm,10.0
+Al Co U Y,15.0
+C Fe H Sm,641.0
+B C Dy Fe Nd Ti Y,593.0
+B D0+ Fe Ga Nd,680.0
+Bi Mn O Sc,41.0
+Bi Dy Fe Mn,228.0
+Al C Ge Mn,275.0
+Ce Li Si,17.0
+Eu P,26.5
+Dy N,26.0
+Co Fe Ho Ti,984.0
+Fe N Si Y,590.0
+Gd Ge Si Sn,297.0
+Fe H Mn Y,424.0
+C Fe Mo N Nd,510.0
+Cd Tm,8.55
+Ba La Mn O,351.7
+Fe La Mn O Pb,230.0
+Dy Fe Mo N,693.0
+Gd Ni,190.0
+C Ce Fe N,721.0
+Co P Tb,150.0
+B Ni Y,90.0
+Li Mn Ni O,146.5
+B C Gd Ni,14.3
+Ga Gd Si,286.3
+Ga Mn,770.0
+Er Mn Sn,355.0
+Fe Ru Y,395.0
+Bi Tb,190.0
+Al Co Sc Y,12.3
+Ge Mn Pr Si,298.0
+Co O P Sm,110.0
+Fe Pt Sn,1010.0
+C Fe Ho Mn,180.0
+Cd Gd,262.0
+Ce Co Y,1150.0
+Ca Co Mn Nd O,101.0
+Co Nb O Sr,130.0
+C Co Fe H N O,14.0
+Dy Fe Ga,557.0
+Eu Fe Li O,800.0
+Ag Fe Pr,285.0
+Fe Sb Se,130.0
+B Dy Mn,22.0
+Dy Ni Pr,19.6
+Ba Ca Mn O Pr,180.0
+Ce Sb,16.0
+Ga Gd Ge,195.0
+La Mn O Sm Te,188.0
+Ba Ca Co Gd O,310.0
+Fe Mo N Nd Y,715.0
+Cr Fe,1010.0
+Al Ni Yb,3.5
+Al Co La,950.0
+Fe U,190.0
+Ba Fe La Mo O,336.0
+Ba Fe O,812.0
+Co Gd Zr,1165.0
+Co Mn Sn,860.0
+Co Fe Hf Sm,1055.0
+Co Cr Fe Tb,703.0
+Fe Ni O Ti Zn,402.5
+Fe Ho Si,566.0
+H Pu,55.0
+Dy Ni Tb,24.0
+Ge Ni Rh,113.0
+B Fe Ga Nd,627.0
+Lu Mn O,21.0
+Co Hf Sm,1080.0
+Al Gd In,192.0
+Al Gd Sn,134.0
+Co Gd Te,220.0
+Co Fe Ge,1000.0
+Al Ce Cu,4.0
+Mn Y,505.0
+Fe Ni Si U,520.0
+Cr Fe H Y,488.0
+Al Co Pd U,9.0
+Co Sn Tm,37.0
+Eu Ru Sb,4.0
+Co Fe Ga Nd,875.0
+Fe Ga Mn Sm,360.0
+B Fe Gd H,698.0
+Ca Cr Eu O,160.0
+B Ce Ir La,2.5
+Al Gd La U,50.0
+Ga Ho Sn,65.0
+Fe Li Mn O Ti Zn,773.0
+Fe Ge U,545.0
+C Cr Cu H N O,68.0
+Ge Nd Pd Si,13.0
+Ni P U,139.0
+Ca Mn Nd O Sm Sr,189.9
+Cr Fe H Sm,474.0
+Fe N Nd Ti V,723.0
+Al Gd Lu,142.0
+Cd Cr Se Ti,129.0
+Co Er Ni Si,252.0
+C Fe N Nd,740.0
+As Ce Ni O,10.0
+Co Cu Pr Zr,934.7
+Mn Pd Sn,220.0
+Co Er O Sr,348.0
+C Fe Ho Mo,585.0
+B In Ni,596.0
+Cr La O Re Sr,620.0
+Ga Pt U,80.0
+Cr Fe Mg O,583.0
+Er In,51.0
+Ho Pt,17.0
+Co Dy Fe V,1043.0
+Bi Cl Cu O Se,24.0
+Cu Fe Se Tl,130.0
+Ho Mn Te,153.0
+Ce Ge Zn,7.2
+Gd Ho Rh,73.0
+Br Cu H O Rb,1.874
+Co Nd Ti,1020.0
+Ag Al Tb,64.0
+Al Cu Pr,36.0
+Co Fe Se,114.8
+Ce Cu Gd O,162.0
+As Eu Te,15.0
+B Fe Nd Pr,582.0
+Co Fe Ru,80.0
+B Ce Ir Rh,125.0
+Ba Co Dy O Tb,284.0
+Er Fe H Ti,563.0
+Fe Tb Te,160.0
+Ge Mo Tb Ti,280.0
+Al Co Fe Sm,710.0
+Ca La Mn N O,188.0
+Fe Ga N Y,602.0
+B C Lu Ni,1.8
+Er Ni P,0.43
+Dy,179.0
+B Rh Tb,14.5
+Fe Re Sm,480.0
+Co La O Pr Sr,248.0
+Cu Fe O Ru Sr,160.0
+Np Os Ru,5.0
+Ca Mg Mn O Pr Sr,145.0
+Fe Ta Y,398.0
+N Np,87.0
+Fe Gd Te,240.0
+In Ni Zr,368.0
+Al Fe Pr Ti,408.0
+Co H Sn U,102.0
+Cr O Ru Sr,200.0
+Ce Cu Dy O Ru Sr,150.0
+B C Nd,45.0
+C Co Fe Sm,892.0
+B Nd Rh,31.0
+Al C Mn Ni,750.0
+Cr Fe Y,525.0
+As Eu Fe K,5.5
+Ca Cu Nd O Ru,49.0
+Fe O Sr,790.0
+Ce Ga,10.0
+Co Ni Y,617.0
+Eu Os P,15.0
+Ru Si Sm,65.0
+Ca K La Mn O,280.0
+Co Er Ga Nd,447.0
+Cu F Pd,10.0
+Co Dy Fe Mo Nd,700.0
+Eu H Mg Sr,21.0
+Dy Fe Pr Tb,545.0
+Ho Mn,445.0
+Ir Si Yb,2.26
+Ag Cu Mn N,141.0
+Co Gd Ge Si,300.0
+Al Co Mn,528.0
+Be Cu Sm,54.0
+Fe Ho N Ti,735.0
+Ce Ge Sc,46.0
+Al Au Eu Re,10.0
+Al Dy Fe,496.0
+Fe Sm Ta,420.0
+Ca Cu O Re Sr,460.0
+La Mg Mn O Sr,220.0
+Ge La Mn,326.0
+B Fe Ni Y,623.0
+Er Fe Nb Ni,643.0
+Bi Ho Rh,97.0
+Sb Tm Zr,5.0
+Cl Cr Rb,52.8
+B Dy Si,120.0
+Ag Ce La Sb,6.2
+Co Fe Mo Pr Ti,816.0
+Pt Tb,98.0
+Cr Gd Mn O Sr,56.0
+B Fe Ho,580.0
+Rh Sn Tm,13.0
+K La Mn Na O,332.0
+Ni Pr Sn,7.8
+Fe H Mo Nd,490.0
+B Co La Y,400.0
+Er Fe Mn,500.0
+B Fe O V,130.0
+Ba Cu Fe O Sn,375.0
+F H Ni O Zr,0.164
+Ba Co O Pr,229.0
+C Er Fe V,575.0
+B Ce Fe Si,475.0
+Ba Se V,47.0
+Mn Se U,62.0
+Fe Ga Sb,652.7
+La Mn Ni O Pb,265.0
+Co,2184.0
+Fe H Si Tb,573.0
+La Mn O Sr W,50.0
+Co Ni Tb,29.0
+Co Gd Pr,936.0
+B Ce Co Fe La Mo Nd Pr,627.0
+Co Fe Tb W,778.0
+H K Mn Mo O,32.3
+Al Er Ga,14.0
+Fe Gd Nb,618.0
+Nd Ru Si,18.0
+Co La O Ru Sr,200.0
+Cu Ga Mn Se,80.0
+B Ba,300.0
+B Co Fe Hf Nd,713.0
+Ca Ge Mn Ni,135.0
+Al Co Pr,1037.0
+C Er Fe Sm,605.0
+As Cr Pd,45.0
+Er Mo S,0.4
+Mn Sn,269.0
+Co Lu,1210.0
+Al B Ru Sm,57.6
+Ag Co La Mn O,215.0
+Gd Ho In Ni,52.0
+Mn Si U,377.0
+As Co Gd O,60.5
+Co V Y,657.0
+K Mn Na O Pr,138.0
+Nd Si,115.0
+Cu Sn U,53.0
+Pd Si U,71.0
+Ce Fe Si,488.0
+Fe Ge Ru,450.0
+Cu O Sm Sr,12.0
+Co Ga La Y,548.0
+Co Pr Y,34.0
+Co Er Fe O Zn,150.0
+Ga U,128.0
+Co La O Sr,280.0
+Ir Mn Sn,204.0
+B Er Ho Rh,6.1
+Al Co Sm,593.0
+B Pr Pt,4.2
+H Mn O P,6.2
+Al Ce Fe O Sr,620.0
+Mn O Ru Tl,138.0
+Fe Ni Sm,522.0
+Ag Ga Pd Yb,5.0
+Dy Fe H,518.0
+Co Mn Nd O Pb,110.0
+Ba Ca Fe O,272.0
+C Fe V Y,597.0
+Gd,300.0
+Mn O Yb,80.0
+Ca La Lu Mn O,220.0
+Dy Fe N V,819.0
+Cu Fe Mg Ni O Zn,573.0
+Mn Na O Pr Ti,82.0
+D0+ Fe V Y,603.0
+Cr S Se,40.0
+Dy Mo S,0.4
+C Fe Si Tb,618.0
+Co Dy H,75.0
+Ce H,4.2
+Sb Te U,205.0
+Ba C O V,29.0
+Al Fe Ga,400.0
+Fe Mg O Zn Zr,603.0
+Cr Fe Li O Sb,364.0
+C Fe Gd Ta,680.0
+Fe N Ni,692.0
+Er Ho N,7.8
+Co Lu P,150.0
+Se U,175.0
+Fe Ho Ni,474.0
+Ce Cu Zn,5.0
+Ca Mn O Pr Sm,40.0
+Pr Si,105.0
+F Pd Pt,25.0
+Co Gd H,480.0
+Fe Rh Sb,510.0
+Te U,181.0
+Co Tb Te,174.0
+Cr Fe K Li O,473.0
+Lu Mn Sc Si,160.0
+Co Fe Ge Mn P,264.0
+Ge Mn Sm,441.0
+Ga Ni Pr,5.0
+B Fe Nd Ti,410.0
+Gd Ni Si,25.0
+Bi I Ni,17.0
+Cr Fe S Zn,138.0
+Pu Sb U,56.0
+Ca Ge La Mn O,225.0
+Cl Cr Mn Rb,33.0
+Co Er V,833.0
+Ca Mn O Y,50.0
+As Ce Fe,95.0
+Co Sm V,360.0
+Ir Np,5.8
+Fe Lu Si,550.0
+Co Gd La Si,21.0
+Ga Ir Tb,5.2
+Cu Mn O,90.0
+Ni Tb,151.0
+Bi Co Ho,67.0
+La Ni O Re,36.0
+Fe Lu Re,380.0
+Al Ce Pd,2.8
+C Gd,350.0
+Mn Ni Y,73.0
+Al Co Cr,334.0
+Ga Mn Na O P,10.0
+Cr Gd O,22.0
+Ca Co O Pr Sr,116.0
+Dy Fe Nb Ni,623.0
+As Eu Os,25.0
+Al Gd Y,114.0
+Fe Pr Ti V,574.0
+B Fe Nd Sc,610.0
+Co Dy Fe Ho Tb,596.0
+Co Fe Ga V,820.0
+B Fe Tm,790.0
+Co Fe Tb V,1012.0
+Fe H V Y,630.0
+Al B Co Fe Pr Tb,683.0
+Dy Ni P,9.5
+Co Gd Sm,1160.0
+Mg Mn Nd O Sr,180.0
+Ag Fe Ni O,850.0
+Mn Ni Sn V,38.7
+C Cu Fe Gd,623.0
+Mn Pr Si,130.0
+Ho In,138.0
+Co Si Th U,165.0
+Ge Sc Tb,216.0
+Bi Fe O Se,47.0
+Ce Ni Pt,8.8
+Ir Si Tm,0.86
+Ge Ir U,25.0
+Ca Ce La Mn Nd O Pr,154.0
+Ca Cd La Mn O,165.0
+Cr Te Zn,220.0
+Ba Fe La Mo O Sr,414.0
+Sn Te U,140.0
+B Co Tm,347.0
+Al Co Mn Ni,602.0
+Al Co Ni,290.0
+Ba Cu La Mn O,260.0
+Er Ru,8.0
+Al Au Nd,10.0
+Fe Gd H V,598.0
+Pr Si Y,40.0
+C Fe Tb,680.0
+Al B Co Fe Pr,780.0
+Cr La Sb Sm,112.0
+Eu Os Sb,9.0
+Cu Fe O Zn,542.5
+Co Fe Mn P,340.0
+B Co Fe Gd Mn,708.0
+Ce Sc Si,26.0
+B Rh Tm,4.0
+Fe O Pb Sr Ti,558.0
+C Co Dy Fe,663.0
+C Cr H Mn N O,74.0
+Ba Co Gd Nd O Sr,180.0
+Dy Mn O Sr,38.0
+Fe Mo N Sm,704.0
+C Fe H La Si,320.0
+Fe H Nd V,554.0
+Fe O Pr,701.0
+Ge Os Ru U,9.0
+Ho Mn Sn,410.0
+Al Co Fe La,800.0
+Cu Fe Ir S,220.0
+Al Mn N,818.0
+B Fe Y Zr,560.0
+Co Cu Pr Ti,914.7
+Ce Pt,7.0
+Fe O Ti,434.0
+D0+ Ru Sn U,54.0
+Ba Co O Tb,300.0
+Fe O Zn,763.5
+Dy Fe Sb,143.4
+Ce Ni Pd,10.3
+Cu H O Sm Sr,12.0
+Fe O Yb,547.0
+Cl Cs Er Na,0.05
+Co Gd Ti,1080.0
+D0+ U,170.0
+Fe Nb,230.0
+Er Mn O Pr Sr,136.0
+B Co Dy Fe Nb Pr,627.0
+Ba Fe O Sc,685.0
+Fe Mo N Nd,712.0
+Ag La Mn O,318.0
+Co La Nb,973.0
+Co O Ti,347.0
+Al Fe Mo O Sr,358.0
+B Fe Ga Pr,580.0
+B Ir Mn Sc,115.0
+Cl Cs Dy Na,0.021
+Ca Cu O Re Sr W,450.0
+Fe Tb Ti,685.7
+Eu Pd,105.0
+Ho Ni Sc,8.8
+La Mn O Sn,180.0
+Co Fe Mn O Zn,467.0
+Co La,1325.0
+Fe Ge Mn P,570.0
+Cm Fe Nd,533.0
+Co Cr Ga S,126.0
+B Co Fe Mo Nd,711.0
+Ce Co Cu Eu O Ru Sr,127.0
+Fe O Sm Ti,7.0
+Dy Pd Si,9.0
+B Rh Sm,100.0
+C Er Si,45.0
+Ca Ni O P,15.8
+Er F Y,2.0
+Ca La Mn Sb,210.0
+Ga Rh U,60.0
+Al U,140.0
+Nd Pt Si,18.0
+Ba Ca Co Dy O,270.0
+Ag Ce Ge Si,8.5
+Co Gd Mn O,125.0
+Fe Gd N Ti,745.0
+Cu Mn O Sm,394.0
+N Te U,71.0
+B Fe Pr Tb,678.6
+B Mn Si,480.0
+Co Cr Fe Nd,699.0
+Ca Mg Mn Sn,258.0
+As Cu Eu,49.0
+Ag Li Mo O P,10.0
+Ho P,5.5
+Eu P S,24.0
+Co Fe,1100.0
+Cu Fe La O,653.0
+B Co Fe Nb Pr,621.0
+Fe Sb Sm,439.0
+Ce Co H,233.0
+Gd Mn Si Sm,48.0
+Cr K O,175.0
+Ce Ru,4.6
+Co O Zn,790.0
+Co Yb Zr,1175.0
+Ba La Mn O Ru,254.0
+Co O Sr Y,340.0
+Fe Ga Gd Y,532.0
+Al Fe La O Sr,617.0
+Mo Nd O,96.0
+Fe Mn Mo Tb,235.0
+Ba Eu La Mn O,312.0
+Co Sn Ti,375.0
+Al C Fe U,145.0
+Ba Ce Fe Ni O Sr,570.0
+Ge Mn Nd,417.0
+Dy Fe W,533.0
+Al B Ce Ru,14.0
+Ga Sn Tb,155.0
+Co Gd Ge,398.0
+Er Fe Tb Ti,531.0
+Co W Zr,748.0
+Ce Fe N V,758.0
+B Co Ni Y,170.0
+Ru Si Tm,1.0
+Eu H Ru Sr,12.0
+B Gd Pd,6.5
+Ho N Tb,20.0
+B Co Ni Pr,947.0
+C Er Fe Ti,685.0
+B Cr Fe Nd,550.0
+Fe Nd O Y,554.0
+Er Fe Ni,481.0
+Mn O Te Tl,184.0
+Ho Mn Tb,30.0
+Fe O Re Sr,445.0
+Dy O Ru,1.85
+Co Dy Fe N Si,723.0
+Mn O Pr Sr,324.0
+C Cr Fe H K N O,19.5
+Fe Pd Rh,590.0
+Co Sm Ti,1040.0
+Cl Cu D0+ Mg O,4.2
+Ca Mn O Pr,245.0
+Fe H Nd,655.0
+Nd Te,38.0
+B C Fe Pr Ti,553.0
+Ce Pt Si,5.8
+C Fe Ho N,737.0
+Al Cr Fe,316.0
+Fe Mn Ni,390.0
+Bi Ce,3.5
+Co Eu La O Sr,233.0
+Cr Gd Ge Mn,350.0
+Fe Sb Si,712.0
+Ge Mn Si,287.0
+C Ga In Mn,240.0
+Al Cu Sm,67.0
+F Mn Nb,30.0
+Ca La Mn Na O,291.0
+Co Fe Sm Zr,1043.0
+Ce Fe La Nd Pr,319.0
+Ba Cu Hg Ho O,27.0
+As Co Nd O,70.0
+Ce Sn Zn,5.2
+Ca N,300.0
+Al Cu Nd,25.0
+Ag Ce La,5.0
+Er Ge In,24.0
+Ho La Mn O Te,210.0
+Cr Eu O,180.0
+Fe Mn O,860.0
+B C Co Fe Y,572.0
+C Cr Dy H N O,5.0
+Co Ho,1067.0
+Fe Pu,600.0
+Co Mn Rh Sn,687.0
+B Fe Ho Pr,584.0
+Fe H Mo Tm,430.0
+C Fe N Y,724.0
+Er Os Si,5.1
+Ba Cu F,4.5
+Fe Rh,680.0
+Mn O Pr Te,75.0
+Fe Gd Rh,193.0
+Fe Sm Tb Ti,588.0
+Ni Pr,20.0
+La Mn Nd O Pb,297.0
+Cu Eu O Ru Sr,139.0
+Co Fe O Sr Y,200.0
+Ni U,23.5
+C Fe Mn Sn,264.0
+Ge Mn Nd Sn,381.0
+Al Au Eu Mn,10.0
+Fe N Sm Tb,743.0
+Ni Zr,647.0
+Cr Er Fe,478.0
+Fe H Y,630.0
+Eu In Pt,53.0
+Co Ho Mn,248.0
+Er Fe N,697.0
+Co La Nd,74.0
+Co Ru Y,360.0
+Gd La Mn O Sr,250.0
+Co Ho Tb,150.0
+Ag Ba Co O V,4.5
+Co Cr Ni O,86.0
+F Mn Ni,39.0
+Cl Co H O,10.5
+Ho Mn Ni O,82.0
+C Fe Ho Ta,716.0
+Al Co Cu Mn,546.0
+Ga Mn Pt,230.0
+Co Ho O Sr,333.0
+Al Gd Mn,174.0
+Co Dy Fe Mn,690.0
+B Ho Ru,25.0
+Ba Fe O Ti,506.0
+Pu Sb Y,7.0
+Mn Ni Th,316.5
+Co Mn Sn Tb,267.0
+Al Pr,38.0
+C Fe Gd Mn,129.0
+Ce Cu Mn Si,120.0
+Gd Ni Sb Si,93.0
+Er Pt,16.0
+D0+ Mn Pd,225.0
+Co Ge La P,205.0
+Ge Mn,800.0
+Eu Pt,105.0
+C Fe Ga Tb,390.0
+Al C Fe Sm,590.0
+B Cu Fe Pr,573.0
+Mn O Ru Yb,66.0
+Ba Fe O Sr W,405.0
+Fe Gd Ti,621.0
+Ce La Mn O Sr,357.0
+Co Fe Hf,585.0
+Bi Mn Ni O,140.0
+Fe N Sm V,802.0
+Eu Nb O,3.9
+Ho Mn Ni,75.0
+Mg Pr Pt,8.0
+Fe Ho P,5.0
+Fe O Sn Sr,618.0
+Co Gd P,145.0
+Ga S V,15.0
+Cd Eu Sb,12.0
+Er Fe Sb,21.0
+Al Er,24.0
+Co Nd O P,60.0
+Cd Fe Mn Nd O,90.0
+Al Au U,11.2
+Dy Fe N Pr V,825.0
+C Dy Fe Ga,460.0
+Ce Fe Sm Ti,552.0
+C Co Nd Si,310.0
+Co Fe Si U,750.0
+Dy Fe Te,135.0
+Cr Ge Na O,6.0
+B Fe N Sm,584.0
+B Co Gd Ge,212.0
+Co Ho Mn O,83.0
+Co P Sm,148.0
+Co Nb Sn V,55.0
+Cr Mn,86.2
+Mn Th Y,210.0
+Bi Fe Tb,254.0
+Mn O Sb Tl,382.0
+Co H Tb,320.0
+Eu Ir P,18.2
+Cu Si Yb,2.0
+Cr Cu Fe S,345.0
+B C Pr,20.0
+As Ge Mn,340.0
+Al Er O,150.0
+Ce Fe N Sm,726.0
+Gd Mg Ni,78.7
+As Eu,18.0
+Ce Tl,21.0
+As Co Mn Rh,327.0
+Co Fe Sm V,718.0
+Fe Mn Sm,564.0
+Gd Ge Mn Sm,350.0
+Gd Sc,274.0
+Fe Tm Zn,5.5
+La Mn Sb,310.0
+Er Fe Mo N,645.0
+Mn Sb,600.0
+C Fe Tm,656.0
+Dy Ga Mn Nd O Sr,65.0
+Mn Nd O Sm Sr,217.0
+Cu H Ho,10.0
+As Mn Zn,309.0
+B Fe Gd Mn,443.0
+Cu Fe Mg O,973.0
+Ni O Pb Ti,533.0
+Cu Ga Mn O,21.0
+In Np,14.0
+Fe H Mo Sm,500.0
+Fe Si Sm Ti,590.0
+B Co Gd Ge Y,211.0
+Ca Co Fe O,5.0
+Dy Fe Mo Nd Ti,417.0
+Mg Tm,7.5
+B Cr Fe Si,970.1
+Bi Dy Ni,66.0
+Cr Hg Se Zn,97.0
+Cr Nb S,160.0
+Ce Gd Ge Mn,461.0
+Ir U,48.0
+Fe Ni Ti Y,610.0
+Er La Mn Si,302.0
+Ag Ce Pd,1.1
+Gd Ge Sc,350.0
+Dy Ga,116.0
+C Fe N Sm Ta,751.0
+Mn O Pr Sr Ti,250.0
+Cf N,25.0
+Fe Mn O Pr,570.0
+Gd Ni Pr,54.8
+Fe Si V,600.0
+Ge Mn Nd Si,306.0
+Cu H Mn Zr,153.0
+Co Si V,566.0
+La Mn Ni O Sr,342.7
+Cu Fe Se,90.0
+Au Eu Zn,51.1
+Fe Sm Yb,682.0
+Co Rh Sn,457.0
+Co Fe Nd Si,1051.0
+Fe In O Pb,625.0
+Ca Cr O Ru,130.0
+Eu Mn Sb,600.0
+Eu H Ru,29.0
+Ce O P Ru,20.0
+Hf Zn Zr,12.5
+Co Mg,321.0
+Cr Fe Ni O Zn,774.0
+C Ni Sm,17.7
+B Cu Fe Nd,598.0
+C Fe Si Tm,569.0
+Ba Fe Mn O Zn,645.0
+Cr Fe Tb,646.1
+Gd N Tb,46.2
+Ca Co O Sc,15.0
+Fe Mo Nd,502.0
+Gd Ge H Si,216.0
+Cu Gd Pd,110.0
+Gd Ni Pd,298.0
+C Nd Ru,22.0
+Al Er Tb,36.0
+Al Fe Mg O,295.0
+Co Fe Li O Yb,750.0
+Co Hf Nd Y,1059.0
+Fe S Ta,170.0
+Cu Er Sb,4.0
+B U Y,17.0
+Ce Fe Ge Mn,176.0
+Co Fe Gd Li O,815.0
+Cu Mn O Pr,297.0
+Ca Ir O,108.2
+Co Ho Pr,947.0
+Co Fe Ga Y,850.0
+Cr Pt,1148.0
+Pd Sb Sm,257.0
+Ba Cu Er O Pt,25.0
+Ca Eu H Ru,15.0
+B Tb,151.0
+Cr La Mn Nd O Sr,185.0
+C Co Fe Ga Sm,754.0
+Ga Ge Mn Tm,359.0
+Co Ga Nd Pr,497.0
+Fe K Ni O V,870.0
+Ho Ru,18.0
+Pt Th U,9.0
+Cu Ni Pr,18.0
+Co Nb Ni Sn,60.0
+Eu La Mn O Pb,320.0
+Ru Si U,45.0
+Li Mo Ni O,8.0
+Fe N Th,767.0
+Ga Mn Tb,120.0
+Dy Fe Mo Y,475.0
+Ge Pr Si,52.0
+Co Ti,44.0
+Eu Ga Zn,14.0
+Al Fe Nd Ti,447.9
+Cr Cu Mg O,35.0
+H O Tb,3.72
+Mn Nd,441.0
+Co Fe W Y,772.0
+Fe Mn Nb O Zn,290.0
+Ni P Tm,1.7
+Gd Si Sn,312.0
+Mn Nd O Pr Sr,258.0
+As Mn Si Zn,337.0
+Ga Se V,10.0
+Dy Ge Ru,61.8
+Fe N Nd Sm,742.0
+Mn O Pb Ti,15.0
+Bi Mn Rh,266.0
+Ge Nd Ru,27.8
+Co Fe La O Sr,719.6
+Fe Gd H Ta,589.0
+Ga Nd Pt,3.0
+Ce Fe H La Si,316.0
+Be Gd Ge,70.5
+Ba Co Fe Ho Mg O Zn,725.0
+Mn Pb Rh,338.0
+Ca Cr Mo O,125.0
+Ge Nd,55.0
+B Pt Tm,12.6
+Dy Ga Ni,12.0
+C Ce Ge,10.0
+Fe N Pr,731.0
+Ga Gd,200.0
+Al Mn,633.0
+Cr Fe Nd Tb,408.0
+Ce Fe Ga H,484.0
+Eu Ge Mg,14.2
+Fe Ho Mn,500.0
+Co Dy Fe Ga,393.0
+As Mn Sb,500.0
+Co Fe Mo Nd,526.0
+Cr Fe Mn S,130.0
+C Er Mo,8.0
+La Mn O Sr Zn,315.46
+Bi Ca Cr Mn O,72.6
+Ce Rh,6.8
+Er Fe Y,570.0
+B Co Fe Mn Nd,648.0
+Ba Cr Mo O W,285.0
+Cu Ge Pr,13.4
+Co Nd Y Zr,1032.0
+Co Gd O,190.0
+Dy Mn Nd O Sr,230.0
+Rh Tm,0.4
+Ca Ir Mn O Pr,110.0
+Co Fe La,787.0
+S U,180.0
+Al Fe Ni,965.0
+Eu Mn Sb Yb,92.0
+Ga Pr Sn,36.0
+Ba La Mn O Sn,332.0
+Cr Cu O,152.0
+Fe H Lu Mo,420.0
+Mn O Pr,70.0
+Co Fe Pt,210.0
+Rh Si U,25.0
+Ge Pr,44.0
+Cl Co Fe,8.2
+B Co Ge Y,189.0
+Au Ga Pr,7.0
+C Co N Ni,18.0
+Fe Lu Ta,505.0
+C D0+ Dy Fe N O,3.7
+B Co Th,303.0
+Co Pr Tb,932.0
+Mn Ni,759.0
+Er Mn Sb,110.0
+Ce Cu Gd O Ru Sr,180.0
+Cu Ir La O,70.0
+Ni S Se,30.0
+Ho Mn O Ru,65.0
+As Cr Ni,190.0
+C Mn Sn Zn,200.0
+Ba Co La O,326.0
+Nb O Ru Sr,90.0
+C Dy Fe N,768.0
+Nd Sn,75.0
+B Co H Pr,219.0
+Fe Re U,340.0
+Rh Sb Yb,6.9
+Dy Mn O Ru,69.0
+Co La Mn O Sr,317.0
+Ca Ga La Mn O,168.0
+Br N U,36.0
+Al Co Nb Sn,67.0
+Cr Fe Ru Si,580.0
+Fe Mo Tb Y,497.0
+Au Mn Sb,135.0
+Cu Ni Sm,35.0
+Cr Ge,88.0
+C Ge Mn Zn,273.0
+Al B Co Y,552.0
+Cr S Sb,106.0
+Fe Ga Gd,633.0
+Mn O Ru Sr,160.0
+Ho Ni Y,11.4
+Er Fe H Ta,560.0
+Al Dy Ir,8.5
+Cu Fe Mg Mn O Zn,432.0
+Ce Gd,160.0
+Co Fe P,455.0
+Dy F,2.55
+Co H V Y,30.0
+Cu Pr Sn,10.5
+Co Fe La O Zn,603.0
+Co Fe H La Si,350.0
+Ce Cu Sn,6.3
+Al Co Ta,260.0
+B Co Tb Y,150.0
+Ge Ho Ni,15.0
+Mo Se U,25.0
+Cd Gd Ru,63.6
+Ag Eu Mg,22.0
+Fe Sb Tl,80.0
+C Co Dy Fe N,903.0
+Al Fe H La,348.0
+Cu Er Ni,10.8
+Cu Ga Mn Ni,350.0
+Co Fe Ga Si,1100.0
+Nb Sb U,115.0
+Fe Gd Ta,515.0
+B Fe Nd Y,590.0
+Eu Mg,16.0
+B Ce Ga Ru,16.6
+Al Ga Tm,3.2
+Fe H Mo Y,460.0
+Cr La Sb,146.0
+Gd Pd Sn,18.0
+Ag Al Eu,17.0
+Cd Mn Nd O,90.0
+Cm Sb,162.0
+Er Mn O,24.0
+La Ni Y,15.0
+B Fe Nd Ni,670.0
+Al Cu Dy,35.0
+B Fe H Y,629.0
+B C Gd,159.0
+F Fe In O,675.0
+Ge Pd U,80.0
+Ni O P Sr,15.3
+Cm N,109.0
+Co S Se,103.0
+Fe Mo O Sr,470.0
+Dy Fe Gd Nb,554.0
+Be Fe Pr,266.5
+Co Na O,25.0
+B Ce Ir Si,25.0
+Fe N Pr Ti V,747.0
+La Mn O Te Y,212.0
+Ce Co H Ho La Nd Pr,55.0
+Cd Mn O Sm Sr,99.0
+Al Co U,23.0
+Ce Cu Eu O Ru Sr,180.0
+Ba Fe La Mn O,253.0
+Fe Gd Mn O,540.0
+Co Er Pr,955.0
+Co Fe Y,1000.0
+Co Dy Fe Tb,700.0
+Mo S Tb,0.9
+B Co Ho La,994.0
+B Ce Co Fe Nd Pr V,708.0
+B Np Pu,36.0
+B C Co Tm,1.54
+O Pd S,11.7
+Fe O Pb Ti,871.0
+Gd Os,66.0
+Fe Ni Si,755.0
+Fe Ga Y,545.0
+Gd Os Zn,4.2
+Cu Fe O,778.0
+Co Ge O Ti,48.0
+Co Fe Si Tm,684.0
+Eu In Ni,40.0
+Ce Pd Sn,7.0
+Ge Nb U,130.0
+Tb Th,223.0
+Ga Pt Tb,20.0
+Co K Se,78.0
+C Gd Rh,3.5
+C Fe Ta Y,638.0
+Fe P Yb,0.9
+Mn O Pb Re,103.0
+Cu Ho Mn O,405.0
+Fe N Sm Y,725.0
+Ho Mg,61.5
+Bi Ga Gd,208.0
+B Fe Si U,366.0
+B Fe H Ho,615.0
+Cr Cu Fe O,515.0
+Ce In Pt,5.0
+S U Y,170.0
+B Ce Co Rh,105.0
+Co Er Ge,40.0
+Ce Fe La N Nd Pr Sm,746.0
+Cr O Tm,18.0
+Fe Li O Y,800.0
+Al Co Tb,505.0
+Co O Ru Sr,150.0
+Gd In Pd Y,27.0
+B Co H Sm,298.0
+F H Ni O Sn,0.164
+C Eu,38.0
+As Cr Fe Mn P,277.0
+Al Co Gd Ni,310.0
+Dy La Mn Si,290.0
+Co Fe La Mn O,230.0
+Cu O Rh Sr,12.0
+Fe Ho N,710.0
+Cr Cu Sb Se,383.0
+Co Eu Sb,10.5
+Ba Cu Fe O Y,70.0
+Co Gd Y,321.0
+Fe Mn Si,220.0
+In Nd Ni,20.0
+Co Cr Ga O,65.0
+Au Mn Pd,0.315
+Ni Np Sn,55.0
+C Fe Mo Nd,570.0
+Al Co Ho Y,50.0
+Dy Mn Ni O,93.0
+Cu S Sm Yb,5.9
+Dy Fe Mo Nd,404.0
+Ba Co Fe Gd O,746.0
+La Nd Pd Si,14.3
+Fe Pr,550.0
+Mn Sn Tb Ti,362.0
+As Co Eu Fe,19.0
+Cu Mn Sn,630.0
+Al Ca Fe Gd In Mn O V Y,325.0
+B Co Nd Sm,1016.0
+Co Er Fe,1200.0
+Ho Pd Sb,42.0
+Fe Sn Ti,120.0
+Cr Er O,133.0
+Al Ce Si,10.0
+Co Ho Mn Sn,360.0
+F Nb V,35.0
+Ho Mo S,0.67
+Al Fe V,542.0
+Fe Ge Mn,320.5
+Ge Mn Si Sm,339.0
+Bi Mn Nb O Sr,50.0
+Cl Cs Gd Na,0.035
+Bi Co Fe La O Ti,487.0
+Fe Hf Nb,125.0
+Al Fe Nd O Sr,615.0
+Co Fe Mo O Sr,360.0
+Cr Sb Sm,112.0
+Ca Fe Gd Mn O,65.0
+H Mn Ni Zr,140.0
+Co I Tb,96.0
+Fe Mn Pr Sm,590.0
+Se Te U,69.0
+Al Mn Ni,721.0
+Ga Hf Mn,25.6
+Er Fe N V,784.0
+Co Ga Y,1090.0
+Co La Ti,980.0
+F Fe K Mn,148.0
+Co Sm Y Zr,1133.0
+Np Si,110.0
+Al B Co Fe Nd,720.0
+B Fe Sm V,632.0
+Al Dy Fe Tb,558.0
+Cr Fe La Mn O Sr,110.0
+B Ce Rh Si,19.0
+Gd Mg,214.0
+Fe Ge Nd,896.0
+Cd S,300.0
+Al Er Ni,30.0
+Cd La O Ru,37.0
+Ba Co Gd O Sr,280.0
+Ga Gd Tb,298.0
+Al Ba Fe O Sr Zn,380.0
+Gd Ge,65.0
+Ba H Ir O,172.0
+As S U,128.0
+Cu Ga Gd,190.0
+Gd Ge Ni Si,303.2
+O Sr V,75.0
+Ba Fe Ni O Zn,513.0
+Dy Mn Ni,94.0
+Er Gd,193.0
+Al Fe O,447.0
+La Mn O Ru,116.71
+C Co Er,14.0
+Cr Fe Ni S,210.0
+Co Dy Ti,1080.0
+Ag Dy Ga,20.0
+Ca Er Pt Sn,4.8
+Co Fe Tm,950.0
+Er F Li,0.5
+Co Fe Si,1109.0
+As Ca Fe Ni,46.5
+Nd Ni Sn,20.8
+Ho O Ti,50.8
+Ca Co Lu O,20.0
+B Co Fe Ga Nd,741.0
+Ge Mn Sm Sn,420.0
+C Fe Gd Mo,610.0
+Ag Ba Cr La Mn O,295.0
+Fe Ti Yb,500.0
+Eu Gd O,170.0
+Co Dy Ga,1100.0
+Dy Ni Si,15.6
+Ba S Se V,40.0
+Ge Ru U,12.0
+Os Tb,33.0
+Ge Np,157.4
+Ge Ho Pd,5.7
+Fe Pt V,190.0
+Ca La Mn O V,252.0
+Co Gd Tb,335.0
+Ag Cu Tb,20.0
+Fe O Pd,7.0
+Ho In Pt,23.5
+Fe Mo Sm Ti V,297.0
+Ba Mn O Pr,320.0
+Co Fe Gd Si,753.0
+Co La Mo,902.0
+Mn S Ta,80.0
+Cd Cr Cu S,81.0
+Co Eu Si,73.0
+Fe H O Zr,140.0
+Fe Mn Si U,445.0
+Fe Mn Na O Pr,80.0
+Co Dy Fe,1030.0
+Ce Cu Ga,5.0
+Cr Ho O,17.6
+La Mn Nd O,142.0
+Al Ni Ru U,74.0
+Rh Sn U,25.0
+Al Ir U,64.0
+Dy Fe O,650.0
+Fe S Ti,130.0
+Sb U Zr,140.0
+Ca Co Mn O Pr,100.0
+Co Tb V,1026.0
+Al B Ce Co Fe La Nd Pr,631.0
+As H La Mn O,255.0
+Cr Nb Se,105.0
+Ni Pb Sm,8.0
+Co Sn Y,53.0
+Ba Co Dy Gd O,285.0
+Co Ga Nb Sn,101.0
+Dy La Mn O Pb,210.0
+Al Ru Sn U,37.0
+Al Ni Si,28.0
+Fe Mo Nd Ti,483.0
+B Fe Ho Tb,355.0
+Mn O V,61.0
+O Ru Sr,170.0
+Al Ca Fe Gd Mn O V Y,476.0
+C H Mn O Ru,3.0
+Ce Cu Ho O Ru Sr,150.0
+Co Fe S Ti,125.0
+Cr O Tb,22.0
+Co Ge Ti,391.0
+Al Ce Fe Y,235.0
+Fe Ga Tm,485.0
+Bk N,87.0
+Mn Nd Sn,357.0
+Np Pt Sn,32.0
+As Mn,360.0
+B Ru Tb,83.0
+Ni Si Sm,14.9
+F Li Tb Y,2.555
+Co Dy Pr,931.0
+Co Fe Ga Pr Ti,733.0
+Bi Fe Ho,54.0
+Cr Mn Sb,504.0
+Dy Ir Si,4.0
+Dy Fe,673.0
+Gd Si,340.0
+Li Nd Si,105.0
+B Co Y,1047.0
+Al Ce H Pt,11.6
+Cr Cu S Zr,60.0
+Mn Tm,411.0
+Ni Pr Tb,22.7
+Co Fe Ni O,598.0
+Fe Nd Sn,374.0
+Al Cr Ni,140.0
+Co Fe Li Mn Ni O,857.0
+Fe Si Tb,593.0
+Ge Mn Yb,338.0
+Fe Ga O Yb,150.0
+B Cr O V,29.0
+Ho Ni Pr,20.0
+Bi Fe O Te,20.0
+Co Dy Mn O,100.0
+C Fe Y,673.0
+Co Tb Ti,1070.0
+Ge Rh Sm,56.0
+Mn P,293.0
+Ge Mn Ru Ti,65.0
+Br Cu H N O,1.827
+Fe V,1400.0
+Ba Cu Fe O Zn,470.0
+B Mn,143.0
+As Se U,166.0
+Fe Ho Mo N,649.0
+Fe Mn N Sb,360.0
+Cr Mn Nd O Sr,250.0
+Bi Co Mn O,95.0
+Fe Ga Sm Tb,584.0
+Co Cr Y,725.0
+Al Er Fe Yb,368.0
+C Cr H N O Sm Tb,7.4
+B C Co Fe Pr,655.0
+Fe Ni Y,519.0
+Ca Mn O Ru,230.0
+Bi Er Fe,15.0
+Cr Si Te,32.9
+Ga La Mn O,60.0
+Gd Ru,84.0
+C Fe Tb Ti,714.0
+Eu S Sr,8.5
+B Dy Er Fe,571.0
+Co Dy V,1063.0
+La Li Mn O,247.0
+Ce Co Gd,342.0
+Dy In Pt,37.1
+Ce Ni Pr Pt,10.2
+B Gd Si,72.0
+Bi Fe Mn O,109.0
+Co Er Mo V,440.0
+Cd Cr Se Sn,115.0
+Co Sb Sn Ti,52.0
+Al C Mn,364.0
+Co Cu Ho,82.0
+Ca Mn Nb O,86.0
+Mn Nb Se,25.0
+Bi Mn O Sr Ta,25.0
+B Fe Pr Zr,559.0
+Ca Mn O Pr Sr,270.0
+Co O Pr Sr,250.0
+Cd Ce Cu,2.0
+Ba O Os,7.5
+Ce Sb V,6.28
+C Cr H N Nd O,6.2
+Ba O Pr,11.6
+C Co Dy,10.0
+Fe Gd Mn,177.0
+Cd Cu Tb,87.0
+Co Sb U,65.0
+C Fe Nd Ti,670.0
+B Co Dy Fe Nd,820.0
+Fe Mg Mo O Sr,190.0
+Fe Lu N,683.0
+Fe O Sn,515.0
+Be Pr Si,19.0
+Lu Mn O Y,18.0
+Eu O,333.0
+As Fe Mn,312.0
+Co La P Sr,125.0
+Ce Mn Sb,130.0
+Gd La Mn O Pb,250.0
+C Cr H N O Tm,2.2
+B Fe Lu,586.0
+H Ni Y,98.0
+Co Cu Fe O,760.0
+Al C Fe Nd,538.0
+Al Co Pt U,31.0
+B C Eu,4.7
+C Fe H N O Tm,1.1
+Gd Ni Y,62.0
+Ca Mn Nd Ni O,101.0
+Eu O Ti,8.0
+Fe Nd Pr,503.0
+Ba Cr Mo O,335.0
+Fe Nd Ti V,585.0
+Er Fe Pr Ti,395.0
+Dy Mg Zn,3.8
+Co Fe S,140.8
+Fe Gd Y,695.0
+As Eu Se,22.0
+Co Cr Dy Fe,690.0
+Mg Mn Sn,290.0
+Co Dy Fe Ni,609.0
+K Mn Nd O,128.0
+Ni Sb,620.0
+B Co Gd Ni,222.0
+Ba Fe O Te,228.0
+Ba Fe O Re,318.0
+Ge Lu Mn,453.0
+Co Fe Ho,626.0
+Fe H Ta Tm,549.0
+Fe Mn O Sn Zn,235.0
+Ce Fe Pr,415.0
+Ce In Ni,3.4
+Fe H Lu Ta,545.0
+Dy Fe Tb Zr,620.0
+Bi Gd Ni,162.0
+B La U,31.0
+Co Lu Mn O,43.0
+Fe Mo Tm,375.0
+Bi Fe Lu O,590.0
+Dy Fe H V,527.0
+As Mn Rh,200.0
+Ca F La Mn O,260.6
+Ca Cr La Mn O Sr,92.0
+Nd O Os,75.0
+C Ce Si,10.0
+Ba Co Nd O Pr Sr,160.0
+Gd Rh Si,102.0
+Cr O Rb,295.0
+Pr Tl,11.6
+Fe Ta Tb,576.0
+Cu Fe Pd,250.0
+Al Er Ho,12.5
+Cr O Re Sr,635.0
+Co Fe Sn Ti,30.0
+Al Ho,42.0
+As Co Fe Nd O,42.0
+Ce Ge Mn Sm,336.0
+Fe Ga O,290.0
+Co Fe Mo N Y,879.0
+Er Mn Si,75.0
+Ca La Mn O Pr Ru,200.0
+Fe Ti,1033.0
+Er Rh,8.0
+Co Eu Mn O Sr,123.0
+Al Ge Mn,529.0
+Ce Ge Pt,3.77
+C Fe Sm,680.0
+Fe Nd Si,713.0
+Al Dy Ni,42.0
+Fe H Tb,559.0
+Nd Zn,24.0
+Fe Ni O Zn,800.0
+Cm Fe Y,520.0
+Ba Ir M0+ O,183.8
+Al Fe Mn,325.0
+Cd Co Fe O,625.0
+Co Mn Tm,91.0
+La Ni O W,255.0
+Ce Co Zr,1032.0
+Ce Ge Si,11.5
+C Dy Fe Nd,540.0
+As Ca Co Sr,93.0
+Cr Sn Te,300.0
+Co Fe Mn Nd,699.0
+Al Pd Si U,20.0
+Cu F H Na O P,11.3
+Gd Ge Sb,200.0
+Dy Fe Zn,46.0
+Cr Dy O,23.0
+Er Fe Ta,541.0
+Ge Si Sm,210.0
+Fe Gd P,23.0
+F Ni Pd,6.0
+Co I La,14.0
+Fe Mg Ni O,762.0
+Ag Ce,9.0
+Fe Ge Ni O,695.0
+Al B Co Er,552.0
+Al Au Mn,220.0
+Ag Ho,19.9
+La Mn O Rh Sr,105.0
+Cu Pd Tb,76.0
+Al Au Eu Mo,10.0
+Co Fe Mn Tb,703.0
+As Sm,160.0
+Al B Co Gd,182.0
+Eu Gd Ge,170.0
+Au Fe Nd,340.0
+C Fe Ta Tb,729.0
+B Fe Ru Ti,200.0
+Fe Ni O Sr,698.0
+Cd Cu Nd,29.8
+Al Co Ir U,25.0
+Fe Nd Ni Si,219.0
+Ga Mn Ni Sn,369.0
+Al Dy Gd,215.0
+Ce Fe Ga La Nd,340.0
+Mn Sm,456.0
+Ba Co Fe Mg O Sm Zn,728.0
+Al Fe Nd Tb,475.0
+B Co Ni Sm,424.0
+Cu Tb,40.0
+Cu La O Sr Ti,165.0
+C Co Fe N,14.4
+Co Ga,136.0
+Ba Ca Co O Pr,60.0
+Co Fe La Y,675.0
+Fe Sb Sr,53.0
+Al Co Ga U,34.5
+C Fe H N O,17.4
+Ba Co Nd O,290.0
+As Cd Ge Mn Zn,349.0
+Bi Fe Ni O Zn,585.0
+Ca Cu Mn O Sn,337.0
+Co Dy,998.0
+Al Fe La Nd,160.2
+Eu Ge Se,5.8
+Gd Mg Zn,250.0
+Tb Yb,177.0
+Br Cl Fe Rb,1.8
+Co Fe Mo Y,761.0
+Tm,39.5
+Al Ca In La Mn O,130.0
+Nd Os,23.0
+Co Fe Ga La Si,320.0
+C Ce Ni,2.3
+B Fe Mn Pr,443.0
+Ba Ce Co Fe Mg O Zn,718.0
+Nd,29.0
+Co Fe Ga,1090.0
+Si Tm,2.0
+C Co Nd,6.0
+Mn Ni Sm,85.0
+F Tb,3.967
+C Ga Mn Zn,270.0
+La Pt U,18.5
+Eu Mn Sb Sr,88.0
+Ca Eu Fe O Sn,315.0
+Cm P,73.0
+Ce Cr Fe,433.0
+Fe Ho Nd Ti,419.0
+Cd Fe Mg O,560.0
+Fe Mo N Tm,540.0
+Ce Fe Ru,185.0
+Ce Dy Fe,273.0
+Co Mn O,178.9
+Co Dy Fe O Zn,160.0
+Dy Fe P,10.0
+Cr O,410.0
+Ag Ce Ge,10.0
+Dy Ga Sn,114.0
+B Co Nd Pr,998.0
+Mg Mn Ni O,107.0
+Fe Nd Ta,578.0
+Cu Ni Sn,256.0
+B Fe Gd Zr,665.0
+Dy Zn,144.0
+Eu Rh Zn,95.0
+O Ti Yb,265.0
+Rh U,57.0
+Cd Cu Gd,117.0
+Na O V,380.0
+Eu Ga Ge K,3.8
+La Mn O Rh,115.0
+Fe Mn Zr,108.0
+Cr S Te,250.0
+Co Ga Mn,750.0
+Ba Bi Co Fe Ir O,638.0
+Ag Cu Dy,19.0
+Fe Lu W,490.0
+Ce Rh Si,4.4
+Pr Rh Sb,6.0
+Eu Li O Y,14.9
+C Gd Ge Si,293.0
+Cu Gd Mg,113.5
+Ga Ge Mn Tb,452.0
+Fe Ho Li O,830.0
+Ce Co Fe La,1163.0
+Cu Ge Ni U,133.0
+La O Ru Sr,87.0
+C Fe Lu Mo,530.0
+Am Fe,600.0
+Mn Yb,406.0
+Eu Ga Ge,37.0
+Gd Ru Si,85.0
+Pd Si Yb,8.0
+Fe Mo O Sc Sr,310.0
+Gd Mn Sn,445.0
+C Fe Si Sm,804.7
+F Li Mn V,17.0
+Er Fe H Si,540.0
+Ba Ce Fe O,811.0
+Co Mn Ni Sb,264.0
+Fe Mo O Pr Sr,426.0
+B Co Dy Fe Tb,699.0
+Co La O Rh Sr,140.0
+C Dy Fe V,604.0
+Ag Ga Ho,16.0
+Ba Fe O Ru Ti,755.0
+C Fe Ga Gd,405.0
+Fe Mn Ni O Zn,596.0
+Ge Te U,135.0
+C Cr H Ho N O,1.7
+Fe Mn Ni O,560.0
+Al Au Eu Nb,10.0
+Bi Fe Te,12.0
+Ba Fe Mg O Sn,334.0
+Fe Tm,610.0
+Au Fe,620.0
+C Fe Sm Ti,698.0
+Al Fe O Pr Sr,622.0
+Ba Mn O Sm,60.0
+B Ce Fe Zr,434.0
+Cu Lu Mn O,398.0
+Ga Sm,108.0
+C Fe La Si,212.0
+Ba La Mn Na O,329.2
+B Er Rh,27.0
+Bi Mn Sr,33.0
+Ba Na O Os,7.2
+Co Mn Nd O,175.0
+Co Dy Tb,195.0
+Al Co Hf,180.0
+Co Cu La O Sr,225.0
+Ca Co Nd O,20.0
+Cu Ho,13.5
+Fe Ho V,575.0
+La Mn O Pb,360.0
+Er Fe Nb,507.0
+Dy Th,131.0
+Ho Zn,130.0
+La Mn O Pb Sm,244.0
+La Mn O Pb Ru,330.0
+Co Fe Sm Ti,805.0
+Co H Na O,5.7
+Fe Ge Mn Pr,189.0
+Ce Co Ga La,850.0
+Cu Nd Pd,12.0
+Al Cu Gd,145.0
+Co P Tm,147.0
+C Fe Lu Nb,691.0
+Dy O Ti,65.1
+Gd Sc Se,5.0
+Mn O Sb,13.0
+Ca Ir O Sr,91.0
+Mn Pd,538.0
+Ca Co O Sr Y,308.0
+Fe O Ru Sr Ti,741.0
+Fe Pr Si,693.0
+C Fe Mo Tm,540.0
+Co Mn Pd Sn,511.0
+Au Er Ga,10.0
+Ba O Ru Sr,158.0
+Cr Cu Li Se,430.0
+Ca Co O,24.0
+Bi La Mn Ni O,270.0
+Fe O P Sr,55.0
+Cd Cr Ga Se,130.0
+Fe Ho Nb Ni,634.0
+Cu O Se,60.0
+B C Co Ni Tb,7.5
+Ce N Si,3.0
+B Fe Nd Re,568.0
+C Dy Fe H N O,2.8
+Co Pd Sn U,75.0
+Gd In Mn,220.0
+Fe O Sr W,373.0
+F Ni Pt,8.0
+Ce Ga Pt,4.0
+Ge Mn Rh,622.0
+B Pr Rh,4.7
+Co O Sm Sr,325.0
+Sb Tb,121.0
+Cr Te,613.0
+B Fe Pr Sm,673.0
+Be Dy Ge,21.0
+Co Fe Ho Tb,687.0
+Cu Fe La Mn O,312.0
+Al Tb Y,2.8
+Gd Mn O Sm Sr,59.0
+Cd Cr S Zn,60.0
+H Li Ni O P,5.6
+Fe Nd Tb,376.0
+Mn O,43.0
+Al Ni U,28.0
+Bi Dy,50.0
+Fe N Yb,675.0
+Nd Ni Si,23.0
+Al Co Fe O,773.0
+Al As Mn,300.0
+B Co Fe La,775.0
+Pd Sb U,77.0
+Ag Eu Si,34.0
+Ce In Ir,7.1
+Fe Sm Ti V Zr,315.0
+Eu S,25.8
+In Mn Sn Zr,546.0
+Co Tb,1180.0
+Al Gd H Ni,69.0
+Li Mo Se,263.0
+Co Er Fe Ti,796.0
+Cu Fe O Sr Y,80.0
+Fe Mo Nd O Sr,440.0
+Be Fe Gd,388.0
+Co Gd O Sr,150.0
+Cu La Mn O Pb,287.0
+B Cr Fe Pr,573.0
+Ba Fe O Re W,338.0
+Eu N Nb O,6.2
+Al Gd Mg Ni Y,15.0
+B Fe Gd Si,682.0
+Co O Pb W,9.0
+Co Sm Sn,1063.0
+B Co Fe Pr Tb,704.0
+Cu La Mn O Sr,325.0
+Sb Se U,128.0
+Er Pd Si,2.8
+Dy Gd Tb,257.0
+Er Fe Ga Pr,411.0
+C Ge Sm,88.0
+Cu Ge Mn Pr,238.0
+Fe Ru Sn,593.0
+B C Ni Tm,2.5
+Eu P Se,22.5
+Co Fe Ga Ge,1080.0
+Cu Pr,0.00245
+Co Ge Mn Si,390.0
+Cu Fe Ga O Zn,373.0
+Cu Eu P,51.0
+Ce Fe Sc,270.0
+Co La O Re,33.0
+Sn U,65.0
+Dy Ru,30.0
+Ni O Re Sr,18.0
+Eu La S,25.2
+Fe,1160.0
+Cr La Mn O Sr,327.0
+Cr Cu Te,365.0
+C Fe N Sm,778.0
+Ce Co Ti,920.0
+Co Sb V,48.0
+Ag Ce Ga,5.0
+Dy Fe Nb Y,529.0
+Al Cu Fe Ge Mn,100.0
+Fe Ge Mg O,370.0
+Ca Mn O V,102.0
+Gd Sn,137.0
+Ce Fe H,473.0
+Fe Ga Hf,47.9
+Ba Co Er Fe Mg O Zn,720.0
+Cr Fe O Y,250.0
+Co Fe Ni S,78.0
+Cu F K,6.3
+Co Fe O Sr,710.0
+Al Ir Pr,9.0
+Al Co Sc,19.5
+Nd O Re,9.0
+Mo O Sm,84.0
+Ho Ru Sb,32.0
+Al Gd V,105.0
+B Co Nd Ni,991.0
+Fe H Ta Tb,608.0
+Al Mn Rh,95.0
+Fe Mo Pr,498.0
+Mn Pd Sb,247.0
+Ga Pd Ru U,68.0
+Ce Fe Re,353.0
+Cu Er Fe,465.0
+C Ce Ga Ru,17.7
+Co La Nd Ti,940.0
+Cr Fe N Sm,688.0
+Er La Y,25.0
+Cu Eu Si,34.0
+Fe Ge Mn Ni,304.0
+C Er Fe Ta,716.0
+Al Nd Ni,17.0
+C Dy Gd,281.7
+Ba Bi Fe O Ti,270.0
+As U Y,66.0
+B Dy Ni,15.0
+F Ho Li Tb,2.1171
+Cu Ni Zn,275.0
+Co Fe Nd Sm,663.0
+Ag Co O Sr V,4.5
+Al Pr Pt,5.8
+Ce Cu Sb,11.3
+Hg La Mn O,264.59
+La Mn O,342.0
+Ni Si U,100.0
+Gd Zr,288.0
+Cr Sb,160.0
+D0+ Pu,60.0
+Ca Gd Mn O Sr,120.0
+Eu Ru Sn,10.5
+Au Cr Fe,109.5
+Cd Ce Ru,3.6
+Mn Pu Si,215.0
+Mn Rh Sb,348.0
+Mn Ni O,430.0
+Gd H Mg,117.0
+Fe Sb Tb,256.0
+Bi Co La Mn O,230.0
+B Fe Pr Ti,557.0
+Co Er Ga,505.0
+Co Ge Mn Ni,306.0
+Dy Ni,170.0
+Ag Al Pr,10.0
+Fe O Tb,563.0
+Fe Ge Ho,907.0
+Co Fe O Si,720.0
+Cu La O,50.0
+C Fe N Nb Sm,741.0
+B Co Er,505.0
+Er Ge Pd,3.0
+C Co Fe Si Sm,794.0
+Dy Fe Mn,434.0
+C Ru Tb,80.0
+Bi Ca Mn,55.0
+Ag Gd Mg,39.3
+Os Sm,35.0
+Ca Cu O Sn,10.0
+C Fe Ga La,410.0
+Mn Sn Te,9.8
+Au Cu Fe,10.6
+Al Fe U,480.0
+Co Nd O Sr,250.0
+Co Ni Sn Ti,264.0
+Mn O Sr Tb,42.0
+Co K O P,20.0
+Al Au Eu Si,10.0
+B Ba Cu O,2.7
+Fe Gd Mo N,727.0
+Cd Co Cr Fe O,605.0
+Se Te Tm,5.8
+Co Sn Th,43.0
+Fe W Y,510.0
+C Cr H N O Sm,10.5
+Co Mg Zn,190.0
+As Gd Mn Na O,20.0
+Co Ga Mn Ti,690.0
+Fe Ga Ni,845.0
+Ni O Ru Sr,140.0
+Ho Ru Si,6.4
+In La Mn,140.0
+Ba Ca Co O,70.0
+C Fe N Sm V,741.0
+Ba Co Fe O,763.0
+Co Fe O Ti,873.0
+D0+ Mn Y,217.0
+Ca Co O Pr,77.0
+Ir K O Sr,230.0
+B Cr Fe Gd,514.0
+Fe In N,662.0
+Cu Fe Mg Ni O,514.0
+Ca Co Gd La O,135.0
+Ba Mn O Sm Sr,90.0
+Gd Mn Si Y,260.0
+Ce Fe H La Nd Pr Si,314.0
+Fe V Zr,550.0
+Cd Nd Pd,23.7
+In Mn Ni,350.0
+Be Er Si,6.0
+Co O Sr,305.0
+Cu Ni,531.0
+Ca Cu Gd O Ru Sn Sr,75.0
+Co In O,400.0
+Ca Ir La Mn O,140.0
+Ag La Mn O Sm,206.0
+Cu Dy In,45.5
+As Fe Ga,600.0
+Cu Fe Mn O Tm,330.0
+Co Cr Fe Ga O,225.0
+Co Ho Rh,51.0
+Fe Th,680.0
+Ga Ni Tb,19.0
+Fe Li O Ti Zn,639.0
+Ag Al Er,10.0
+B Ru Tm,27.0
+Ru Si Tc U,26.2
+Er Sb Zr,11.0
+B Gd Rh Si,62.0
+Fe La Pr Si,203.0
+Co Y Zr,1118.0
+Co Y,1190.0
+Ca Co O Y,15.0
+Au Ho Ni,14.0
+Co Mo Y,729.0
+Lu O V,73.8
+Au V,61.0
+B Cr Fe Nd Y,525.0
+Fe Gd V,660.0
+Fe Np P,23.0
+Fe H La Pr Si,330.0
+C Fe Ho Si,596.0
+Ba Fe La Mn O Y,121.0
+Eu Fe Sb,88.0
+Cd Cr S,138.9
+Cr Fe Nd Si,14.0
+Fe Sm Ti V W,308.0
+Ba Fe O U,120.0
+In Mn Rh,105.0
+In Nd Pt,20.0
+Er Fe H W,523.0
+Cu Gd Mn O,396.0
+Ge H Rh U,17.0
+B C Dy,120.0
+Co Zr,160.0
+C Cr Gd Si,10.0
+Fe Nb Sm Ti V,312.0
+D0+ Er Fe,300.0
+C Cr Er H N O,2.3
+Al Fe,830.0
+Cu Pt Tb,47.6
+Ce Cr Fe N,685.0
+Cu Sb U,114.0
+As La U,32.0
+Gd Ni U,30.0
+Er In Pt,15.0
+Fe Ho W,521.0
+Co Fe Mn Nd O,180.0
+Ca Fe Mn O Sm,71.0
+Co Si Y,848.0
+Cr Pb S,138.0
+Co Er Mo,665.0
+Fe Mn Sn,260.0
+Co Dy P,152.0
+Mn Nd O Ru Sr,269.0
+Fe Gd Mn Si,335.0
+Al Fe Yb,207.0
+Ba Cu Eu Si,5.0
+C Eu Sr,12.8
+Fe Ga Nd Ti,524.0
+B Be Fe Nd,565.0
+Co Sn U,85.0
+Fe Pr Sb,4.1
+B C Co Fe Pr Tb,412.0
+B Fe Ni Si,10.6
+Cu Fe Mn Sb,450.0
+Co Er Tm,16.0
+Ce P,50.3
+Al Co Dy,727.0
+Si Sm,220.0
+C Co Fe H N Ni O,19.6
+Nd Tb,180.0
+Pt Tm,6.0
+Al Co Fe Pr,910.0
+Fe O Tm,543.0
+Co S,125.0
+C Mn Sn,280.0
+Ba Fe O Sr Ti,175.2
+Er Fe Ga,526.0
+Ca Co La O Pr,150.0
+Co K Se Tl,79.0
+Co Tm,640.0
+B Ca Eu,19.0
+Ca Mn O Pr Ru,255.0
+Ga Np Pd,62.5
+C Fe Mo Sm,684.0
+Gd H Mg Zn,50.0
+C Dy Ru,22.0
+C Cr Fe Nd,556.0
+Fe Mn Y,500.0
+Fe Mo O Sm Sr,425.0
+Bi Ca Co La O,172.0
+Co Cu Mn Sn,662.0
+Ca O Ti Y,14.0
+Er Fe Nd,321.0
+Ga Mn Sb,540.0
+As Te U,66.0
+Ce Co Fe La Si,252.0
+As Fe Na,45.0
+Fe O V,458.0
+Cu Fe Mg O Zn,503.0
+Ba La Mn O Pb,347.0
+Eu Mn Sn Te,15.3
+Al Fe Gd H,90.0
+Al Co Fe La Si,295.0
+Nd Os Sb,14.5
+Ca Mn Nd O Ru,270.0
+As Fe Mn P Si,294.0
+Fe Ta Zr,555.0
+Np Te,25.0
+Co La Sm Ti,932.0
+Gd Ru Zn,20.0
+Cr Gd Sb Sm,100.0
+Ge Rh U,30.0
+La Mn O Pb Pr,326.0
+As Co Fe La O,35.0
+Ce Te,5.0
+Fe Mo N Pr,681.0
+Co Ga Ni U,20.0
+Li Mn O Pr Sr,290.0
+Ca Cr Mn Nd O,160.0
+Dy In,143.0
+Fe Ho Mo,467.0
+C Dy Fe Ti,697.0
+Fe Mo N Pd,160.0
+Cr La Mn O Te,209.0
+Al Ho Tb,40.0
+Fe Tb W,560.0
+Cd Eu P,30.0
+In Mn Na O P,9.0
+Al Cu Ho,23.0
+C Co Fe H N O Rb,20.0
+Gd Ge Hf Ti,398.0
+Co Cu Tb,235.0
+Ca La Mn O Pr,227.0
+Gd Sb,260.0
+Er Ge Nd,11.0
+C Ce Fe,589.0
+Ca O Ru Ti,34.0
+Ge Mn Ni Ti,331.0
+Co Fe H Y,500.0
+Fe Gd Mo Zr,497.0
+Ce Nd Ni Pt,9.8
+Co U,360.0
+Ho Os,7.6
+Co Fe Ge Mn,850.0
+Be Co Fe,850.0
+Ce Co Ga La Nd,84.0
+Co Mn,500.0
+Fe P Tm,3.0
+O Ru Sc Sr,110.0
+Ba Co O Y,295.0
+Al Ge Th U,56.0
+Al B Nd Ru,27.0
+Mn P Pd,110.0
+Bi Co O Sr,1.0
+Er Ge Mo Ti,63.0
+Co Cr Fe Mg O,500.0
+Ho Ni Sb,33.0
+Ce Ir Pd,6.6
+Ge Mn P,320.0
+Ho In Pd,22.0
+Fe Ho N Nb,723.0
+C Co Fe La Pr Si,295.0
+Cu La Mn O Pb Pr,300.0
+Fe Li O Ti,855.0
+In Nd,114.0
+Cr Dy Fe,499.0
+Al H Ni Sm,75.0
+Ni,670.0
+Co Fe Nd Tb,568.0
+Co S Sn,178.0
+Eu Mn O Sr,130.0
+Dy Fe H Mo,470.0
+Ge Ti U,75.0
+Be Fe Tb,296.0
+Ir La O Zn,9.5
+Pd Sm,183.0
+B Co Fe Mn Pr,618.0
+Al Dy Y,52.0
+Ni P Sm,5.0
+Fe Li Ni O,243.0
+Fe Gd Si Ti,571.0
+F Pd,10.0
+Co Gd Rh,90.0
+C Fe Ti Tm,686.0
+Fe Mn Nd,436.0
+Cr Cs Te,125.0
+C Cr H N O Tb,12.0
+Eu Mg Si,19.0
+Ce Fe Ga,380.0
+B Dy Fe Si,610.0
+Fe Ga U,515.0
+Mn O Y,20.0
+Ce Co Fe Ho La Nd Pr,52.0
+Br H O Tb,0.125
+Co Pd,513.0
+La Mn Si Y,305.0
+Co Fe Gd Ti,1030.0
+Cd Ce,16.5
+Cr Se,70.0
+Dy Fe Gd N Nb,737.0
+Ge Pd Yb,11.4
+Bi Mn Sm,370.0
+C Fe Lu Nd,530.0
+Co O Sc Sr,160.0
+Cu Eu Mn O,395.0
+O Pb V,91.2
+Ce Pt Si Y,4.5
+Co Nd Si,454.0
+C Co Fe H K N O,11.0
+Gd Pt Sn,20.0
+Ce Co Ge,20.0
+Ge Nd Sc,200.0
+Er Mn O Ru,64.0
+Fe La Mn Si,306.0
+Co Nd Y,395.0
+B Cu Fe Gd,680.0
+Ga Mn Sn Tb,420.0
+B Co Ga Nd,864.0
+Mn Zn,670.0
+Cl Fe Mn,5.9
+Ca Ga La Mn O Pr,187.0
+As Co Fe O Sm,38.0
+Cd Cr Se V,128.0
+B C Fe Nd Pr,550.0
+Ba Mn O Tb,474.0
+Cu Mn O Y,401.0
+B Fe Gd,675.0
+C Fe Pr Ti,656.0
+Fe Ga Mo Sm,483.0
+Bi Mn Ni,374.0
+La Mn Na O Pr,145.0
+Gd Ge Sm Ti,333.0
+Gd Pt Si,24.0
+B Co Fe Sm,768.0
+B C Ho Ni,10.0
+Eu Mn O Pr Sr,293.0
+Ce Fe H Mo,460.0
+Co Si Ti,385.0
+Ba Cu La Nd O,5.0
+Gd H Pd,40.0
+C Fe Si Y,565.0
+Al Pr Si,17.8
+Cr Er Si,4.5
+Ba Cu Eu La O,5.0
+Nd Os Si,2.9
+Ca La Mn O Sm Sr,140.0
+Dy Fe Pr V,595.0
+C Fe Lu,657.0
+Fe Mg O,733.0
+C Cu Fe H N O,17.9
+Eu Pd Si,40.0
+Ag Sb U,92.0
+Co Fe U,130.0
+Al Gd Pd,145.0
+Eu Fe Mo O Sr,409.0
+Al C Dy Fe N,678.0
+B Co Fe Nd Si,738.0
+Cu F Rb,6.05
+Co S Se Tl,125.0
+Mo O Tb,28.0
+Al Rh U,28.0
+Ag In Pr,29.0
+Co Fe N Sm,901.0
+Pt Si Sm,15.0
+Mn Sn Tm,355.0
+Cu Ga Ge Mn Ni,326.0
+Dy Fe Sm,685.0
+Dy H O,3.48
+Ce Cu O Ru Sm Sr,150.0
+Eu In P,24.0
+Fe P Si,750.0
+C Cr Nd Si,27.0
+Fe Ge La,906.0
+Mn O Ru Sm Sr,175.0
+Li Mg Mn O,29.0
+Cr O Sr W,500.0
+B C Dy Ho Ni,7.9
+Ge Rh Si U,9.6
+Cu Gd In Mg,103.6
+Gd Ge Si,322.0
+Er Fe N Ti,730.0
+La Mn Na O Sr,320.0
+Co Sm Zr,1145.0
+Cl Cu H N O,0.7
+Bi Cr Fe O Ti,106.0
+Al Co Cr Fe Ni,541.0
+Fe H Lu Ru,290.0
+Gd Ho La,280.0
+Au Dy Ni,23.0
+Dy Os,16.0
+Bi Mn O Tl,110.0
+Cl Cu O Te,13.6
+Dy Fe Tb,923.0
+Au Ge Ho,6.2
+Al B Fe Pr,530.0
+Fe Nd Ti,572.0
+Cu Fe Nd,335.0
+Fe Ga Li O,853.0
+Eu H N,1.6
+Mn Si,40.0
+Al Pt U,48.0
+Al Fe O Y,435.0
+Hf Sb U,145.0
+Co Ni Si Y,448.0
+Ag Al Ce Pd,2.4
+Ca La Mn O Sr Tb,182.0
+Cu Eu S Y,4.5
+Dy Pt,66.0
+Lu O Ru Sr,70.0
+C In Mn,284.9
+Ni Tb Te,228.0
+Ag Cr Cu Te,330.0
+Mn Nd O Sr,280.0
+C Fe N Sm Zr,750.0
+As Co La O,66.0
+As Ga Mn Sb,55.0
+Ga Gd Ni,30.5
+Ce Fe Mo N,661.0
+Cr Pb Se,194.0
+Al Au Ho,9.0
+Mn Pt,498.0
+In Ir Np,30.0
+Er Fe O,554.0
+B Co Er Fe,803.0
+Al Cr Fe Mn O,475.0
+Mn Ni O Sm,187.0
+Cd Co Fe O Si,541.0
+Eu H Ir,20.0
+Ge Ho Si,50.0
+Co Dy Er Tb,168.0
+Ge Mn Nd Sm,344.0
+Ba S V,70.0
+Co Eu Mn O,132.0
+Cr Fe In S,220.0
+C Co Fe Pr,610.0
+Mn O Sr Y,3.2
+Gd H I,280.0
+Al Ba Fe O,702.0
+Co Ga V,357.3
+Ba Cr Fe Mo O,333.0
+Fe Re Y,460.0
+C Fe H N Ni O,23.6
+As Yb,290.0
+Co Cr Te,300.0
+Co Mn Nd O Sr,233.0
+Cu Ge Mn Nd,237.0
+Co Tb Y,177.0
+Fe O Sm Sr,652.5
+Mn O Sc,58.0
+Fe La Mo O Sr,427.0
+B Dy Fe Zr,588.0
+Cr Ga Se V,10.0
+Ba Fe Mn O,703.0
+Cr Fe Te,220.0
+B C Tb,145.0
+Ce Pd S,6.3
+In Pd U,8.5
+Co I Pr,35.0
+Co Ni S Sn,65.0
+Ba Mn Nd O,300.0
+Fe La Ni,250.0
+Co Gd Mn,1031.0
+Mn Ni Pd Sn,259.0
+Al Co Cr Fe,936.0
+Cu Si Tb,47.0
+La Mn Ni O Ti,88.0
+Cr Ge Tb,30.0
+Co Ge La,14.0
+H Mn Ti Zr,185.0
+Ba La Mn Nd O Sr,335.0
+C Er Fe,675.0
+Ba Co O U,9.0
+Fe N V Y,793.0
+Pr Rh Sn,3.0
+Fe N Pr Sm Ti,727.0
+B C Dy Ni,15.7
+Ce La Mn Si,290.0
+Er Mn O Ti,25.5
+Fe Mn O Sm Sr,55.0
+Nd Pd Si,17.0
+C Co Fe Nd,593.0
+Fe Ga Sm Ti,600.0
+Al Mn Sb,200.0
+Cr N,273.0
+Ge Mn Sb Yb,55.0
+C Er Fe Nb,673.0
+Al Fe Ho,416.0
+B Cu Er Fe,565.0
+Co Li Nb O,710.0
+In Mn Sb,413.0
+Gd Mn Sn Tb,420.0
+Fe Mn U,124.0
+Fe Mo Nd Pr Zr,404.0
+F Fe Na Sr,35.0
+La Mn O Zr,210.0
+Co Dy Te,125.0
+Pt Si U,86.0
+Au In,4e-05
+Fe La Si,668.0
+Bi Co O Pb Sr,20.0
+Ba Bi Co O Sc,35.0
+Ba Nd O Ru,24.0
+Ni P Yb,0.22
+Co Pr Sm,1200.0
+B Ho Si,15.0
+La Mn O Sn Sr,359.0
+Ce La Ni Pt,5.1
+In Ni Pr Y,3.0
+Co Lu Si,1035.0
+B Co Dy Fe,820.0
+Cu Gd,31.3
+O Sn V,400.0
+Fe H Nd Ti,563.0
+In Mn Sn Y,326.0
+Cu Fe Mn O Tb,321.0
+Pt U,30.0
+Fe Gd Mo Nd,342.0
+F Ho,0.53
+Mn N Ti,380.0
+Fe H Mo Nd Ti,488.0
+C Dy Si,75.0
+Gd Sb Ti,268.0
+Fe Ni,1180.0
+B Sm,5.0
+B Co Fe Nd Re Tb,712.0
+Fe Nd Re,450.0
+Co Nd Sm,203.0
+Cr Ge Nd,122.0
+Os Sb Sm,2.66
+Fe Ga,1040.0
+Er Fe Zn,18.0
+Er Fe Pr,287.0
+Fe Lu Mo N,530.0
+Ca Eu S Se,4.3
+Co Cu Gd,384.0
+Cd Fe Sb,563.0
+Ca La Mn O Tb,165.0
+Al Cr La Mn O Sr,211.0
+Al C Ni,300.0
+Al Gd Ni,130.0
+Ce Rh Sn,4.0
+In Ni Pr,9.0
+Cr Ni P,152.7
+B Fe La Si,230.0
+Co Fe Ga O Zn,311.0
+Gd Mn Ni Sm,93.0
+As Np Se,155.4
+Fe H Sm V,522.0
+Na Nd O,2.4
+B Co La Si,157.0
+Co Fe Re Y,715.0
+Ce Fe Mn,205.0
+Eu Gd Li O,14.4
+Mn O Tb,38.0
+B C Sm,22.0
+Co Gd Si,923.0
+Ce Cu Gd O Ru Sb Sr,120.0
+Er Fe N Y,690.0
+Fe H V Zr,207.0
+B Co Fe Pr Re,671.0
+Co Mn Na O,27.5
+Al Co Ti,140.0
+Ce Fe,243.0
+C Fe Gd Ni,672.0
+C Cr Si Tb,18.0
+Fe Gd Mo O Sr,337.0
+Ca Co Dy La O,130.0
+Co Er H,25.0
+Cr Se Sr,150.0
+Hf La Mn O Sr,360.0
+Ba Co Fe Ga Mg O,594.0
+Cu Fe O Ti,692.0
+In Ni Tb,110.0
+Cu Mo O Sr,59.0
+Co Er Ni,1100.0
+Cu Gd O Ru Sr,150.0
+C F H Ho O S,0.23
+Al Cu Tm,13.0
+Ge Mn Te,140.0
+Ga Gd Ge Si,300.0
+Fe Mn O Tb,175.0
+Al Co Ru U,62.0
+B Co,426.0
+Cr Cu Ge S,145.0
+Fe Sm Y,340.0
+Co Fe Sb,6.8
+Cu In Tb,81.0
+Fe Gd N Nb,773.0
+Fe Ho Sb,52.0
+Co In U,350.0
+Be Cu Gd,56.0
+Ge Mn Pr,477.0
+Mn Sb Yb,338.0
+Ni P Pr,13.5
+Dy Eu O Ti,30.0
+Fe Gd O,667.0
+Ce H Ni Sn,7.5
+B Co Nd,1010.0
+Ce Os Sb,1.1
+Ni Ti,553.0
+Bi Gd Sb,289.0
+As Fe Gd O Th,2.9
+Fe Rh Sn,583.0
+Er Ni,74.0
+Co Si Th,240.0
+Cu Mn Ni O,154.0
+Au Mn Pt Sb,544.0
+Co F Ni,219.0
+Al Gd Ge,130.0
+Ho,129.7
+Fe Ga Mn O,201.0
+Nd Rh Si,15.0
+C Co Cr Fe Sm,781.0
+D0+ Fe Gd,557.0
+As La Mn O Sr Zn,30.0
+Rh Si Tb,55.0
+Al Er Re,8.0
+Au Ga Tm,10.0
+Fe Se Ti,270.0
+Cr Mn Pt,343.0
+Er Mn,430.0
+Dy Fe Ga Mn Pr Tb,166.0
+F Ni Rb,139.0
+Co Fe Ni,1120.0
+Fe Mn O Sr,710.0
+Cr Ga Ni O,25.0
+Ba Fe O Sr Zn,355.0
+Fe Li N,10.0
+Co Gd,1222.0
+Al Fe Si U,396.0
+C Eu Li,225.0
+Gd Mg Ni Y,48.0
+Fe N Nb Tb,747.0
+B Co Gd Y,437.8
+As Cu U,140.0
+Al Tb,121.0
+Bi Mn O Sr,338.0
+Ba Cu Fe O Sr Y,150.0
+Ga Gd Sb,222.0
+Nd Ni O,80.0
+Co Dy Ho Tb,134.0
+Ba Ce La Mn O,340.0
+Fe Li O Si,625.0
+Ca Cr O Sm,150.0
+B Fe Ga Gd,672.0
+Be Cr,45.0
+Cr Hg Se,124.0
+Rh Sb U,40.0
+Dy Fe Mn O,530.0
+B O V,32.5
+Pd Pr Sb,9.0
+As Cr Mn P,235.0
+Co Gd Ho,268.0
+Co Fe Ge Ti,650.0
+Ba La S V,19.0
+Fe Sc,545.0
+Ga Gd Pd,30.0
+Fe Ti Tm,496.0
+Co Fe Pr Sm Zr,950.0
+Al Co Fe Ni U,16.0
+Fe Nd Si Ti,535.0
+Ca La Mn O Te,200.0
+Fe Mn O Zn,800.0
+B Cu Fe Nb Si,898.0
+Co La O,85.0
+Ba Co Fe Ir O,764.0
+Ga Mn N,750.0
+Fe Tm V,496.0
+Cu Fe Pr,295.0
+Ba Fe Mo Nd O Sr,391.0
+Fe Ga O Y,428.0
+Ga Gd Ir,7.3
+Ce Zn,12.0
+Cu Mn O Tb,400.0
+C Er Fe Mn,415.0
+Np Pd Sn,18.0
+Co F Ni Rb,109.0
+Fe Gd H Mo,510.0
+Nd Os Pr Sb,0.48
+Dy Fe Si,753.0
+Cu Ni Tb,50.0
+Ir La Mn O Sr,175.0
+Cu F K Sr,6.25
+Np Os,8.0
+Cr S Ti,14.0
+Fe Mo Nb O Sr,210.0
+C Ce Fe Si,428.0
+Co Cr Fe S,211.7
+Ca Fe O Re,540.0
+Gd Ge Pd,28.0
+In Lu Mn Sn,278.0
+Ba Mn O Pr Sb,175.0
+Co I Nd,59.0
+Ru Tb,52.0
+C Fe Gd N,813.0
+La Mg Mn O,210.0
+Ca O Ru Zr,35.0
+Co Mn P,579.0
+Co Fe La Si,320.0
+Fe Lu,596.0
+Fe Nb Zr,31.0
+Mn Ni Rh Sn,327.0
+Ga Gd U,75.0
+Ca Fe Li O Zn,662.0
+Cl Cu O Se,45.0
+Er Mn Ni O,40.0
+Ag Ni O Sr V,6.4
+Fe O Tb Y,560.0
+Co Fe H Nd,607.0
+Fe La Mn Na O,203.0
+Ge Ho Ru,18.0
+Co Fe Mn Si,920.0
+Gd Lu Y,231.5
+Cu Nd Ni,38.0
+C Cr Fe N Sm,746.0
+Fe Sm,692.0
+Er In Pd,11.0
+Fe Nd O Sr,657.0
+Fe Mg Mn O,655.0
+Fe Te,85.0
+La Mn O Sr Zr,343.0
+Fe Mo Ni O Sr,424.0
+Fe Gd Nb Ni,618.0
+Co Mn O W,10.0
+C Fe Ga Sm,666.0
+Ba Co O,53.95
+Al Fe H Nd,525.0
+Co Sn Zr,468.0
+Co Ho Sn,57.0
+Zn Zr,29.5
+B Dy Fe Pr Tb,657.0
+Cu Si Tm,9.0
+Cu Mn O P,12.0
+Ba Cr Fe O,680.0
+Ba Co Er Gd O,285.0
+Ce Er Fe,319.0
+Fe Sb Zr,540.0
+Dy Fe Nb,536.0
+Ba Co Fe Mg O Y Zn,713.0
+Ba Fe Mg O Sr,670.0
+Er Fe Ti,530.0
+Co Ga Gd,1079.0
+B Ce Co Fe Nd Pr W,707.0
+B Fe Si Y,615.0
+Gd Pd Y,299.0
+Bi Er Ho Mn,150.0
+Fe Mo Nd Zr,495.3
+Fe Mn O Yb,298.0
+Gd Ge Mn Si,310.6
+Co Ge Mn Pr,170.0
+Co P Pr,136.0
+B Co Gd,1084.0
+Al Fe O Ru Sr,305.0
+Cd Co Mn Nd O,90.0
+C Cr Gd H N O,10.2
+Ba Ce Co Fe O,663.1
+Co Fe Sm,1160.0
+C Fe Pr,654.0
+Bi Mn Te,10.0
+Co Fe Pr Sm Ti,930.0
+Ca Mn O Sm Sr,110.0
+P Te U,85.0
+B Co Fe Gd Pr,848.0
+Ge U V,60.0
+Fe H Pr,531.0
+P U,140.0
+As Ba Mn,350.0
+Fe N Sm Zr,783.0
+Ce Fe Mo,386.0
+P Pu,130.0
+Mn Sn Tb,450.0
+Fe Gd Mo Nb,507.0
+Fe Ge Ni O Zn,402.5
+Dy Lu Mn O,39.0
+Ca Co Fe Mo O,310.0
+Ba Co Fe In Mg O,590.0
+As Mn P,420.0
+B Co Ir Sc,135.0
+C Fe Ga Mn Sm,385.0
+B Co Fe Pr Sm,749.0
+Au Ga U,110.0
+B Co Fe Nd V,712.0
+Fe Pr Sm,668.0
+B Cu Fe Y,582.0
+Fe Nd O,567.0
+Ca Mn Na Sb,270.0
+Co H Ni,560.0
+Fe Sc Si,570.0
+Cd Ho Rh,24.0
+Ce La Mn O Y,242.8
+Ni O P Pb,15.6
+Co Ho Ti,1073.0
+C Fe Mo Pr,560.0
+Co Cu Mn Sb,425.0
+Ho Sb,86.0
+Fe Mo O,395.0
+Fe K Sb,85.0
+Al Co Lu U,10.5
+Fe N Sm,755.0
+Gd Os P,5.0
+Fe N Pr Ti,721.0
+Cu Er In,37.0
+Ge Mn Y,450.0
+C Fe H Nd Si,498.0
+K La Mn O Sr,305.0
+Na O Sb Ti,114.0
+Ce Cu Ni,2.1
+Ge Pr Ru,39.5
+Cl Fe H O,11.6
+Al Mn Pr,14.0
+Nd Se,52.0
+Fe N Nb Sm,753.0
+B Ce Fe,470.0
+Cd Cr Se Zn,52.0
+Al Cu Mn,630.0
+F K Mn,83.0
+Fe Lu Mn,291.2
+Fe Li O Yb,840.0
+Ba Co Fe Mg O Zn,765.0
+Al Er La,13.9
+Fe Ge Li O,480.0
+Cd Ce Sb,2.8
+Cr La Pr Sb,110.0
+Dy Fe Ni Tb,420.0
+Fe Ni Si Tb,588.0
+As Mn Ru,497.0
+Cu Eu Sn,10.5
+Co Cu Gd O Ru Sr,125.0
+La Mn Si,362.0
+Cr Cu Se Sn,294.0
+C Fe Nd V,600.0
+B Gd Rh,105.0
+Gd Mo O,80.0
+Ce Co Hf,846.0
+Mn O Ru Tm,67.0
+Eu Mn Ni O,159.0
+B C U,75.0
+Al Ca La Mn O,210.0
+Ba Mn O Y,498.0
+Fe Ni Zr,544.0
+Ag Al Nd,16.0
+Co H Nd Si,20.5
+Co Dy Y,96.5
+Co Pr Ti,1040.0
+C Ge Nd,80.0
+B Eu,19.5
+Cu Gd Ni,68.0
+F H Ni O Si,0.135
+Fe Lu N Nb,705.0
+Ba Co Fe O Sr,683.0
+Dy Mn O,42.0
+B Co Fe N Sm,749.0
+B Ce Co Fe Nd Pr,715.0
+B Fe O,508.0
+Co La Mo O Sr,175.0
+Co Mn Ni Si,434.0
+Co Fe La O,360.0
+Co Er Tb,113.0
+B Pr Ru,5.0
+Ge H Ni U,100.0
+C Ga Mn Sn,220.0
+Fe Mo Nd Tb,460.0
+Co Lu Sn,63.0
+Ca Mn Nd O Pr Sr,106.0
+Co La Mn Na O,198.0
+Ge Mn Pd,576.0
+Fe Pr Sm Ti,561.0
+C Fe Ga Sm Y,543.0
+Mn N Sb,360.0
+Au Ce Sn,5.0
+Fe Pr Re,397.0
+Pr Pt,19.1
+C Co Si Sm,304.0
+Ce Pd,6.55
+Fe N Ni Sm,718.0
+Fe Na Ni O P,46.0
+Co La Si,963.0
+Ba Co Ir O,108.0
+Fe Li O Zn Zr,748.0
+Al Co Y,561.0
+Ba Eu Mn Sb,84.0
+Co Rh Si Yb,1.3
+Fe Li O Sb,577.0
+Mg Tb,108.0
+Fe Ni Si Y,560.0
+B C Ce,7.0
+Ho Tb,74.0
+K La O Ru Sr,139.0
+Pr Tb,163.5
+Ba Fe Ir O Zn,635.0
+B Cr Mn,460.0
+Ga Mn N P,14.0
+Mn Sb Sn,587.0
+Ba Ca Co O Sm,310.0
+Co Er Fe H V,25.0
+Al Ce Co,910.0
+Fe H Ti Y,596.0
+Dy Fe N,725.0
+Fe Se V,165.0
+B Ga Ru Sm,26.5
+Cr Fe Ni P,295.0
+Fe Sn V,200.0
+B Fe H Th,567.0
+B Er Fe Th,527.3
+Ge Ni Tb,45.0
+Pr Sn,11.8
+Au Ce Ga,6.0
+Be Cu Ho,8.0
+Ce Ga Pd,6.6
+Cr Fe Nd,534.0
+Ca Dy La Mn O,118.0
+Ge Mn Ni Si,441.0
+C Fe Pr Si,431.0
+Fe Si U Y,618.0
+Ir Si Sm,6.0
+Ce Cu Fe,210.0
+Ho Sb Zr,22.0
+Ca Fe La Mn O Pr,66.0
+Ag Al La Mn O,274.0
+Ce Mn Nd O,338.0
+Co Fe Sm Tb,473.0
+Ba Co O Ru,100.0
+Fe Gd H,630.0
+Al Co V,340.0
+Au Cd Eu,28.0
+Co Mn O Pr Sr,210.0
+Ho Os Si,8.5
+Cr Cu Fe Ni S,290.0
+Bi La Mn O Sr,490.0
+Co Fe Gd,1080.0
+Fe Gd Li O,800.0
+Al Fe O Sr,629.0
+Eu Yb,30.0
+Fe Mo O Sr V,324.0
+Fe Pu Si,38.0
+Be Fe,912.0
+In Mn Sc Sn,375.0
+Cr Cu Ga Se,389.0
+Cu In Mn Pd,170.0
+C Fe Ga,546.0
+Al Ce Fe U,175.0
+C Ga Mn,295.0
+Co Mn Pt,220.0
+Er Fe Ga Ti,474.0
+Al Co Nb,383.0
+Ho Lu Ni,8.7
+C Fe Ti Y,724.0
+Au Eu Mg,37.0
+Al Ga Gd,158.0
+B Fe Mn Nd,350.0
+Dy Fe Ge,910.0
+Fe Gd H Ti,652.0
+Cu Dy Fe Mn O,326.0
+C Co Si Y,300.0
+Ni O Re,24.0
+Fe Mn Tb,650.2
+Dy O Sb Sn,2.0
+Mn Na Nd O,113.0
+Cr Fe Ga Ni O,410.0
+Er Ge Si,29.0
+Ca Fe O Sn Yb,446.0
+Ga Mn Sn Zr,450.0
+Mg Pr,9.8
+Cl Gd,2.214
+Ba Ca Mn Nd O,105.0
+Al Fe Tm,235.0
+Fe Mn S,200.0
+Al Co Lu,150.0
+Gd O P,25.0
+B C Fe Y,550.0
+Fe Mn Nd Si,26.7
+Cr Fe Sm Ti V,307.0
+Cr Mn O,51.0
+B Er Fe Y,560.0
+Co Cr Ga,493.0
+H Ni Pd,373.0
+Eu Se Tm,18.5
+Bi Ho Mn,200.0
+Ga Mn P,373.0
+Bi Co Gd,80.0
+In Mn Sn Tm,320.0
+Ni P Tb,12.4
+F Ho Li,1.89
+Cu Pr Sb,5.0
+Cd Co Ho,24.0
+Co La Mn O Te,189.0
+Fe Sb Sn,430.0
+Ba Cu O Sm,0.3
+As U,200.0
+Co Ni Th,137.5
+Fe Gd N,930.0
+Cr Fe Ga,390.0
+Au Sb U,36.0
+C Si Tb,130.0
+Al C Fe Ho,504.0
+Co Mn Nd O Sm,160.0
+Ag Cr La Mn O,228.0
+B Co La,960.0
+Ce Cu Gd O Pr Ru Sr,153.2
+Co Gd In,66.0
+Ce Co Mn,772.0
+Mn Ni Tb,151.0
+Cu Ni Si,475.0
+Fe Ge Mn U,180.0
+Gd Ge Pb Si,300.0
+Pr Sb Sc,48.0
+Fe N Si Sm,641.0
+Al Cu Er,17.0
+Al Cu Fe,875.0
+Be Nd Si,19.0
+C Co Cr H N O,21.0
+As Co Fe Mn P,268.0
+Co Mo V Y,422.0
+Er Fe Sm,364.0
+Bi Gd Ni Si,46.0
+Al Ga U,120.0
+B Er Fe H,588.0
+Fe Ge Te,220.0
+Al Fe Sm,607.0
+Ca Cu Ge O,13.0
+Ir Si Tb,4.3
+Fe Ru Si,775.0
+Ga Nd Ni,5.0
+Dy Ge Ni,25.0
+Gd Ni Yb,18.8
+Ba Co La Nd O,218.0
+C N Ni,21.0
+Dy Mn Sn,410.0
+Mn O Sr W,40.0
+Co Mn O Tb,107.5
+Al Ce Pt,8.0
+Ni Sm,43.0
+Gd Ni Tb,100.0
+Ce Cu Nd O Ru Sr Y,117.0
+Ca Mo O Ru,18.7
+Au Mn Sb Sn,574.0
+Fe Mn O Sr Zn,673.0
+Ba Co Fe O Zn,790.0
+Fe Tb Y,680.0
+Fe Nd Si Y,519.0
+Al Ni Sm,18.0
+As Pu,125.0
+C Er Fe H,556.0
+Al Fe Pr,480.0
+Fe Mo Y,547.0
+B Er Ru,32.0
+Mn Na O Pr,239.0
+Fe Tb V,678.5
+Al Au Er,7.0
+Al Au Eu Hf,10.0
+Co Ho P,152.0
+Cr Dy Ge,3.0
+Ba Co Gd O,360.0
+Ce Fe H V,461.0
+Sb Te V,17.0
+Cr Pr Sb,147.0
+La S U,110.0
+As Ni Tb,12.0
+Dy Fe Si Sm,585.0
+B Co Fe Pr,960.0
+Eu Ga Mn,320.0
+Fe Mo Nd Pr,467.5
+B Ce Ir,41.0
+Mn O Pr Sm Sr,215.0
+Mn O Pb Pr,278.0
+Ni S,20.0
+Cu P U,227.0
+As Se Th U,106.0
+Co Gd Mo,932.0
+Ga Pt Tm,8.0
+Ba Co Fe O Sn,378.0
+Fe Sb Yb,18.0
+Ca Fe Na Sb,90.0
+Fe Mo O Zn,265.0
+B Co O,43.0
+Ca Mn Nd O Sr,250.0
+Eu La Mn O Sr,232.0
+Ba La Mn O Sm,100.0
+Al Eu Si,17.0
+Fe La Si Y,226.0
+Ce Ge Mn,326.0
+B Ce Rh,125.0
+Ce Cu Fe Mn O,357.0
+Fe Gd Si,738.0
+La Mn Na O Pb,334.0
+B Fe Si,975.0
+Ge Mn Tm,458.0
+B Fe Nd Si,633.0
+Cd Dy Pd,20.0
+C Fe Ga Nd,618.0
+Er Ni Y,15.0
+Ba Cd Cu Fe O,515.0
+Gd O Ru Sr,50.0
+Co Dy Sm,205.0
+Mn O Se Sr,160.0
+B Co Cu Nd,964.0
+Dy Fe N Nb,737.0
+Co Dy Mn,271.0
+B Gd Ru,11.8
+Ag Fe Nd,340.0
+Co Np,350.0
+Ba Co Eu O,282.9
+Cu Mn Nd O,386.0
+D0+ Fe Ho Ti,562.0
+B Fe Ge Nd,570.0
+Fe Np,500.0
+Al Gd La,230.0
+B Er Fe Sm,561.0
+Tb,221.45
+C Fe Mo Tb,595.0
+Al Au Tm,3.3
+Fe Pr Si Ti,523.0
+Ba K Se V,35.0
+C Fe H Ho N O,1.3
+Fe Ge La Mn,310.7
+Ce Rh Sb,17.0
+Mn Ni P,240.0
+Er Ga Ge Mn,361.0
+Au Ge Tm,4.1
+Ce H In Ni,7.0
+Pt Sm,6.0
+Co O Sr Yb,126.0
+La O Rh Ru Sr,24.0
+La Mn O Pr,133.0
+Fe Mn Nd Sn,372.0
+Co La O Rh,14.7
+Co Fe Ti Y,1009.0
+Ca Eu Mn O,120.0
+F Mn Zn,9.5
+Fe Gd Ge,934.0
+Gd Ge In,84.0
+Cu Fe Ga O,525.0
+Al Ga Mn Ni,370.0
+Al Co Fe Mn O,200.0
+Eu Pd Ru Sn,6.4
+As Nd Ni,28.0
+La Mn Na O Re,330.0
+Dy Fe N Ti,760.0
+H Mn Ni,500.0
+Mn Pr Sn,340.0
+Cr Fe S,250.0
+Fe Mn Sb Zn,260.0
+Br Cr,37.0
+Al Fe Nd,513.0
+Co Ga Sm,930.0
+F Ho Li Y,0.373
+Co Sc Sn,240.0
+B Er Fe Gd,603.0
+C Rh U,13.0
+In Tb,175.0
+Al Cu Fe U,370.0
+K Mn O Pr,150.0
+Al Fe La,245.0
+Ca Mn O,130.0
+F O Ru Sr,185.0
+Al Fe Gd O Sr,617.0
+Cu Dy O Ru Sr,170.0
+Gd Ge Ti,400.0
+Ni Np,28.0
+Co Ga Mn Si,860.0
+B Eu Sm,7.0
+Mn Nd O Sr Tb,178.0
+Bi Ni O,300.0
+Co Er Fe Si,706.0
+Cu O Ru Sm Sr,146.0
+In Sc,6.3
+Gd Ge Mn Pr,345.0
+Mn Sn Ti,405.0
+Ag Al Ce Ge,3.3
+Ba Ca Co Ho O,283.0
+Al Au Eu Ta,10.0
+N Tb,43.8
+Co Mn Ni Sn,417.0
+Ba Mn O Ru,188.6
+Mn Sn Th,112.0
+Ga Ho Mn Sn,387.0
+Dy Fe H Ti,580.0
+Ba La Mn O Sb,273.0
+Nd Ru Zn,1.9
+Ba Co O Ti,30.0
+B Ho Rh,6.8
+H U,183.0
+Ce In Pd,10.6
+Ge Si Tb,215.0
+Mg O Ru Sr,38.0
+Be Eu Si,50.0
+Al Ni Tm,12.0
+Al Fe Pr Sm Ti,466.0
+Mn Nb O Pr Sr,248.0
+Eu S Se Sr,7.4
+C Fe N Ni,24.9
+Ba Co Fe O Sr Zr,802.0
+As Cr,213.0
+Al Dy Fe Pr Tb,568.0
+C Co H N O,3.0
+O Re Sr,12.0
+Co Th,550.0
+Mn O Ti Y,25.5
+Cu Er O Ru Sr,170.0
+Al Co Sn U,5.0
+Ba Bi Fe Ir O Zn,635.0
+Dy H,10.7
+Fe Te Tl,223.0
+Dy Fe H Ta,597.0
+Gd Sc Si,354.0
+B Co Cu Fe Nb Zr,1323.0
+Dy Ni Sb,52.0
+Ba Fe O W,330.0
+Fe H N O P,17.82
+Ce Sb Zn,2.5
+Ca Co La O,170.0
+Gd O Sn,293.0
+Cu Np Si,41.0
+Ce Ni Y,92.0
+Co Er Fe Nb,827.0
+Mn Nb S,48.0
+B Co Fe Nd Y,1000.0
+Mn Pd Sn V,129.0
+Dy Si,140.0
+Cu Pr Si,100.0
+Fe La Nd Si,215.0
+Fe Lu U,290.0
+Mn O Sr Ti,44.8
+Ce Co Eu O,1.8
+Ba H Mn O Ru,50.0
+Cr La Mn O Pb,320.0
+Gd Sb Zr,37.0
+Co Cr Fe Pr Ti,813.0
+Ge In Tb,96.0
+Cd Ce Cr Se,130.24
+Co Fe Nb Pr Ti,753.0
+Ir Pt U,64.0
+Co Ge U,650.0
+Al Dy Re,14.0
+Co S Ti,140.0
+Ba Ca La Mn O,283.0
+Ag Cd Pr,40.0
+Pu Sb,55.0
+Fe Mn Pt,560.0
+Cd Cr In Se,132.0
+Fe Ge Mn P Si,288.0
+Ba Co Fe Ni O,769.0
+Al N Ni,300.0
+C Fe N Nd Ti,660.0
+B Fe Nd,938.0
+Al Mn Ni Sm,141.0
+Ni Sn U,47.0
+As Cr Ga Mn,475.0
+Cr Fe Ho,487.0
+C Fe N Tb,779.0
+H Mn Nd,275.0
+Be Gd Si,65.0
+Ba Ca Co Nd O,305.0
+Fe Li O Zn,628.0
+Co Dy Gd,327.0
+Fe H Ta Y,511.0
+B C Er,50.0
+Gd Ge Ni,35.0
+H Mn Y,200.0
+Cd Cr Se,152.0
+Cu Gd O Rh Ru Sr,114.7
+Ga Ge Mn Yb,358.0
+Al Dy Er,37.0
+Ni Rh Sn,93.0
+Fe Mo N Tb,699.0
+La Mn O Sc Sr,195.0
+Dy Y,9.1
+Co Fe Ho Li O,800.0
+Bi Co Fe O Ti,618.0
+Er Mn Sn Te,12.0
+Cr Fe Sm,447.0
+Co Fe Ge U,750.0
+Cu Fe Mn Nd O,319.0
+B Ce Os Rh,70.0
+Gd Mn Ni,110.0
+Co Cu Ga Mn Ni,337.0
+Ce Fe V,508.0
+B Co Sm,1029.0
+Ca La Mn O Zn,227.0
+Dy Pd,27.0
+Pt Yb,0.66
+Fe Nb Sm,584.0
+Ce La Pt,2.4
+B Fe Th,487.0
+Al Dy Fe Mn Tb,568.0
+Mn Ni Sb,760.0
+Cr O P,29.0
+B Fe Y,580.0
+Co Ga La,790.0
+Fe Mn P Si,382.0
+Co Cr Cu S,293.0
+Ni Pt,370.0
+B C Ho,35.0
+Fe H Tm,300.0
+Al C Fe Mn Sm,350.0
+C Co Tm,9.0
+Er Fe V,570.0
+B Ce Co Fe Nd Pr Ta,702.0
+Cr Sb Yb,280.0
+Cu Eu Lu S,5.4
+Cu Fe Mn O Th,200.0
+Fe Nb Y,526.0
+Fe Ga Sm,635.0
+Ca In La Mn O,136.0
+Al Gd Sm,127.0
+As Fe Mn P,315.0
+Ce Ge Pd,3.0
+Co O P Pr,48.0
+Co Fe Mn Y,683.0
+Eu N,120.0
+Al Au Eu W,10.0
+Se Th U,97.0
+Gd Mn Sn Tm,358.0
+Ce Cu Eu O Ru Sn Sr,95.0
+Dy Fe Mn Pr Tb,596.0
+Co Er Sn,47.0
+Cr Mn O Y,56.0
+Ce Ga Ni,5.0
+B Co Tb,1040.0
+Cr Te Ti,155.0
+Al Co Fe,1166.0
+Co Cr Cu S Se,270.0
+B Gd Rh Y,1.72
+Mg Pd Sm,36.0
+B Fe La,550.0
+C Fe Gd Nb,733.0
+C Cr Pr Si,33.0
+Fe H Sm,565.0
+B Ga Nd Ru,33.2
+B C Ni Tb,16.5
+Cu Fe Li O,754.0
+Cr Cu Fe Se,318.0
+Cd Ho,57.2
+Ca Dy Fe O Sn,507.0
+Gd Sb Si,336.0
+Co Gd La O Sr,225.0
+Al B Fe,630.0
+Al Fe Ho Tb,564.0
+D0+ Fe La Si,328.0
+C Mn Zn,380.0
+Ni Pu Si,65.0
+Fe Nb Tb,556.0
+C Nd Si,30.0
+Cl N U,32.0
+Sb Si Tb,181.0
+C Fe Mn Pr,85.0
+B Fe Nb Nd,587.0
+As Co O Sm,83.0
+Co Fe Tb Ti,750.0
+Ce Ge Ir,3.5
+Bi Mn O Pr Sr,300.0
+Ca Hg La Mn O,254.28
+As Eu Fe,152.0
+Fe Nd Sb,365.0
+La Mn Mo O Sr,361.0
+Fe Ni O Sb,622.0
+Mn O Pr Sr Tb,165.0
+Co Er Mn,222.0
+Fe Ga Mo Y,427.0
+Ru Sn U,60.0
+H Mn Zr,143.0
+Al Ni Pt U,40.0
+Ge Ta U,105.0
+F Fe Ni,295.0
+Mn O Rh Sm,20.0
+Co Ga Mn Rh,408.0
+Fe Gd W,570.0
+Ce Mn Ni,131.0
+B Fe V Y,568.0
+Gd Mn Rh,160.0
+C Dy Fe Ta,728.0
+B Co Dy Fe Nd Re,714.0
+Ca O Ru,25.0
+Fe Gd Ni,217.0
+Cr Dy Fe H,508.0
+Mn Nd O Pb Sr,250.0
+F H Ni O Ti,0.14
+Er N,8.0
+Bi Ce Mn O,46.0
+Co Er Mn O,68.0
+Nd Pt,23.0
+Ce D0+,4.5
+Mn O Sn,50.0
+Cu Nb O Sr Y,35.0
+Cu Fe Mn O Yb,351.0
+Cr Ge Mn Sm,260.0
+Co Fe Ga Sm,712.0
+Cd Cu Dy,48.4
+Er Fe N Si,623.0
+Ge H Ir U,28.0
+Mn P Rh,401.0
+Al Ce Fe,318.0
+H O S Tm Y,0.13
+Al Co Zr,194.0
+Co H Y,460.0
+Mn Si Y,282.0
+Gd Mn Si Ti,372.0
+Ce In,27.0
+Ca La Mn O Ti,204.0
+Cu Fe Lu Mn O,337.0
+C Fe Lu Ta,719.0
+Ba Cd Cu Fe O Zn,470.0
+Cu Ge U,110.0
+Co Cu Ge Mn,321.0
+Bi Mn Pr,370.0
+Er In Ni,9.0
+Mn Sn Yb,300.0
+Co Fe Ni O Sb,445.0
+Er Ge Ru,18.8
+D0+ Fe Th,471.0
+Ag Nd Si,44.0
+Fe P Pd,205.0
+Al Fe H Ni U,98.0
+Cu In Tm,29.5
+Ga U Zr,23.0
+B Dy Fe H,638.0
+Ce Ge Mn Si,310.0
+Co Fe Pr Tb,415.0
+Ca La Mn O Ru,270.0
+Al Er Gd,99.0
+Mn O Tl,181.0
+Cr Sb Te,250.0
+Co Dy Ge In,30.0
+Fe Se Si,105.0
+Mn Sb Te,17.0
+Fe Ge Lu U,488.9
+Al Co Tm,561.0
+Np Sb,47.0
+Cu Fe Mn,956.0
+Pr Rh,14.1
+Al Fe Gd,500.0
+Ce Ge In,7.5
+C Fe Mn Nd,350.0
+Ca La Mn Nd O Sr,275.0
+Au Er Ni,24.0
+Co Ge Rh U,20.0
+Co Dy Fe Nd Ti,673.86
+H Rh Tb,80.0
+Mg Tb Zn,5.8
+Au Gd Ni,38.0
+Mn O Pr Sr Y,247.0
+B Fe H Tb,657.0
+Cr Fe Si U,652.0
+Ce Pd Rh,6.5
+Fe N Tb,733.0
+B Fe Nd Ru,484.0
+Co La Nd O Sr,250.0
+Co Sm,1273.0
+Be Ge Sm,55.0
+Eu Mg Pd,150.1
+Mn Sb Zn,570.0
+Ce Fe H Ti,542.0
+Co Ga Tb,840.0
+Ni O Sb Sr,20.0
+B Co Nd Y,1030.0
+Cu H K O S,0.0295
+Fe Mn Ni Si,393.0
+Cd Gd Pd,62.5
+Gd Rh,80.0
+Fe Ni Rh,675.0
+Cd Fe Li O Si,943.0
+C Pr Si,25.0
+Cu Eu Pd,24.5
+Fe Lu Mo,365.0
+Ga Tb,158.0
+In Mn O Tl,125.0
+Gd Mn Nd O Sr,160.0
+Eu Pt Zn,21.2
+Cr Fe Gd Nd,453.0
+Ge U,94.0
+F H Mn O Rb,7.3
+Ce Fe N Ti,710.0
+Gd Yb,256.0
+Co Ni Si U,61.0
+Al Ho Re,10.0
+B Ho,20.0
+B Fe Ni Sm,495.0
+Fe Ga Mo O Sr,368.0
+Ga Np,55.0
+Cd Cr In S,68.95
+B Ce Fe Nd Pr,578.0
+Gd H Ni,8.0
+Al Fe Np,135.0
+Cd Cr Mn Se,135.0
+Dy Fe Ta,550.0
+Mn Sb Sr,45.0
+Co Fe Te,40.0
+Mn Pr,448.0
+Eu Si,117.0
+C Er Fe H N O,2.6
+Gd Mn O Sr,44.0
+Ir Pr,18.0
+Dy La Mn O Sr,337.0
+Fe Ga Ti V,21.5
+B Gd Ni,35.2
+Drhom0+ Fe Y,350.0
+Co Fe Sn U,98.5
+Gd La Mn Si,300.0
+C Co Pr,0.8
+Fe Mo O Sr Ti,360.0
+Dy Gd Si,306.0
+Dy Ge Mn,423.0
+Ga Ge Lu Mn,352.0
+Fe Gd Zr,474.0
+Fe Si Sm,723.0
+Ho Ru Y,7.0
+T0+ U,180.0
+C Fe Si,780.0
+Cu O Ru Sr,100.0
+Co Fe Si Y,825.0
+Mg Pr Ru,15.0
+H Np O Se,8.0
+Ni Ru,512.0
+Ce La Te,2.9
+Mn O Re Sr,120.0
+Fe Ga O Pb,480.0
+Dy Ga Pt,15.0
+Eu Ge K Zn,4.0
+Ce Cu O Rh Ru Sm Sr,115.0
+Fe Nd Y,499.0
+Ca Mn O Ta,70.0
+Er Ge Mo Tb Ti,194.0
+Co Er Gd Ho,88.0
+Ba Mn Nd O Sm Sr,98.0
+Ho Mg Zn,2.0
+B Fe Th Y,537.0
+Co Ga Tm,375.0
+In Pt Sm,25.0
+As Fe La,125.0
+Ge Ru Sm,45.0
+Ho Rh Sb,38.0
+Ce Pd Pt,6.6
+Ce Ge,12.0
+Co In Mn Ni,400.0
+As Cr Ru,164.0
+Al Er Fe,409.0
+Cr K Te,250.0
+Co Cr O,94.2
+Rh Si Sm,35.0
+Cr Fe O,407.0
+Co Dy Ga Nd,461.0
+Bi Fe Lu O Y,588.0
+Cu Pd Sm,28.0
+Ba Ni O U,25.0
+O Os Sm,48.0
+Co Lu Mo,810.0
+Fe Sm V,650.0
+Fe Sm Ti V,614.0
+Bi Fe La O,671.0
+B Lu Ru Tm,1.0
+C Os Tb,210.0
+Al Ni Tb,280.0
+Co La O Ta,72.0
+Co Ga Ti,128.0
+Mn Sm Sn,405.0
+Co Pr Zr,915.0
+Fe Ga O Sr,590.0
+Co Nd,915.0
+Ni Tm,43.0
+Co Er Fe Sm Ti,823.0
+Re Ru Si U,30.0
+Cr Cu S,425.0
+Ba Fe In O Zn,370.0
+Cr Fe Gd H,571.0
+Ce Ru Si,11.7
+La Ni O,230.0
+Fe Zr,633.0
+Al Np,57.0
+Co Gd Ni,278.0
+Bi Dy Fe,130.0
+Eu Mn O,160.0
+Ge Mn Ni,270.0
+Fe Zn,950.0
+Cr Fe Ni O,804.49
+B Co Gd Nd,1023.0
+Co Nd Sn,37.0
+As Ge Mn Zn,367.0
+Co Cu Gd In,100.0
+C Co Tb,26.9
+Eu Fe O,595.0
+Cu Fe Ho Mn O,328.0
+Co Fe Mo Sm Ti,639.0
+Er Fe Nb Nd,521.0
+Al Ba Co Fe Mg O,577.0
+Co Mn Sc Sn,660.0
+Fe Mn P,250.0
+Co Fe Mo Nd Y,710.0
+Al Ni Tb Y,38.0
+Cu Mg Mn O,59.0
+Co Fe N Nd Sm,865.0
+Cr Sb Se,110.0
+Ca Co O Sr,225.0
+As Eu Ni,23.0
+Fe Mg O Zn,725.0
+Dy Mn Si,76.0
+Gd Mn,489.0
+Fe Nd,578.0
+Al Co Gd,613.0
+Ga Gd Sn,182.0
+Cr Mn Sn Tb,365.0
+Co La Mn,1050.0
+Cu Fe O Sr,579.0
+Al Cu Ga Mn Ni,300.0
+Al Gd Si,118.0
+Dy Eu Li O,14.2
+Eu Ga Ge Sr,17.7
+Ca Cr Gd Mn O,100.0
+Er,18.7
+Ho La Mn O Sr V,320.0
+B Ga Pr Ru,22.1
+C Fe Nd Si,543.0
+B Ce Co Cr Fe Nd Pr,703.0
+C Fe N Sm W,731.0
+Ba Fe O Sn Sr Ti,73.8
+La Mn O Pb Sr,323.0
+O Re Sr Zn,20.0
+Fe Gd,895.0
+Ca Mn O Pr Sc,95.0
+Co Ga Mn V,305.0
+O Ti Y,30.0
+B Co Ge Nd,812.0
+Ce Ga Rh,3.5
+Co Ga Ho,1070.0
+Na Ni O,14.0
+Co Mn Tb,346.0
+Cu Fe In O,70.0
+Eu Na O P,33.8
+Co Mn O Sm,140.0
+Ca La Mn O Y,265.0
+Ba Fe La O,809.0
+La Mn O Pb Y,200.0
+Ge Mn Th,400.0
+Cr S,310.0
+C H Mn N O,37.0
+B Fe Nb Y,561.0
+Al Cu Mn O,82.0
+O Pb Ru Sr,130.0
+In Mn Ni Si,280.0
+Ga Ni U,91.0
+Ag Ga Pr,8.0
+B Dy Fe Th,547.0
+Cl Fe Rb,2.55
+Cu F K O,6.25
+Ba Fe Gd O,781.0
+C Fe H Mn N O Rb,9.0
+Ca Co La Mn O,215.0
+Mn O Ru Y,59.0
+Gd Nd,145.0
+Br Dy H O,0.17
+Al B Fe Nd,540.0
+La Mn Pr Si,290.0
+Cr Fe P,180.0
+Ge Pd Tb,9.7
+Ag Pr,13.0
+Cu Fe Mn Ni O,900.0
+C Er Fe Mo,560.0
+Ag Ba La Mn O,323.9
+C Cu Fe N,21.8
+Ba La Mn O Ti,320.0
+Cl Cu H O Rb,1.2
+Gd In Ni,98.0
+Ag F K,26.0
+Bi Fe O Y,606.0
+Gd Pt,300.0
+La Mn O Sr Ti,380.0
+Ni Yb,9.0
+Co Sn V,105.0
+Ce Fe Pr Tb,517.0
+Co Ti Y,1500.0
+Ga Mn Pr,90.0
+Ca Hf La Mn O,218.0
+Au Mn Sn,628.0
+Al Ce Ge,6.15
+Ho Si,77.0
+Eu H,18.3
+Ni Sb Tb,77.0
+Ga Ge U,128.0
+Eu N Si,24.0
+Co Dy Sn,82.0
+Ag Gd In,118.0
+Gd In,213.0
+Co Mo Tm,488.0
+Be Fe Nd,285.0
+Gd Si Ti,294.0
+Co P U,225.0
+Ca Fe O Sm Sn,318.0
+Ce Cu,7.1
+Ca Co Ho O,13.0
+O Ru Sr Ti,164.0
+Dy Rh,18.0
+Ga La Mn O Sr,320.0
+Al La Mn Nd O Sr,263.0
+Ce Ge Ti,14.0
+Fe Ge,1040.0
+Cr Fe Ga O,220.0
+C In Ni,577.0
+Ca Fe Ho O Sn,456.0
+Er Fe Ge,841.0
+Fe Mo N Y,723.0
+P Se U,102.0
+La Mn O Sr Yb,233.0
+Ca Ho La Mn O,177.0
+Ca Co La O Sr,235.0
+Ce Co Ho La Nd Pr,35.0
+Cu Fe Ni,525.0
+Co Fe La Ti,886.0
+Ni Sn Yb,7.7
+Co S Tl,152.0
+Cu Fe Mn O Pr,301.0
+Ca La Mn O Zr,230.0
+Co Fe Pr Ti Zr,773.0
+Co Nd P,140.0
+Cu Ho Ni,6.9
+Ce In La Pd,6.1
+B Fe Mo Nd,673.0
+B Nd Pt,5.0
+Fe N Ti Y,756.0
+Mn O Zn,380.0
+Gd La,275.0
+Nd O Ti,90.0
+C H Mn Mo N O,51.0
+Dy Ge In,76.0
+Er Rh Sn,0.61
+Fe Mn Sb,370.0
+D0+ Er Mn,18.0
+F Li Tb,2.885
+B C Fe Pr,540.0
+C Ho Si,43.0
+Al Fe Ti,145.0
+Al B Co Dy Fe Pr,681.0
+Fe O Sm,700.0
+Al Nd Ti,3.0
+Si Tb Ti,9.0
+Ba Mn Nd O Sr,188.0
+In Mn Pt,350.0
+Fe Ga Sm Ti V,317.0
+Mn Nd O Rh,22.0
+Ce Fe Ti,487.0
+Ca Ga Mn O Pr,80.0
+Eu In Pd,14.5
+Gd Mn O Rh,12.0
+Co Hf,750.0
+B Er Fe Si,604.0
+Fe Ni Tm,465.0
+B I Ni O,60.0
+Li O Ru Sr,42.0
+Eu Ga P,30.0
+Co Er Mo Si,545.0
+C Fe Ga Nd Sm,584.0
+Cu Fe Pt,608.0
+B Co Fe Nd Pr,373.0
+Ca Cr La Mn O Pr,172.0
+Fe Ga Ge,75.0
+B Ce Co Fe Mo Nd Pr,701.0
+Mn O Pb Sm,90.0
+As Cd Eu,16.0
+B Fe Nb Pr,560.0
+Er Ga,32.0
+Fe Mo O Sr W,432.0
+C Fe Nb Nd,438.0
+Fe Gd Re,518.0
+Mn Rh Sn,420.0
+La Mg Mn O Pb,320.0
+Pr Sb,37.0
+Ba Fe O Zn,704.0
+Ca Ce La Mn O,242.0
+Co Hf Pr,910.0
+Al Fe Lu Ti,328.0
+Mn Pt Sb,572.0
+Cu Gd O Ru Sr Ti,116.7
+Ca Co Dy Nd O Sr,120.0
+Cu Si U,104.0
+Dy Fe Si Tb,500.0
+Co Fe La Pr Si,293.0
+As Ce Fe O P,2.0
+B Eu Rh,83.0
+Co Fe Ga Pr,553.0
+Fe Nd P,2.0
+Ge La Mn Y,357.0
+D0+ Eu Mg,27.0
+Al Ce Ge Ni,4.0
+Ag Fe Pd,41.6
+Dy Sb,86.0
+La Mn O Zn,151.0
+Fe Pr Ti,550.0
+Ca Co Eu O,15.0
+Al Mn O,29.5
+Ag Al Ce Si,11.0
+Ba Dy La Mn O,190.0
+C Fe Gd Ti,734.0
+Ge Rh Sn U,10.0
+Ba Cu Fe O,767.0
+Dy Mn O Yb,42.0
+Cu La Mn O Te,193.0
+Cr Te V,225.0
+C Fe Nb Tb,713.0
+F Ni,250.0
+Ce Sn,12.0
+Co Dy Er,119.0
+Al Co Fe Mn,553.0
+Cr Cu Fe Mn S,310.0
+Co Dy O Sr,342.0
+Al Fe Ge Mn,529.0
+Cr Se Te,255.0
+Cr Fe Lu,450.0
+B Ce Rh Ru,65.0
+Cu Fe Mn O Y,330.0
+Co Gd Mn Si,270.0
+Al C Fe Tm,313.0
+Ce Fe La Si,221.0
+Cd Gd Zn,260.0
+Mn O P Zn,300.0
+Fe N Nb Y,729.0
+B Er Fe,620.0
+Ni Y,600.0
+Co Cr S,1000.0
+Fe Ho Mn Tb,249.0
+C Fe Gd H N O,3.2
+Ba C Fe H Mn N O Rb,9.3
+Co La O P,44.0
+Ce Ni Sn,5.0
+Ce Pd Si,2.3
+F Fe H Mn O,39.0
+Lu Mn,398.0
+Fe Mn Pd,48.0
+I N U,26.0
+Co Mn O Pr,190.0
+In O Re,7.5
+Cr Fe Ni,470.0
+Gd Zn,300.0
+Co Fe Si Tb,743.0
+C Si Sm,120.0
+Ba Fe Ni O,840.0
+Er I O Si,37.5
+Co Mn O V,117.0
+Cr Fe H Tb,554.0
+Co Cr Si,747.0
+Co H Mn Zr,134.0
+Cu Gd O Ru Sn Sr,100.0
+Bi Cu Mn,456.0
+Dy Fe Gd Ti,565.0
+Fe Li O,963.0
+Ca Cu Mn O,628.0
+Fe Sm Ti,600.0
+Ho In Mn Sn,331.0
+Ba La Mn Nd O,306.0
+Bi Ce Mn,370.0
+Er Mg,17.5
+Gd Y,283.5
+Er Zn,50.0
+Fe Mo Sm Ti,561.0
+B Fe Nd Sn,593.0
+Ba Co Fe Mg Nd O Zn,724.0
+Cu Ga Nd,5.5
+Cu La Mn O,365.0
+Ba O V,115.0
+C Ge Mn Sn,245.0
+Os Si Tm,1.0
+Ni O Sn,770.0
+C Fe Nd,659.0
+Li Mn Ni O Ti,85.0
+B H Ni O P,2.4
+C Fe Ho Ti,691.0
+Fe Hf,625.0
+Cu Mn N,219.7
+Mn N,748.0
+Cu Fe Nd Ti,553.0
+Dy Fe Ho Tb,658.0
+Ca Eu La Mn O,167.98
+Al Gd,287.0
+D0+ Fe N O P,17.82
+B Ce La Rh,74.0
+Co Cu Er,543.0
+Dy La Ni,12.2
+Sb Tb Zr,65.0
+C Cu Fe Nd,544.0
+Mn O Tm,14.0
+Co Er Y,360.0
+Er Ge Mn,390.0
+Bi Co Tb,60.0
+Al Nd Rh,10.5
+Eu H Mg,31.6
+As Fe Pr,18.6
+Ce Fe K Mo O,340.0
+C Ho Ru,12.0
+D0+ Fe Ti Y,80.0
+Fe Li Mg Mn O Ti,250.0
+Eu Ru Sn Y,9.0
+Cr Se Ti,100.0
+Gd Ge Sc Ti,344.0
+Er Fe N Nb,715.0
+Al Co Rh U,30.0
+Co Cr Fe Y,683.0
+Mn O Sm Sr,174.0
+Fe H Mo Pr,490.0
+Ni Pm,164.0
+Ba Fe Mo O W,269.0
+Co Gd Nd,528.0
+Ce Cu O Ru Sr Y,150.0
+Ca Co Sc,206.0
+C Co Fe Pr Tb,411.0
+Al C Co Fe Sm,740.0
+Ni Np Si,51.5
+Pr Ru,33.9
+Gd Pd Si,29.0
+Fe N Tb Ti,747.0
+Al Fe Ni O Zn,532.0
+Ce Co,1100.0
+La Mn Si Tb,310.0
+Ir Si U,18.0
+K La Mn Mo O,180.0
+Ce Fe Y,253.0
+Cu Er Mn O,405.0
+Fe N Nd V,885.0
+Fe N Nd,743.0
+B Fe Nd Tb,589.0
+Ba Co Dy O,300.0
+Bi Cu O S,250.0
+C Mg O,108.0
+B N Nd Ni,17.0
+Bi Co Er,30.0
+B La U Y,17.0
+Ba Co Fe O Ti,805.0
+As Mn Nd O,335.0
+La Mn O Sm Sr,355.0
+Co Cr Fe Ni Pd,440.0
+Fe N Y,740.0
+Ce Mn Nd O Sr,252.0
+Ga M0+ Mn Ni,372.0
+Fe N,768.0
+Ca Eu Mn Sb,94.0
+Ca Cu O Y,85.0
+Al Ga Nd,71.4
+Pu Si,72.0
+Co Ho Mo,718.0
+Au Ni,9.0
+Al Er Fe N,609.0
+C Dy Fe N Nb,750.0
+Bi Ho Pd,38.0
+Fe Nd Sm Ti,568.0
+Mg Pr Sn,52.0
+D0+ Fe Ho Ta,583.0
+Bi Er Mn,100.0
+B Dy Fe Tm,561.4
+Fe P Sm,6.3
+B Fe H Nd,665.0
+H Ho O,2.54
+Fe Mo Sm,505.0
+Cd Cr Cu Fe S,124.0
+Al Fe Mn Sm,370.0
+Ho Mn O,24.0
+Ge Ho Mn,403.0
+Er Fe Sm Ti,533.0
+Sb Th U,173.0
+In Nd Pd,30.0
+B Co Nd Si,200.0
+D0+ Gd Zn,50.0
+B Co Rh,150.0
+Cr Eu Fe O,333.0
+Eu P Ru,20.0
+Bi Mn Pd,327.0
+Fe N Si Tb,673.0
+Co Dy Mo,600.0
+Cu Dy Mn O,400.0
+Ni O V,9.26
+As Co Eu,29.0
+Al Ce Cu Pd,1.8
+Ag Ce Sb,10.3
+Ho Ir Si,2.0
+Co La Y,650.0
+Fe Si Sm Tb,515.0
+Ga Ru U,73.0
+Ba Fe Ni O Sn,444.0
+Mn Pd Si,498.0
+Al Fe Ni O,424.0
+Ho Rh,36.0
+C Dy Fe Mo,590.0
+Co H Mo O,12.0
+Fe Ho Zn,29.0
+Co Cu Fe Ga O,429.0
+C Fe Ga Y,613.0
+Fe Pr Y,291.0

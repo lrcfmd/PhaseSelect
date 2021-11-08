@@ -1,0 +1,13 @@
+ICSD_scon_classification_300RUNS.csv: all phase fields reported in ICSD are classified w.r.t. probability of exhibiting superconductivity at Tc > 10 K
+                                      probabilitites are averaged over 300 models
+binary_scon_ICSD.csv                : extract from the file above for binaries
+ternary_scon_ICSD.csv               : extract from the file above for ternaries with average probability > 0.5
+quaternary_scon_ICSD.csv            : extract from the file above for quaternaries with average probability > 0.5
+
+scon_ternaries_classifications_300RUNS.csv : classification of unexplored ternary phase fields w.r.t. probability of exhibiting superconductivity at Tc > 10 K
+                                             probabilitites are averaged over 300 models
+
+mag_ternaries_classifications_300RUNS.csv  : classification of unexplored ternary phase fields w.r.t. probability of exhibiting magnetism at Tc > 300 K
+                                             probabilitites are averaged over 300 models
+
+bg_ternaries_classifications_300RUNS.csv  : classification of unexplored ternary phase fields w.r.t. probability of exhibiting energy band gap > 4.5 eV

@@ -1,0 +1,5 @@
+Atom2Vec - original code from the paper Q. Zhou, PNAS
+
+Atom2Vec_encoder: 
+Use the same one-hot matrix as Atom2Vec (MP) 
+and employ shallow AE (AE.py) to exctract k (=20, default) latent features.

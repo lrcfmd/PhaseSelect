@@ -9,6 +9,8 @@ At the high level of consideration, the fundamental differences between the mate
 
 This code, PhaseSelect, classifies the materials at the level of sets of elements with respect to the likelihood to manifest a target functional property, while being synthetically accessible.
 
+Please cite 
+A.Vasylenko et al. 'Element selection for functional materials discovery by integrated machine learning of atomic contributions to properties' arXiv:2202.01051, (2022) 
 
 ## Requirements
 
@@ -25,6 +27,11 @@ MacOS (Catalina 10.15.6 or later)
 
 ## Dependencies:
 
-TensorFlow (version 2.0 or later)
+TensorFlow-2.4.1
 
 scikit-learn-0.24.0
+
+numpy-1.19.4
+
+pandas-1.1.4
+

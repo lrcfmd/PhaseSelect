@@ -62,6 +62,12 @@ class Endtoend(tf.keras.Model):
         x = tf.keras.layers.Dropout(0.5)(phases)
         x = tf.keras.layers.Dense(80, kernel_regularizer=regularizers.l1_l2(l1=0.03, l2=1e-4), activation="relu")(x)
         x = tf.keras.layers.Dropout(0.5)(x)
+        x = tf.keras.layers.Dense(80, kernel_regularizer=regularizers.l1_l2(l1=0.03, l2=1e-4), activation="relu")(x)
+        x = tf.keras.layers.Dropout(0.5)(x)
+        x = tf.keras.layers.Dense(80, kernel_regularizer=regularizers.l1_l2(l1=0.03, l2=1e-4), activation="relu")(x)
+        x = tf.keras.layers.Dropout(0.5)(x)
+        x = tf.keras.layers.Dense(20, kernel_regularizer=regularizers.l1_l2(l1=0.03, l2=1e-4), activation="relu")(x)
+        x = tf.keras.layers.Dropout(0.5)(x)
         outputs = tf.keras.layers.Dense(2, activation="softmax")(x)
 
         m = tf.keras.Model(inputs=inputs, outputs=outputs )

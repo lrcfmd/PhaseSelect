@@ -39,12 +39,12 @@ pymatgen-2018.11.6
 
 ## Installation
 
-git clone https://github.com/lrcfmd/PhaseSelect.git 
+```git clone https://github.com/lrcfmd/PhaseSelect.git``` 
 
 ## Run example
 
 ### Classification of the ternary phase fields as high-temperature magnetic candidate materials
-python _mag_class.py
+```python _mag_class.py```
 
 ### Ranking synthetic accessibility of the candidate phase fields as high-temperature magnetic candidate materials
-python _mag_ranking.py
+```python _mag_ranking.py```

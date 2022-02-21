@@ -57,4 +57,3 @@ if __name__ == '__main__':
 
         df.to_csv(f"{dirname}/ranking_magnet_candidates_single_run.csv")
 
-sys.exit(0)

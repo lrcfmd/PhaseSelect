@@ -4,39 +4,53 @@ import pickle
 import numpy as np
 import pandas as pd
 import tensorflow as tf
+from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
+#from DB.parse_phases import parse_phases
+#from DB.augmentation import *
 from Atom2Vec.Atom2Vec_encoder import Atom2Vec
-from AtomicModel import * #Endtoend, RankingAE
-from utils import * 
-from post_process import *
+from Classification.Model import * #segment_classes_kfold, create_callback, split, class_weights, embedding
+from Classification.AtomicModel import Endtoend
+#from PostProcess.plotting_results import *
+#from stat_models import pairwise_distances_no_broadcast
+#from utils import Phase2Vec as Phase
+from utils import *
 
 class Phase2Vec():
-    def __init__(self, dbfile, epochs=10, load_phases=None, maxlength=None, 
-                dirname='AtomicTraining', mode='classify', atomfile="Atom2Vec/atoms_AE_vec_onehot.txt", natom=None):
-        """ mode classify: end-to-end training of the atomic vectors and phase vectors classification
-            mode rank: precalculated during 'classify' mode atom2vec, build phase2vec for AE ranking)
-        """       
-
-        if load_phases:
-           self.read_phase_vectors(load_phases, natom)
-           self.datafile_name = load_phases
+    def __init__(self, dbfile, epochs=10, load_phase_vectors=None, maxlength=None, dirname='AtomicTraining', 
+                 atomic_mode='envs', natom=None, attention=False, ifaugment=False):
+       
+        if load_phase_vectors:
+           self.read_phase_vectors(load_phase_vectors, natom)
+           self.datafile_name = load_phase_vectors
         else:
            self.read_db(dbfile)
 
-        self.maxlength = maxlength  
-        self.get_atomvec(atomfile, mode)      # get atomic environments Atom2Vec 
-                                              # (and dictionary of atomic vectors for 'rank' mode)
-        self.phase2vec(mode)                  # get phase vectors 
+        if ifaugment:
+            self.dt = augment_permute(self.dt)
+
+        self.attention = attention
+        self.maxlength = maxlength 
+        self.get_atomvec(atomic_mode)
+
+       #self.dt = self.cleanphase()
+       #self.phase2vec(atomic_mode)
+
+        if 'onehot' not in self.dt.columns and 'phases_vectors' not in self.dt.columns:
+           self.dt = self.cleanphase()
+           self.phase2vec(atomic_mode)
        
     def phase2vec(self, mode):
-        """ mode classify: end-to-end training of the atomic vectors and phase vectors classification
-            mode rank: precalculated during 'classify' mode atom2vec, build phase2vec for AE ranking) """
-
-        if mode == 'classify' and 'onehot' not in self.dt.columns:
-            self.dt = self.cleanphase()
+        """ mode envs: end-to-end training of the atomic vectors and phase vectors (classification)
+            mode embed: precalculated atom2vec, phase2vec from dictionary (AE ranking) """
+        if mode == 'envs':
             self.phasehot()
-        elif mode == 'rank':
-            self.dt, self.maxlength = embedding(self.dt, self.atom2vec, self.maxlength) 
+        else:
+            print(self.maxlength)
+            if self.attention:
+                self.dt, self.maxlength = embedding_attention(self.dt, self.atom2vec, self.maxlength) 
+            else:
+                self.dt, self.maxlength = embedding(self.dt, self.atom2vec, self.maxlength) 
 
     def read_phase_vectors(self, load_phase_vectors, natom=None):
         """ Note: Sampling shuffles data, may result in varying results
@@ -56,17 +70,20 @@ class Phase2Vec():
     def read_db(self, dbfile):
         self.dt = parse_phases(dbfile) 
 
-    def get_atomvec(self, atomfile, mode):
-        """ mode 'classify': read raw atomic environment matrix 
-            mode 'rank': read precalculated atomic vectors
-        """
-        atoms = Atom2Vec("Atom2Vec/string.json", 20, atomvec_file=atomfile, mode=mode)
-        self.atoms = np.array(atoms.elements)
-        self.envs_mat = atoms.envs_mat
-
-        if mode == 'rank':
-            self.atom2vec = {ind: vec for ind, vec in zip(atoms.elements, atoms.atoms_vec)}
+    def get_atomvec(self, mode='envs'):
+        if mode == 'magpie':
+            with open('atom2vec_dic.pickle', 'rb') as handle:
+                self.atom2vec = pickle.load(handle)
+            self.atoms = list(self.atom2vec.keys())
             print("Created precalc. Atom2Vec dictionary, N features:", len(list(self.atom2vec.values())[0]))
+        else:
+            atoms = Atom2Vec("Atom2Vec/string.json", 40, mode=mode)
+            self.atoms = np.array(atoms.elements)
+            if mode=='envs':
+                self.envs_mat = atoms.envs_mat
+            else:
+                self.atom2vec = {ind: vec for ind, vec in zip(atoms.elements, atoms.atoms_vec)}
+                print("Created precalc. Atom2Vec dictionary, N features:", len(list(self.atom2vec.values())[0]))
 
     def cleanphase(self):
         """ Remove elements not vectorised"""
@@ -77,28 +94,26 @@ class Phase2Vec():
             return set(x.split()).issubset(setatoms)
 
         self.dt['missing'] = list(map(exl, self.dt['phases'].values))
+        #self.dt[self.dt['missing'] != 0].to_csv('missing_elements.csv', index=False)
         self.dt = self.dt[self.dt['missing']]
 
         return self.dt.drop(columns='missing')
 
     def phasehot(self):
-        """ create onehot encoding for phase fields: yes/no (1/0) atom.
+        """ create onehot encoding for phase fields: yes/no (1/0) atom
             this is further used during end2end training to form phase vectors
             from atomic vectors (latent, first stage of the training)
             by matmul: phasehot @ atom2vec """
         print("One-hot encoding of the phase fields ...")
-
+        print(f"Vector lenght: {self.maxlength}")
         atoms = tuple(self.atoms)
-        length = len(atoms)
-
+        L = len(atoms)
         if self.maxlength is None:
             self.maxlength = max(self.dt['phases'].apply(lambda x: len(x.split())))
-
-        print ("Max length of a phase field:", self.maxlength)
-
+        print (self.maxlength)
         def onehot(x):
              p = list(map(lambda el: atoms.index(el), x.split()))
-             one = np.zeros((self.maxlength, length))
+             one = np.zeros((self.maxlength, L))
              for i, el in enumerate(p):
                  one[i,el] = 1
              return one
@@ -117,29 +132,44 @@ class Phase2Vec():
         print(input_x.shape)
         print(input_x[0])
 
+        k_features = len(list(self.atom2vec.values())[0])
+
         lr_fn = tf.keras.optimizers.schedules.InverseTimeDecay(
                 initial_learning_rate=1e-5,
                 decay_steps=100,
                 decay_rate=-0.9)  # increasing rate
 
         optim = tf.keras.optimizers.Adam(learning_rate=lr_fn)
-        early = tf.keras.callbacks.EarlyStopping(monitor='loss', patience=3)
+        early = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=7)
 
-        model = RankingAE()(input_x)
+        if self.attention:
+            print('Ranking with attention')
+            model, get_attention = RankingAE_attention(k_features)(input_x)
+        else:
+            model = RankingAE()(input_x)
+
         model.compile(optimizer='adam')
 
         history = model.fit(input_x, input_x,
                   batch_size=16, # 16 performs better
                   epochs=epochs,
-                  callbacks=[create_callback(dirname), early],
+#                  callbacks=[create_callback(dirname)], #, early], # saving?
                   validation_split=0.8,
                   )
+
         with open(f'{dirname}/trainHistoryDict', 'wb') as file_pi:
             pickle.dump(history.history, file_pi)
 
-        return model   
+        #Phase.plot_history(history, dirname)
+
+        # Calculate training set scores:
+        #output_x = model.predict(input_x)
+        #rankings = pairwise_distances_no_broadcast(input_x, output_x)
+
+        if self.attention: return model, history, get_attention
+        else: return model, history
  
-    def classifier(self, input_x, input_y, valids=None, epochs=10, dirname='Training'):
+    def classifier(self, input_x, input_y, valids=None, epochs=10, dirname='Training', k_features=40):
 
         lr_fn = tf.keras.optimizers.schedules.InverseTimeDecay(
                 initial_learning_rate=1e-5,
@@ -147,10 +177,10 @@ class Phase2Vec():
                 decay_rate=-0.9)  # increasing rate 
 
         optim = tf.keras.optimizers.Adam(learning_rate=lr_fn)
-        early = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=7)
+        early = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=7) # accuracy
 
-        model, embeddings = Endtoend()(input_x, self.envs_mat, attention=True)
-        model.compile(optimizer='adam', loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+        model, att_scores = Endtoend(k_features)(input_x, self.envs_mat, attention=True)
+        model.compile(optimizer='adam', loss="sparse_categorical_crossentropy", metrics=['accuracy']) # or accuracy
 
         history = model.fit(input_x, input_y,
                   batch_size=16, # 16 performs better
@@ -164,40 +194,42 @@ class Phase2Vec():
 
         #Phase.plot_history(history, dirname)
 
-        return model
+        return model, att_scores
 
-    def classify_validate(self, X, y, kfold, epochs=10, Tc=10, dirname='endTraining', log='log'):
+    def classify_validate(self, X, y, n_splits=5, epochs=10, Tc=10, dirname='endTraining', log='log', prop='max Tc', k_features=50):
         """ Run k-fold validation """
         accuracy, f1score = [], []
+        
+        kfold = KFold(n_splits=n_splits, shuffle=False)
 
         it = 0
         for i, j in kfold.split(X): 
             it += 1
-            input_x, test_x, input_y, test_y, dftest = split(X, y, self.dt, i, j)
+            input_x, test_x, input_y, test_y, dftest = split(X, y, self.dt, i, j, prop=prop)
             
-            model = self.classifier(input_x, input_y, (test_x, test_y), epochs, dirname=dirname+str(it))
+            model, _ = self.classifier(input_x, input_y, (test_x, test_y), epochs, dirname=f'{dirname}/fold2_{str(it)}', k_features=k_features)
 
-            acc, sc = self.predict_class(model, test_x, test_y, dftest, Tc=Tc, dirname=dirname+str(it))
+            acc, sc = Phase.predict_class(model, test_x, test_y, dftest, Tc=Tc, dirname=f'{dirname}/fold2_{str(it)}', prop=prop)
             accuracy.append(acc)
             f1score.append(sc)
 
-        print(f"Average accuracy: {np.average(accuracy)}", file=open(log, 'a'))
-        print(f"Average f1 score: {np.average(f1score)}", file=open(log, 'a'))
+        print(f"Average accuracy: {np.average(accuracy)}", file=open(f'{dirname}/{log}', 'a+'))
+        print(f"Average f1 score: {np.average(f1score)}", file=open(f'{dirname}/{log}', 'a+'))
 
 
-    def classify_once(self, X, y, epochs=10, Tc=10, dirname='Test', log='log'):
+    def classify_once(self, X, y, epochs=10, Tc=10, dirname='Test', log='log', prop='max Tc', k_features=40):
         """ Classification with a random 20% validation set """
 
         cut = int(len(y)*0.8)
         input_x, test_x = X[:cut,:], X[cut:,:]
         input_y, test_y = y[:cut], y[cut:]
         dtest = pd.DataFrame({'phases': self.dt['phases'].values[cut:],
-                           'max Tc': self.dt['max Tc'].values[cut:]})
+                           f'{prop}': self.dt[prop].values[cut:]})
 
-        model = self.classifier(input_x, input_y, (test_x, test_y), epochs, dirname=dirname)
-        acc, sc = self.predict_class(model, test_x, test_y, dtest, Tc=Tc, dirname=dirname)
-        print(f"accuracy: {acc}", file=open(log, 'a'))
-        print(f"f1 score: {sc}", file=open(log, 'a'))
+        model, _ = self.classifier(input_x, input_y, (test_x, test_y), epochs, dirname=dirname, k_features=k_features)
+        acc, sc = Phase.predict_class(model, test_x, test_y, dtest, Tc=Tc, dirname=dirname, prop=prop)
+        print(f"accuracy: {acc}", file=open(f'{dirname}/{log}', 'a'))
+        print(f"f1 score: {sc}", file=open(f'{dirname}/{log}', 'a'))
 
     def predict_ranking(self, epochs=10, dirname='Ranking', log='log'): 
         """ Use precalculated atom2vec vectors to build phase vectors
@@ -206,17 +238,19 @@ class Phase2Vec():
         X = np.array([i for i in self.dt['phases_vectors'].values])
 
         cut = int(len(X)*0.80)
+        #cut = clean_cut(self.dt['phases'], cut)
         
         input_x, test_x = X[:cut], X[cut:]
         dtest = pd.DataFrame({'phases': self.dt['phases'].values[cut:],
                            'max Tc': self.dt['max Tc'].values[cut:]})
 
-        model = self.rank(input_x, test_x, epochs, dirname=dirname)
+        model, attention = self.rank(input_x, test_x, epochs, dirname=dirname)
         normalize = StandardScaler().fit(test_x)
         test_x = normalize.transform(test_x)
 
         # Predict on X and return the reconstruction errors
         pred_scores = model.predict(test_x)
+        atte_scores = attention.predict(test_x)
         rankings = pairwise_distances_no_broadcast(test_x, pred_scores)
 
         df = dtest.assign(rankings=rankings)
@@ -225,29 +259,71 @@ class Phase2Vec():
         df['rankings'] = df['rankings'].apply(lambda x: round(x,3))
         df['norm_score'] = normalized_df
         df['norm_score'] = df['norm_score'].apply(lambda x: round(x,3))
-        df = df.sort_values(['rankings']) 
+        df = df.sort_values(['rankings'])
 
         df.to_csv('Ranked_test.csv', index=False)
 
-    @staticmethod
-    def predict_class(model, X_test, y_true,  dftest, Tc, dirname):
-        from sklearn.metrics import f1_score, accuracy_score, confusion_matrix,ConfusionMatrixDisplay
+        df['attention_scores'] 
 
-        y_test = model.predict(X_test)
-        y_test = y_test[:,1] # look at the '1' class
-        y_pred = np.where(y_test>=0.5, 1, 0)
+if __name__ == '__main__':
 
-        try:
-           dftest = dftest.assign(prediction = y_pred)
-           dftest = dftest.assign(probability_1 = y_test)
-        except:
-           print("Wrong Y_test size?")
-           dftest = pd.DataFrame([dftest['phases'].values, dftest['max Tc'].values,\
-                                  y_pred, y_test], \
-                                  columns=['phases', 'Tc', 'prediction', 'probability_1'])
+    # =============== CLASSIFICATION ================
+ 
+    # Start new calculations
+    #phases = Phase2Vec('DB/Supercon_data.csv')
 
-        dftest = reduce_duplicate(dftest)
-        dftest.to_pickle(f'{dirname}/dtest.pkl')
+    Tc = 300
+    epochs=100
 
-        acc, sc = plot_confusion(dftest, Tc, f'{dirname}/2_class_prediction.doc')
-        return acc, sc
+    dirname='Magnet_unexplored_ranking'
+    log='Magnet_unexplored_log'
+    #log='Magnet_classification_accuracy'
+    #log='End_to_end_training_combined_data_results.txt'
+ 
+    # load phase vectors if precalculated
+    #phases = Phase2Vec('DB/Supercon_data.csv', load_phase_vectors='DB/DATA/combined_mpds_scon_Tc.pkl', atomic_mode='read')
+    #phases = Phase2Vec('DB/Supercon_data.csv', load_phase_vectors='DB/DATA/SuperCon_MPDS_one_hot_phases.pkl')
+
+
+#   # MODEL CLASSIFY
+#   phases = Phase2Vec('', load_phase_vectors='DB/DATA/mpds_magnet_CurieTc.csv')
+#   # Training - all phase fields (vectorized)
+#   X = np.array([i for i in phases.dt['onehot'].values]) 
+#   y = np.where(phases.dt['max Tc'].values > Tc, 1, 0)
+#
+#   # Testing - unexplored phase fields
+#   test = Phase2Vec('', load_phase_vectors='DB/DATA/magnetic_candidates_scores.csv', maxlength=phases.maxlength)
+#   test_x = np.array([i for i in test.dt['onehot'].values])
+#    
+#   model = phases.classifier(X, y, epochs=epochs, dirname=dirname)
+#   y_test = model.predict(test_x)
+#   y_test = y_test[:,1] # look at the '1' class
+#
+#   dttest = test.dt.assign(probability_Tc300=y_test)
+#   dttest.to_csv('Magnetic_unexplored_scores.csv') 
+#
+#   sys.exit()
+
+
+    # MODEL AE RANKING
+    phases = Phase2Vec('', load_phase_vectors='DB/DATA/mpds_magnet_CurieTc.csv',atomic_mode='read')
+    X = np.array([i for i in phases.dt['phases_vectors'].values])
+
+    test = Phase2Vec('', load_phase_vectors='Magnetic_unexplored_scores.csv', maxlength=phases.maxlength, atomic_mode='read')
+    test_x = np.array([i for i in test.dt['phases_vectors'].values])
+
+    model = phases.rank(X, X, epochs=epochs, dirname=dirname)
+    test_x = StandardScaler().fit_transform(test_x)
+    pred_scores = model.predict(test_x)
+    rankings = pairwise_distances_no_broadcast(test_x, pred_scores)
+
+    df = test.dt.assign(rankings=rankings)
+    normalized_df=(df['rankings']-df['rankings'].min())/(df['rankings'].max() - df['rankings'].min())
+
+    df['rankings'] = df['rankings'].apply(lambda x: round(x,3))
+    df['norm_score'] = normalized_df
+    df['norm_score'] = df['norm_score'].apply(lambda x: round(x,3))
+    df = df.sort_values(['rankings'])
+    
+    df.to_csv('Magnetic_unexplored_scores_rankings.csv', index=None) 
+

@@ -42,6 +42,8 @@ def get_dataset(phases, parameter, t_type='max Tc', T=None, scaler=None):
 
     """
     X = np.array([i for i in phases.dt[parameter].values]) 
+    print('X shape:', X.shape)
+    print(X[0])
     
     if scaler:
         X = scaler.fit_transform(X)
@@ -82,7 +84,7 @@ def write_results(test, probabilities, rankings, Tc=10, to='test_results.csv'):
     # look at the '1' class probability:
     df[f'probability_Tc>{Tc}K'] = list(map(rr, probabilities[:,1]))
     
-    df = df.assign(rankings=rankings)
+    df['rankings'] = rankings
     normalized_df = (df['rankings']-df['rankings'].min())/(df['rankings'].max() - df['rankings'].min())
     df['norm_score'] = list(map(rr, normalized_df))
 
@@ -98,10 +100,9 @@ if __name__ == '__main__':
     Tc = 10 # Divide phase fields by Tc threshold 
 
     # =============== CLASSIFICATION ================
-    phases = get_phases(phases='DATA/mpds_magnet_CurieTc.csv', mode='classify')
-    #phases = get_phases(phases='DATA/mpds_magnet_CurieTc.csvone_hot_phases.pkl', mode='classify')
-    test = get_phases(phases='Unexplored_phase_fields_3.pkl', mode='classify', maxlength=phases.maxlength)
-    #test = get_phases(phases='DATA/Unexplored_phase_fields_3.pklone_hot_phases.pkl') 
+    #phases = get_phases(phases='DATA/mpds_magnet_CurieTc.csv', mode='classify')
+    phases = get_phases(phases='DATA/mpds_magnet_CurieTc.csvone_hot_phases.pkl', mode='classify')
+    test = get_phases(phases='DATA/Ternary_phase_fields.pklone_hot_phases.pkl', mode='classify', maxlength=phases.maxlength)
     #test = generate_test(phases, natoms=3) 
  
     X, y  = get_dataset(phases, 'onehot', 'max Tc', T=Tc)
@@ -116,11 +117,11 @@ if __name__ == '__main__':
 
     # load phase fields of phase vectors if precalculated
     #phases = get_phases(phases='DATA/mpds_magnet_CurieTc.csv', mode='rank')
+    #test = get_phases(phases='DATA/Ternary_phase_fields.pkl', mode='rank', maxlength=phases.maxlength)
     phases = get_phases(phases='DATA/mpds_magnet_CurieTc.csvone_hot_phases.pkl', mode='rank')
-    #test = get_phases(phases='Unexplored_phase_fields_3.pklone_hot_phases.pkl', mode='rank', maxlength=phases.maxlength)
-    test = get_phases(phases='Unexplored_phase_fields_3.pkl', mode='rank', maxlength=phases.maxlength)
+    test = get_phases(phases='DATA/Ternary_phase_fields.pklone_hot_phases.pkl', mode='rank', maxlength=phases.maxlength)
     X, _  = get_dataset(phases,'phases_vectors') 
-    X_test, _ = get_dataset(test, 'phases_vectors', scaler=StandardScaler())
+    X_test, _ = get_dataset(test, 'phase_vectors') #, scaler=StandardScaler())
     
     model = phases.rank(X, X, epochs=epochs, dirname=dirname)
 
@@ -128,4 +129,4 @@ if __name__ == '__main__':
     rankings = model.predict(X_test)
     rankings = pairwise_distances_no_broadcast(X_test, rankings)
 
-    write_results(test, probabilities, rankings, to='Supercon_unexplored_ternaries_scores.csv')
+    write_results(test, probabilities, rankings, to='Magnetic_ternaries_scores.csv')

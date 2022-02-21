@@ -99,7 +99,6 @@ def embedding(df, a2v, maxlength=None):
     vectors = list(map(getvec, phases))
 
     df['phases_vectors'] = vectors
-    df.to_csv('prebuilt_atoms_phases_vectors.csv')
     df.to_pickle('prebuilt_atoms_phases_vectors.pkl')
     print(df.head())
     return df, maxlength

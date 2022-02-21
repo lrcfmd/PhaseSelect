@@ -1,4 +1,3 @@
-# Classify icsd phases 
 import sys
 import numpy as np
 import pandas as pd
@@ -6,40 +5,33 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 from Phase2Vec import Phase2Vec
 from Atom2Vec.Atom2Vec_encoder import Atom2Vec
-from Classification.Model import * #segment_classes_kfold, create_callback, split, class_weights, embedding
+from Classification.Model import 
 from Classification.AtomicModel import Endtoend
 from utils import *
-#from PostProcess.plotting_results import *
-#from stat_models import pairwise_distances_no_broadcast
 
 if __name__ == '__main__':
 
     # =============== CLASSIFICATION ================
  
     # Start new calculations
-    #phases = Phase2Vec('DB/Supercon_data.csv')
 
     Tc = 300
     epochs = 100
     dirname = 'test'
-    log = 'icsd_class_log'
+    log = 'mag_class_log'
 #   # Load phase vectors if precalculated
-    #phases = Phase2Vec('', load_phase_vectors='DB/DATA/mpds_magnet_8_CurieTc.csv')
-    phases = Phase2Vec('', load_phase_vectors='DATA/mpds_magnet_8_CurieTc.csvone_hot_phases.pkl')
+    phases = Phase2Vec('', load_phase_vectors='DATA/mpds_magnet_CurieTc.csvone_hot_phases.pkl')
     print('size of onehot:', phases.dt['onehot'].values[0].shape)
 
-
-    #test = Phase2Vec("", load_phase_vectors='Unexplored_ternaries.pkl',maxlength=8)
-    #test = Phase2Vec("", load_phase_vectors='Unexplored_ternaries.pklone_hot_phases.pkl',maxlength=8)
-    #test = Phase2Vec("", load_phase_vectors='DB/DATA/magnetic_candidates.csvone_hot_phases.pkl',maxlength=8)
-    #print(test.dt.head())
+    test = Phase2Vec("", load_phase_vectors='DATA/Ternary_phase_fields.pkl',maxlength=phases.maxlength)
  
     # Training set - all phase fields (vectorized)
-    # training = phases.dt['phases'].values
     X = np.array([i for i in phases.dt['onehot'].values])
     y = np.where(phases.dt['max Tc'].values > Tc, 1, 0)
 
-    for i in range(1): 
+    # Choose a size of an ensemble of models
+    ensemble_n = 1
+    for i in range(ensemble_n): 
         # =============== MODEL CLASSIFY  ================
         model, model_att = phases.classifier(X, y, epochs=epochs, dirname=f'{dirname}/weights/{i}')
         print("Getting attention from training phase fields...")
@@ -53,7 +45,6 @@ if __name__ == '__main__':
         att = att[['phases','max Tc', 'attention']]
         att.to_pickle(f'{dirname}/magnet_phases_attention.pkl')
 
-        sys.exit() 
         # =============== TEST ============================= 
         print('size of onehot:', test.dt['onehot'].values[0].shape)
         print("Predicting classification for unexplored phase fields...")

@@ -1,45 +1,44 @@
 import sys
-import json
-import pickle
 import numpy as np
 import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 from Phase2Vec import Phase2Vec
-from DB.parse_phases import parse_phases
-from DB.augmentation import augment
 from Atom2Vec.Atom2Vec_encoder import Atom2Vec
-from Classification.Model import * #segment_classes_kfold, create_callback, split, class_weights, embedding
+from Classification.Model import *
 from Classification.AtomicModel import Endtoend
-from PostProcess.plotting_results import *
-from stat_models import pairwise_distances_no_broadcast
+from utils import *
+
+def rr(x): return round(x,3)
 
 if __name__ == '__main__':
-
-    # =============== CLASSIFICATION ================
- 
-    # Start new calculations
-    #phases = Phase2Vec('DB/Supercon_data.csv')
-
-    Tc = 10
-    epochs = 100
-    dirname = 'BANDGAP/Reproduce_ranking'
-
+    
     # =============== AE RANKING  ================
+    epochs = 100
+    dirname = 'test'
 
-    # load phase fields of phase vectors if precalculated
-    phases = Phase2Vec('', load_phase_vectors='DB/BandGap/mpds_phases_band_gap.csv',atomic_mode='embed')
+    # =============== Training set
+    phases = Phase2Vec('', load_phase_vectors='DATA/mpds_band_gap.csv', atomic_mode='embed')
     X = np.array([i for i in phases.dt['phases_vectors'].values if len(i)])
 
-    print(phases.dt.head)
-    test = Phase2Vec("", load_phase_vectors='Unexplored_ternaries.pkl', maxlength=200, atomic_mode='embed')
+    # =============== Testing set
+    test = Phase2Vec("", load_phase_vectors='DATA/Ternary_phase_fields.pkl', maxlength=phases.maxlength, atomic_mode='embed')
     test_x = np.array([i for i in test.dt['phases_vectors'].values])
-
     test_x = StandardScaler().fit_transform(test_x)
 
-    for i in range(300):
-        os.mkdir(f'{dirname}/weights/{i}')
-        model = phases.rank(X, X, epochs=epochs, dirname=f'{dirname}/weights/{i}')
+    # Choose a size of an ensemble of models
+    ensemble_n = 1
+    for i in range(ensemble_n):
+        model, history = phases.rank(X, X, epochs=epochs, dirname=f'{dirname}')
+
+        print("Calculating training set rankings...")
+        input_x = StandardScaler().fit_transform(X)
+        output_x = model.predict(X)
+        train_scores = pairwise_distances_no_broadcast(input_x, output_x)
+        dtrain = phases.dt[['phases']]
+        dtrain = dtrain.assign(rankings=train_scores)
+        dtrain.to_csv(f"{dirname}/ranking_training_bg_single_run.csv")
+
         print("Predicting test set rankings...")
         pred_scores = model.predict(test_x)
         print("Calculating pairwise distances...")
@@ -48,4 +47,4 @@ if __name__ == '__main__':
         df = test.dt[['phases']]
         df = df.assign(rankings=rankings)
 
-        df.to_csv(f"{dirname}/Unexplored_ternaries_{i}.csv")
+        df.to_csv(f"{dirname}/ranking_bg_candidates_single_run.csv")

@@ -30,10 +30,7 @@ if __name__ == '__main__':
     y = np.where(phases.dt['max energy gap'].values > Tc, 1, 0)
 
     # Test
-    if os.path.exists('DATA/Ternary_phase_fields.pklone_hot_phases.pkl'):
-        test = Phase2Vec("", load_phase_vectors='DATA/Ternary_phase_fields.pklone_hot_phases.pkl',maxlength=phases.maxlength)
-    else:
-        test = Phase2Vec("", load_phase_vectors='DATA/Ternary_phase_fields.pkl',maxlength=phases.maxlength)
+    test = Phase2Vec("", load_phase_vectors='DATA/Ternary_phase_fields.pkl',maxlength=phases.maxlength)
 
     # Choose a size of an ensemble of models
     ensemble_n = 1

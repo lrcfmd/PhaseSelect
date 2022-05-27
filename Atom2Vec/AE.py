@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 class AtomicEncoderLayer(tf.keras.layers.Layer):
     def __init__(self):
@@ -28,7 +29,9 @@ class AtomicEncoderLayer(tf.keras.layers.Layer):
 
 def train_AE(input_data, k_features):
     """ builds AE k_features """
+    input_data = StandardScaler().fit_transform(input_data)
     input_dim = len(input_data[0])
+
     # Normalize
     normalizer = tf.keras.layers.experimental.preprocessing.Normalization()
     normalizer.adapt(input_data)
@@ -40,8 +43,17 @@ def train_AE(input_data, k_features):
     decoded = tf.keras.layers.Reshape((input_dim,))(decoded)
     ae = tf.keras.Model(atinput, decoded)
     #--- extract RE-----
-    reconstruction_loss = tf.keras.losses.binary_crossentropy(encoded_input, decoded)
+    reconstruction_loss = tf.keras.losses.mean_squared_error(encoded_input, decoded)
     encoder = tf.keras.Model(atinput, encoded)
+    
+    early = tf.keras.callbacks.EarlyStopping(
+             monitor="loss",
+             min_delta=0,
+             patience=10,
+             verbose=0,
+             mode="auto",
+             baseline=None,
+             restore_best_weights=False)
 
     lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
                   initial_learning_rate=1e-3,
@@ -52,17 +64,17 @@ def train_AE(input_data, k_features):
     ae.compile(optimizer=optim)
     
     ae.fit(input_data, input_data,
-                epochs=17,
+                epochs=13,
                 batch_size=16,
-                shuffle=True) #, validation_split=0.2)
+                callbacks=[early],
+                shuffle=True)
 
     atomvecs = encoder.predict(input_data)
 
     return atomvecs, reconstruction_loss, encoder
 
-if __name__ == '__main__()':
-
-    with open('envs_mat.npy', 'rb') as f:
-        envs_mat = np.load(f)
-
-    atom_vecs, _, __ = train_AE(envs_mat, 32)
+if __name__ == '__main__':
+     
+    from EnvMatrix import EnvsMat
+    envs_mat = EnvsMat("string.json")
+    atom_vecs, _, __ = train_AE(envs_mat.envs_mat, 32)

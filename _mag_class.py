@@ -5,7 +5,7 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 from Phase2Vec import Phase2Vec
 from Atom2Vec.Atom2Vec_encoder import Atom2Vec
-from Classification.Model import 
+from Classification.Model import *
 from Classification.AtomicModel import Endtoend
 from utils import *
 
@@ -15,15 +15,22 @@ if __name__ == '__main__':
  
     # Start new calculations
 
+    # Specify threshold value
     Tc = 300
     epochs = 100
+
+    # Specify data files
     dirname = 'test'
     log = 'mag_class_log'
+    training_data = 'DATA/mpds_magnet_CurieTc.csvone_hot_phases.pkl'
+    test_data = 'DATA/Ternary_phase_fields.pkl'
+
+
 #   # Load phase vectors if precalculated
-    phases = Phase2Vec('', load_phase_vectors='DATA/mpds_magnet_CurieTc.csvone_hot_phases.pkl')
+    phases = Phase2Vec('', load_phase_vectors=training_data)
     print('size of onehot:', phases.dt['onehot'].values[0].shape)
 
-    test = Phase2Vec("", load_phase_vectors='DATA/Ternary_phase_fields.pkl',maxlength=phases.maxlength)
+    test = Phase2Vec("", load_phase_vectors=test_data, maxlength=phases.maxlength)
  
     # Training set - all phase fields (vectorized)
     X = np.array([i for i in phases.dt['onehot'].values])

@@ -41,10 +41,27 @@ pymatgen-2018.11.6
 
 ```git clone https://github.com/lrcfmd/PhaseSelect.git``` 
 
-## Run example
+## Run examples (Reproduce results)
 
 ### Classification of the ternary phase fields as high-temperature magnetic candidate materials
 ```python _mag_class.py```
 
 ### Ranking synthetic accessibility of the candidate phase fields as high-temperature magnetic candidate materials
 ```python _mag_ranking.py```
+
+### To apply PhaseSelect to a generic dataset and classify phase fields w.r.t. other properties values
+
+0. Modify template_generic_class.py and template_generic_ranking.py as templates
+ 
+1. Prepare the training data in the format 'phase fields' - 'properties' as in e.g. DATA/mpds_magnet_CurieTc.csv
+   List the phase fields of interest to classify and / or rank synthetic accessibility in the format as in e.g. DATA/magnetic_candidates.csv
+
+2. Specify threshold value of a property for classification
+
+   ```Tc = your_threshold_value_float_or_integer_number```
+
+3. Change the values of the corresponding variables:
+   training_data
+   test_data
+
+4. Run ```python template_generic_class.py``` 

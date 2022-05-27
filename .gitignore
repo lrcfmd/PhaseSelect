@@ -3,6 +3,8 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+test/
+DATA/
 
 # Other files and folders
 .settings/

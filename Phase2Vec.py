@@ -6,14 +6,9 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
-#from DB.parse_phases import parse_phases
-#from DB.augmentation import *
 from Atom2Vec.Atom2Vec_encoder import Atom2Vec
-from Classification.Model import * #segment_classes_kfold, create_callback, split, class_weights, embedding
+from Classification.Model import * 
 from Classification.AtomicModel import Endtoend
-#from PostProcess.plotting_results import *
-#from stat_models import pairwise_distances_no_broadcast
-#from utils import Phase2Vec as Phase
 from utils import *
 
 class Phase2Vec():
@@ -32,9 +27,6 @@ class Phase2Vec():
         self.attention = attention
         self.maxlength = maxlength 
         self.get_atomvec(atomic_mode)
-
-       #self.dt = self.cleanphase()
-       #self.phase2vec(atomic_mode)
 
         if 'onehot' not in self.dt.columns and 'phases_vectors' not in self.dt.columns:
            self.dt = self.cleanphase()
@@ -140,7 +132,7 @@ class Phase2Vec():
                 decay_rate=-0.9)  # increasing rate
 
         optim = tf.keras.optimizers.Adam(learning_rate=lr_fn)
-        early = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=7)
+        early = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=13)
 
         if self.attention:
             print('Ranking with attention')
@@ -151,9 +143,9 @@ class Phase2Vec():
         model.compile(optimizer='adam')
 
         history = model.fit(input_x, input_x,
-                  batch_size=16, # 16 performs better
+                  batch_size=256, 
                   epochs=epochs,
-#                  callbacks=[create_callback(dirname)], #, early], # saving?
+                  callbacks=[early],
                   validation_split=0.8,
                   )
 
@@ -177,13 +169,13 @@ class Phase2Vec():
                 decay_rate=-0.9)  # increasing rate 
 
         optim = tf.keras.optimizers.Adam(learning_rate=lr_fn)
-        early = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=7) # accuracy
+        early = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=7, restore_best_weights=True)
 
         model, att_scores = Endtoend(k_features)(input_x, self.envs_mat, attention=True)
         model.compile(optimizer='adam', loss="sparse_categorical_crossentropy", metrics=['accuracy']) # or accuracy
 
         history = model.fit(input_x, input_y,
-                  batch_size=16, # 16 performs better
+                  batch_size=256, 
                   epochs=epochs,
                   callbacks=[create_callback(dirname), early],
                   validation_data=valids,

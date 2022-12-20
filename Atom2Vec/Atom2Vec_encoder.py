@@ -1,8 +1,8 @@
 import numpy as np
-from AE import train_AE
-from periodic_table import ELEMENTS
-from Magpie_elemental_features import *
-from EnvMatrix import EnvsMat
+from Atom2Vec.AE import train_AE
+from Atom2Vec.periodic_table import ELEMENTS
+from Atom2Vec.Magpie_elemental_features import *
+from Atom2Vec.EnvMatrix import EnvsMat
 
 class Atom2Vec:
     def __init__(self, filename, k, atomvec_file="Atom2Vec/atoms_AE_vec_onehot.txt", mode='classify'):
@@ -18,19 +18,23 @@ class Atom2Vec:
          filename: str; file with structural environments  
  
          """
+        if mode != 'AE':
+            self.atoms_vec, self.atoms_index = self.read_vecs(atomvec_file)
+        else:
+            self.atoms_index = [int(i.strip()) for i in open('atoms_AE_index.txt', 'r').readlines()]
 
-        self.atoms_vec, self.atoms_index = self.read_vecs(atomvec_file)
-        self.elements = [ELEMENTS[i] for i in self.atoms_index]
         envs_mat = EnvsMat(filename)
         self.envs_mat = envs_mat.envs_mat
 
         if mode in ['classify','rank', 'AE']:
             self.atoms_index = envs_mat.atoms
+            self.elements = [ELEMENTS[i] for i in self.atoms_index]
 
             if mode == 'AE':
                 self.generateVec_AE(self.envs_mat, k)
 
         elif mode == 'magpie':
+            self.elements = [ELEMENTS[i] for i in self.atoms_index]
             self.envs_mat = self.magpie(features)
             print(f"Magpie features, matrix shape: {self.envs_mat.shape}")
             self.generateVec_AE(self.envs_mat, k)

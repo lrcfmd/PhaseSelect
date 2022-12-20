@@ -1,4 +1,4 @@
-from MatParser import MatEntity
+from Atom2Vec.MatParser import MatEntity
 from json import load, dump
 import numpy as np
 

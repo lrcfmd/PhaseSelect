@@ -17,9 +17,9 @@ def lookupEle(element):
     return ELEMENTS.index(element)
 
 if __name__ == "__main__":
-    from Magpie_elemental_features import symbols
+    #from Magpie_elemental_features import symbols
     #print(lookupEle("U"))
-    #print(len(ELEMENTS))
-    for i in ELEMENTS:
-        if i not in symbols: print(f"Can't find {i}")
+    print(len(ELEMENTS))
+    #for i in ELEMENTS:
+    #    if i not in symbols: print(f"Can't find {i}")
     

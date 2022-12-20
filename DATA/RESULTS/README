@@ -11,3 +11,7 @@ mag_ternaries_classifications_300RUNS.csv  : classification of unexplored ternar
                                              probabilitites are averaged over 300 models
 
 bg_ternaries_classifications_300RUNS.csv  : classification of unexplored ternary phase fields w.r.t. probability of exhibiting energy band gap > 4.5 eV
+
+
+# REGRESSION
+k = 140, MAE = 106 K, r^2 = 0.67

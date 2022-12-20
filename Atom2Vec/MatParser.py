@@ -1,5 +1,5 @@
 import re
-from periodic_table import ELEMENTS, LOW_CHARS, CAP_CHARS, lookupEle
+from Atom2Vec.periodic_table import ELEMENTS, LOW_CHARS, CAP_CHARS, lookupEle
 
 
 class NoSuchElementError(Exception):

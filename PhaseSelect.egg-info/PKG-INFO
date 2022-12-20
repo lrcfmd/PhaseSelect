@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PhaseSelect
+Version: 1.1.0
+Summary: Phase fields representation learning, ranking syntesibility and classification
+Home-page: http://github.com/DrewNow/Phase2Vec
+Author: Andrij Vasylenko
+Author-email: and.vasylenko@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+

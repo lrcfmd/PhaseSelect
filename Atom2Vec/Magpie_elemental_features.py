@@ -1,14 +1,9 @@
 import numpy as np
+import pandas as pd
 from sklearn.preprocessing import MaxAbsScaler
 
 features = 'Number, AtomicVolume, AtomicWeight, GSestBCClatcnt, Column, CovalentRadius,Electronegativity, FirstIonizationEnergy, GSbandgap, GSenergy_pa, GSestBCClatcnt, GSestFCClatcnt, GSmagmom, GSvolume_pa, ICSDVolume, MendeleevNumber, NdUnfilled, NdValence, NfUnfilled, NfValence, NpUnfilled, NpValence, NsUnfilled, NsValence, NUnfilled, NValance, Polarizability, Row'.split(',')
-
 features = [i.strip() for i in features]
-
-try:
-    symbols = [s.strip() for s in open('Atom2Vec/magpie_tables/Abbreviation.table', 'r').readlines()]
-except:
-    symbols = [s.strip() for s in open('magpie_tables/Abbreviation.table', 'r').readlines()]
 
 
 def read_features(f):
@@ -21,8 +16,11 @@ def sym2num(element, features, scale=False):
     dics = [ {} for i in range(n)]
 
     for i in range(n):
-       table = read_features(f'magpie_tables/{features[i]}.table')
-       dics[i]  = {sym: float(num) for sym, num in zip(symbols, table)}
+        try:
+            table = read_features(f'magpie_tables/{features[i]}.table')
+            dics[i]  = {sym: float(num) for sym, num in zip(symbols, table)}
+        except:
+            pass
 
     elemental_features = []
     for i in range(n): 
@@ -33,7 +31,7 @@ def sym2num(element, features, scale=False):
     if scale:
         X = MaxAbsScaler().fit_transform(X) 
 
-    return X
+    return list(X)
 
 def num2sym(number, feature):
     numbers = [str(int(num)) for num in read_features(f'magpie_tables/{feature}.table')]
@@ -41,5 +39,16 @@ def num2sym(number, feature):
     return dic[str(int(number))]
 
 if __name__ == "__main__":
-    X = sym2num('Cl', ['Number', 'AtomicVolume', 'AtomicWeight'], scale=True)
-    print(X)
+    try:
+        symbols = [s.strip() for s in open('Atom2Vec/magpie_tables/Abbreviation.table', 'r').readlines()]
+    except:
+        symbols = [s.strip() for s in open('magpie_tables/Abbreviation.table', 'r').readlines()]
+
+    #X = sym2num('Cl', ['Number', 'AtomicVolume', 'AtomicWeight'], scale=False)
+    #features = [i.strip() for i in open('list_tables', 'r').readlines()]
+    
+    dic = {symbol: sym2num(symbol, features, scale=False) for symbol in symbols}
+    
+    df = pd.DataFrame(dic)
+    print(df.shape)
+    df.to_pickle('magpie_atomic_features.pkl')

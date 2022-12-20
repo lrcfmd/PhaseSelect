@@ -2,20 +2,59 @@ import os
 import sys
 import re 
 import tensorflow as tf
+import functools
 import numpy as np
 from numba import njit
 import pandas as pd
 import itertools as its
-from sklearn.model_selection import KFold
 from sklearn.utils.validation import check_array
+from sklearn.model_selection import KFold
 from pymatgen.core.composition import Composition as C
 
+def augment(df, prop='max Tc'):
+    dics = []
+    phases = [x.split() for x in df.phases[:3]]
+    onehot = df.onehot[:3]
+    props = df[f'{prop}'][:3]
+    for phase, onehoti, value in zip(phases, onehot, props):
+        permutations = [' '.join(list(combination)) for combination in its.permutations(phase)]
+        permhot = [list(combinations) for combinations in its.permutations(onehoti)]
+        dics.append(pd.DataFrame({'phases': permutations,
+                     'onehot': permhot,
+                     f'{prop}': [value for n in range(len(permutations))]})) 
+    return pd.concat(dics)
+
+def validate(model):
+    """ k-fold cross validation decorator
+        input: regressor or classifier model
+        returns: a list of errors for the models trained on splits"""
+    @functools.wraps(model)
+    def kfold(*args, **kwargs):
+        n_splits = 5
+        X = args[0]
+        y = args[1]
+        kfold = KFold(n_splits, shuffle=False)
+        errors = []
+        print('5-fold cross validation')
+        n = 1
+        for i, j in kfold.split(X):
+            input_x, input_y  = X[i], y[i]
+            test_x, test_y = X[j], y[j]
+            _, best_val_loss = model(input_x, input_y, test_x, test_y, 
+                    k_features = kwargs['k_features'], 
+                    epochs = kwargs['epochs'],
+                    batch_size = kwargs['batch_size'])
+            errors.append(best_val_loss)
+            print(f'Split 1, {model.__name__} error: {best_val_loss}')
+        return errors   # Note: not a callable 'model'
+    return k_fold            
+    
 def generate(atoms, natoms, training):
     """ generates a list of sets of 'natoms' 'atoms' that are not in the 'training' list """
     new =  set(its.combinations(atoms, natoms))
     return [' '.join(map(str,i)) for i in new.difference(set(training))]
 
-def create_callback(dirname):
+def create_callback(dirname,batch_size):
     """ Create a callback that saves the model's weights """
     
     if not os.path.isdir(f"{dirname}"):
@@ -25,43 +64,27 @@ def create_callback(dirname):
     checkpoint_dir = os.path.dirname(checkpoint_path)
     return tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
                                              save_weights_only=True,
-                                             verbose=1)
-def clean_cut(phases, cut):
+                                             verbose=1,
+                                             save_freq=100*batch_size)
+
+def clean_cut(df, validation_split=0.2, prop='max Tc'):
    """ Ensure the validation set doesn't 
        contain permutatations of the training vectors """
-   from itertools import permutations
 
-   def perms(phase):
-        return [list(i) for i in permutations(phase.split())]
+   print("Searching the clean validation cut...")
+ 
+   phases = df.phases.values
+   cut = int(len(phases) * (1 - validation_split))
 
-   print("Searching the clean validation cut...")   
-   while phases[cut].split() in perms(phases[cut-1]): 
-        #print('Cut at index:', cut, phases[cut])
+   while set(phases[cut].split()) == set(phases[cut-1].split()): 
+        print(phases[cut], phases[cut-1])
+        print(len(phases), cut)
         cut += 1 
 
-   return cut 
+   def to_tensor(a):
+       return np.array([i for i in a])
 
-def segment_classes_kfold(df, Tc=10, n_splits=5, by='phases_vectors'):
-    """ Divide phase fields on subclasses by Tc threshold.
-    Split data on training and validation. Kfold """
-    print(f"Spliting data: training and validation {n_splits}-fold")
-    
-    X = np.array([i for i in df[by].values])
-    t = df['max Tc'].values #np.array([i for i in df['max Tc'].values])
-    y = np.where(t>Tc, 1, 0)
-    
-    print(f"Distribution of phases with Tc  > and < {Tc}K: {sum(y)} {len(t) - sum(y)}")
-
-    return X, y, KFold(n_splits=n_splits, shuffle=False)
-
-def split(X, y, df, train_index, test_index):
-    X_train, X_test = X[train_index], X[test_index]
-    y_train, y_test = y[train_index], y[test_index]
-
-    dftest = pd.DataFrame({'phases': df['phases'].values[test_index],
-                           'max Tc': df['max Tc'].values[test_index]})  
-    print('Dtest:', dftest.shape)
-    return X_train, X_test, y_train, y_test, dftest
+   return df.phases[:cut], to_tensor(df.onehot.values[:cut]), to_tensor(df.onehot.values[cut:]), to_tensor(df[f'{prop}'].values[:cut]), to_tensor(df[f'{prop}'].values[cut:])
 
 def class_weights(x):
     """ To account for data distribution imbalance in classes"""
@@ -88,7 +111,7 @@ def embedding(df, a2v, maxlength=None):
     phases = df['phases'].values
 
     if maxlength is None:
-        maxlength = max([len(p.split()) for p in phases]) * len(list(a2v.values())[0])
+        maxlength = max([len(p.split()) for p in phases]) * len(a2v['H'])
     print("Embedding length:", maxlength)
   
     def getvec(p):
@@ -174,3 +197,28 @@ def parse_phases(dbfile):
     dt = pd.DataFrame({'phases': list(dicT.keys()), 
                        'max Tc': [max(i) for i in dicT.values()],
                       })
+
+def justify_by_natoms(df, target_n=8):
+    """ remove phase fields with N atoms > target_n """
+    print (df.shape)
+    print (df.head())
+    df['N_elements'] = df.phases.apply(lambda x: len(x.split()))
+    print (f'the largest phase field, N={max(df["N_elements"])}')
+    df = df[df['N_elements'] <= target_n]
+    df= df.drop(columns=['N_elements'])
+    print(f'after removing phase fields larger than {target_n}:')
+    df = df[['phases', 'max Tc']]
+    print (df.shape)
+    return df
+
+if __name__=='__main__':
+    file = sys.argv[1]
+    #df = justify_by_natoms(pd.read_csv(file))
+    #df = justify_by_natoms(pd.read_pickle(file))
+    #name = file.split('.')[0]
+    #df.to_pickle(f'{name}8.pkl')
+
+#    new_phases = augment(df)
+#    print(new_phases.head)
+    #new_phases.to_pickle('DATA/scon_augmented.pkl')
+ 

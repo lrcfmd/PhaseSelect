@@ -14,7 +14,7 @@ A.Vasylenko et al. 'Element selection for functional materials discovery by inte
 
 ## Requirements
 
-python-3.7
+python-3.7 (or later)
 
 pip (version 19.0 or later)
 
@@ -23,45 +23,50 @@ OS:
 Ubuntu (version 18.04 or later)
 
 MacOS (Catalina 10.15.6 or later)
+(note: for Macbook with M1 chip an individual tensorflow installation is preferable)
 
 
 ## Dependencies
 
-TensorFlow-2.4.1
+TensorFlow>=2.4.1
 
-scikit-learn-0.24.0
+scikit-learn>=0.24.0
 
-numpy-1.19.4
+numpy>=1.19.4
 
-pandas-1.1.4
+pandas>=1.1.4
 
-pymatgen-2018.11.6
+pymatgen-2022.9.21
 
 ## Installation
 
 ```git clone https://github.com/lrcfmd/PhaseSelect.git``` 
+```pip install .```
+(prefered for MacOS with M1 chip) 
 
-## Run examples (Reproduce results)
+OR via PyPI:
 
-### Classification of the ternary phase fields as high-temperature magnetic candidate materials
-```python _mag_class.py```
+```pip install phaseselect``` 
 
-### Ranking synthetic accessibility of the candidate phase fields as high-temperature magnetic candidate materials
-```python _mag_ranking.py```
+## Run examples
 
-### To apply PhaseSelect to a generic dataset and classify phase fields w.r.t. other properties values
+### End-to-end classification, regression and ranking of the phase field:
+```python run_phaseselect.py```
 
-0. Modify template_generic_class.py and template_generic_ranking.py as templates
+### To apply PhaseSelect to a generic dataset and assess phase fields w.r.t. other properties values
+
+0. Modify template_generic.py
  
 1. Prepare the training data in the format 'phase fields' - 'properties' as in e.g. DATA/mpds_magnet_CurieTc.csv
    List the phase fields of interest to classify and / or rank synthetic accessibility in the format as in e.g. DATA/magnetic_candidates.csv
 
-2. Specify threshold value of a property for classification
+2. Specify property of interest (according to the heading in the training datafile)  and a threshold value for classification
 
+   ```prop = 'max Tc'```
    ```Tc = your_threshold_value_float_or_integer_number```
 
-3. Change the values of the corresponding variables:
-   training_data
+3. Change the values of the corresponding paths to the files:
+   input_file
    test_data
 
-4. Run ```python template_generic_class.py``` 
+4. Run ```python template_generic.py``` 

@@ -1,5 +1,0 @@
-tensorflow==2.7.0
-numpy==1.22.3
-pandas==1.4.4
-pymatgen==2022.9.21
-scikit-learn==1.1.2

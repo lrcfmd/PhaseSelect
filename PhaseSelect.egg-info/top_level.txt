@@ -1,3 +1,0 @@
-Atom2Vec
-DATA
-Models
